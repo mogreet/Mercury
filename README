@@ -1,0 +1,8 @@
+Mercury is an SDK that allows developers to use 
+the MoMS (Mogreet Message System) API through Java 
+and Ruby to date.
+
+The MoMS is a dynamic SMS, MMS and email messaging 
+system which supports many different clients, 
+many different campaigns, many different message flows, 
+many different aggregators and many different carriers.

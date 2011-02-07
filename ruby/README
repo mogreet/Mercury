@@ -1,14 +1,6 @@
-Mercury is a package that allows developers to use 
-the MoMS (Mogreet Message System) API through Ruby.
-
-The MoMS is a dynamic SMS, MMS and email messaging 
-system which supports many different clients, 
-many different campaigns, many different message flows, 
-many different aggregators and many different carriers. 
-
 This SDK provides programmatic control of the MoMS API through Ruby. 
 Using this SDK, a client can trigger a send to a user over 
 SMS, MMS, or email, check the status of a send, manage opt-in status and more.
 
-- doc/ contains the Ruby SDK documentation
+- doc/ contains the Ruby SDK doc
 - src/ contains the different source files
