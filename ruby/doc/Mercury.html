@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Mercury</title>
+
+	<link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+	<script src="./js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="./mercury_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="mercury.rb">mercury.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+			<div id="namespace-list-section" class="section">
+				<h3 class="section-header">Namespace</h3>
+				<ul class="link-list">
+					
+					<li><span class="type">CLASS</span> <a href="Mercury/Response.html">Mercury::Response</a></li>
+					
+					<li><span class="type">CLASS</span> <a href="Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+					
+					<li><span class="type">CLASS</span> <a href="Mercury/System.html">Mercury::System</a></li>
+					
+					<li><span class="type">CLASS</span> <a href="Mercury/Transaction.html">Mercury::Transaction</a></li>
+					
+					<li><span class="type">CLASS</span> <a href="Mercury/User.html">Mercury::User</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-check_arguments">::check_arguments</a></li>
+					
+					<li><a href="#method-c-make_http_post">::make_http_post</a></li>
+					
+					<li><a href="#method-c-make_response_object">::make_response_object</a></li>
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="./images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="./Mercury.html">Mercury</a></li>
+				
+					<li><a href="./Mercury/Response.html">Mercury::Response</a></li>
+				
+					<li><a href="./Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+				
+					<li><a href="./Mercury/System.html">Mercury::System</a></li>
+				
+					<li><a href="./Mercury/System/Ping.html">Mercury::System::Ping</a></li>
+				
+					<li><a href="./Mercury/System/Status.html">Mercury::System::Status</a></li>
+				
+					<li><a href="./Mercury/Transaction.html">Mercury::Transaction</a></li>
+				
+					<li><a href="./Mercury/Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+				
+					<li><a href="./Mercury/Transaction/Send.html">Mercury::Transaction::Send</a></li>
+				
+					<li><a href="./Mercury/User.html">Mercury::User</a></li>
+				
+					<li><a href="./Mercury/User/GetOpt.html">Mercury::User::GetOpt</a></li>
+				
+					<li><a href="./Mercury/User/Info.html">Mercury::User::Info</a></li>
+				
+					<li><a href="./Mercury/User/SetOpt.html">Mercury::User::SetOpt</a></li>
+				
+					<li><a href="./Mercury/User/Transactions.html">Mercury::User::Transactions</a></li>
+				
+					<li><a href="./Mercury/User/Uncache.html">Mercury::User::Uncache</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">Mercury</h1>
+
+		<div id="description">
+			<p>
+The <a href="Mercury.html">Mercury</a> is a SDK that allows to use the MoMS
+(Mogreet Messaging <a href="Mercury/System.html">System</a>) API easily
+with the ruby language.
+</p>
+<p>
+The MoMS (Mogreet Message <a href="Mercury/System.html">System</a>) is a
+dynamic SMS, MMS, and email messaging system which supports many different
+clients, many different campaigns, many different message flows, many
+different aggregators       and   many different carriers.
+</p>
+<h2>Examples</h2>
+<h3>Creating a <a href="Mercury.html">Mercury</a> object :</h3>
+<pre>
+ m = Mercury.new &quot;312&quot;, &quot;4c2fi6j7f1c6d7&quot;
+</pre>
+<h3>Examples of requests to the <a href="Mercury.html">Mercury</a> :</h3>
+<h4>Ping :</h4>
+<h5>How to perform the &#8216;ping&#8217; request :</h5>
+<pre>
+ p = m.system.ping
+</pre>
+<h5>How to print its result :</h5>
+<pre>
+ puts p.get_response_message
+</pre>
+<h4>Send</h4>
+<h5>Creating the parameters Hash and adding parameters :</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;campaign_id&quot;] = &quot;34110&quot;
+ argHash[&quot;message&quot;] = &quot;Tom tests the SDK&quot;
+ argHash[&quot;content_id&quot;] = &quot;2150&quot;
+ argHash[&quot;from&quot;] = &quot;3108760944&quot;
+ argHash[&quot;from_name&quot;] = &quot;Tom&quot;
+ argHash[&quot;to&quot;] = &quot;3107840189&quot;
+ argHash[&quot;to_name&quot;] = &quot;Jerry&quot;
+</pre>
+<h5>Performing the send : </h5>
+<pre>
+ s = m.transaction.send(argHash)
+</pre>
+<h5>Getting the message id and the hash :</h5>
+<pre>
+ puts &quot;Message ID: &quot; &lt;&lt; s.get_message_id
+ puts &quot;Hash ID: &quot;  &lt;&lt; s.get_hash
+</pre>
+<h2>Contact</h2>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Thomas SCHWEBEL for Mogreet
+</p>
+</td></tr>
+<tr><td valign="top">Website</td><td><p>
+<a href="http://www.mogreet.com/">www.mogreet.com/</a>
+</p>
+</td></tr>
+<tr><td valign="top">Date</td><td><p>
+Monday December 06, 2010
+</p>
+</td></tr>
+</table>
+
+		</div>
+
+		<!-- Constants -->
+		
+		<div id="constants-list" class="section">
+			<h3 class="section-header">Constants</h3>
+			<dl>
+			
+				<dt><a name="API_URL">API_URL</a></dt>
+				
+				<dd class="description"><p>
+Contains the url of the API.
+</p></dd>
+				
+			
+				<dt><a name="URLS">URLS</a></dt>
+				
+				<dd class="description"><p>
+Hash API method name => API url. Takes the method name as a key and gives
+the complete API url for the API method as a key.
+</p></dd>
+				
+			
+			</dl>
+		</div>
+		
+
+		<!-- Attributes -->
+		
+		<div id="attribute-method-details" class="method-section section">
+			<h3 class="section-header">Attributes</h3>
+
+			
+			<div id="system-attribute-method" class="method-detail">
+				<a name="system"></a>
+				
+				<a name="system="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">system</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="transaction-attribute-method" class="method-detail">
+				<a name="transaction"></a>
+				
+				<a name="transaction="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">transaction</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="user-attribute-method" class="method-detail">
+				<a name="user"></a>
+				
+				<a name="user="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">user</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="check-arguments-method" class="method-detail ">
+				<a name="method-c-check_arguments"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">check_arguments</span><span
+						class="method-args">(argArray, argHash)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Checks if the required arguments from argArray are in the argHash.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="check-arguments-source">
+<pre>
+     <span class="ruby-comment cmt"># File mercury.rb, line 112</span>
+112:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">check_arguments</span> <span class="ruby-identifier">argArray</span>, <span class="ruby-identifier">argHash</span>
+113:     
+114:     <span class="ruby-identifier">argArray</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">key</span><span class="ruby-operator">|</span>
+115:       <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ArgumentError</span>, <span class="ruby-value str">&quot;Missing argument '&quot;</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">key</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;'!&quot;</span>) <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">argHash</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">key</span>)
+116:     <span class="ruby-keyword kw">end</span>
+117:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="make-http-post-method" class="method-detail ">
+				<a name="method-c-make_http_post"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">make_http_post</span><span
+						class="method-args">(url, params=Hash.new)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Makes a HTTP Post request at the &#8216;url&#8217; with the parameters
+&#8216;params&#8217;. Returns a HTTPResponse object.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="make-http-post-source">
+<pre>
+     <span class="ruby-comment cmt"># File mercury.rb, line 87</span>
+ 87:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">make_http_post</span> <span class="ruby-identifier">url</span>, <span class="ruby-identifier">params</span>=<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
+ 88:     
+ 89:     <span class="ruby-comment cmt"># Parses url.</span>
+ 90:     <span class="ruby-identifier">uri</span> = <span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">url</span>)
+ 91:     <span class="ruby-comment cmt"># Initiliazes net http.</span>
+ 92:     <span class="ruby-identifier">http_session</span> = <span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">uri</span>.<span class="ruby-identifier">host</span>, <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">port</span>)
+ 93:     <span class="ruby-comment cmt"># Sets timeout at 90 sec to avoid timeout exception due to lag.</span>
+ 94:     <span class="ruby-identifier">http_session</span>.<span class="ruby-identifier">read_timeout</span> = <span class="ruby-value">90</span>
+ 95:     <span class="ruby-comment cmt"># Sets ssl.</span>
+ 96:     <span class="ruby-identifier">http_session</span>.<span class="ruby-identifier">use_ssl</span> = <span class="ruby-keyword kw">true</span>
+ 97:                 <span class="ruby-comment cmt"># Initializes request.</span>
+ 98:                 <span class="ruby-identifier">request</span> = <span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span><span class="ruby-operator">::</span><span class="ruby-constant">Post</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">uri</span>.<span class="ruby-identifier">request_uri</span>)
+ 99:                 <span class="ruby-comment cmt"># Sets data.</span>
+100:                 <span class="ruby-identifier">request</span>.<span class="ruby-identifier">set_form_data</span>(<span class="ruby-identifier">params</span>)
+101:                 <span class="ruby-comment cmt"># Submits request.</span>
+102:                 <span class="ruby-identifier">http_response</span> = <span class="ruby-identifier">http_session</span>.<span class="ruby-identifier">request</span>(<span class="ruby-identifier">request</span>)
+103:     <span class="ruby-comment cmt"># Raises an error if the http request failed.</span>
+104:     <span class="ruby-identifier">http_response</span>.<span class="ruby-identifier">error!</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">http_response</span>.<span class="ruby-identifier">class</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTPSuccess</span>)
+105:         
+106:                 <span class="ruby-comment cmt"># Returns the HTTPResponse object.</span>
+107:                 <span class="ruby-identifier">http_response</span>
+108:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="make-response-object-method" class="method-detail ">
+				<a name="method-c-make_response_object"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">make_response_object</span><span
+						class="method-args">(objectName, argHash=Hash.new)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Makes the HTTP Post, creates and returns a <a
+href="Mercury/Response.html">Response</a> Object.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="make-response-object-source">
+<pre>
+     <span class="ruby-comment cmt"># File mercury.rb, line 121</span>
+121:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">make_response_object</span> <span class="ruby-identifier">objectName</span>, <span class="ruby-identifier">argHash</span>=<span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span>
+122:     
+123:     <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ArgumentError</span>, <span class="ruby-value str">&quot;Invalid object name '&quot;</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">objectName</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;'!&quot;</span>) <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-constant">URLS</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">objectName</span>)
+124:     <span class="ruby-constant">Response</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">make_http_post</span>(<span class="ruby-constant">URLS</span>[<span class="ruby-identifier">objectName</span>], <span class="ruby-identifier">argHash</span>).<span class="ruby-identifier">body</span>)
+125:     
+126:     <span class="ruby-keyword kw">rescue</span> <span class="ruby-constant">Exception</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">e</span>
+127:       <span class="ruby-identifier">raise</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">class</span>, <span class="ruby-value str">&quot;Error while processing '&quot;</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">objectName</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;' API call: &quot;</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">to_s</span>
+128:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(client_id, token)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Creates a MoMSBox object that allows to perform API calls. The client ID
+and token from your client account are required.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File mercury.rb, line 73</span>
+73:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span> <span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>
+74:     
+75:     <span class="ruby-identifier">require</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">dirname</span>(<span class="ruby-keyword kw">__FILE__</span>), <span class="ruby-value str">'user'</span>))
+76:     <span class="ruby-identifier">require</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">dirname</span>(<span class="ruby-keyword kw">__FILE__</span>), <span class="ruby-value str">'system'</span>))
+77:     <span class="ruby-identifier">require</span> <span class="ruby-constant">File</span>.<span class="ruby-identifier">expand_path</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">dirname</span>(<span class="ruby-keyword kw">__FILE__</span>), <span class="ruby-value str">'transaction'</span>))
+78:     
+79:     <span class="ruby-ivar">@user</span>        = <span class="ruby-constant">Mercury</span><span class="ruby-operator">::</span><span class="ruby-constant">User</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>)
+80:     <span class="ruby-ivar">@system</span>      = <span class="ruby-constant">Mercury</span><span class="ruby-operator">::</span><span class="ruby-constant">System</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>)
+81:     <span class="ruby-ivar">@transaction</span> = <span class="ruby-constant">Mercury</span><span class="ruby-operator">::</span><span class="ruby-constant">Transaction</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>)
+82:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

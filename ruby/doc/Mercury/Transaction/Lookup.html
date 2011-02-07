@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Module: Mercury::Transaction::Lookup</title>
+
+	<link rel="stylesheet" href="../../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="module">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../index.html">Home</a>
+          <a href="../../index.html#classes">Classes</a>
+          <a href="../../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../../transaction_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="transaction.rb">transaction.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-i-get_campaign_id">#get_campaign_id</a></li>
+					
+					<li><a href="#method-i-get_content_id">#get_content_id</a></li>
+					
+					<li><a href="#method-i-get_events">#get_events</a></li>
+					
+					<li><a href="#method-i-get_from_name">#get_from_name</a></li>
+					
+					<li><a href="#method-i-get_from_number">#get_from_number</a></li>
+					
+					<li><a href="#method-i-get_status">#get_status</a></li>
+					
+					<li><a href="#method-i-get_timestamps">#get_timestamps</a></li>
+					
+					<li><a href="#method-i-get_to_name">#get_to_name</a></li>
+					
+					<li><a href="#method-i-get_to_number">#get_to_number</a></li>
+					
+					<li><a href="#method-i-history">#history</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../../Mercury.html">Mercury</a></li>
+				
+					<li><a href="../../Mercury/Response.html">Mercury::Response</a></li>
+				
+					<li><a href="../../Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+				
+					<li><a href="../../Mercury/System.html">Mercury::System</a></li>
+				
+					<li><a href="../../Mercury/System/Ping.html">Mercury::System::Ping</a></li>
+				
+					<li><a href="../../Mercury/System/Status.html">Mercury::System::Status</a></li>
+				
+					<li><a href="../../Mercury/Transaction.html">Mercury::Transaction</a></li>
+				
+					<li><a href="../../Mercury/Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+				
+					<li><a href="../../Mercury/Transaction/Send.html">Mercury::Transaction::Send</a></li>
+				
+					<li><a href="../../Mercury/User.html">Mercury::User</a></li>
+				
+					<li><a href="../../Mercury/User/GetOpt.html">Mercury::User::GetOpt</a></li>
+				
+					<li><a href="../../Mercury/User/Info.html">Mercury::User::Info</a></li>
+				
+					<li><a href="../../Mercury/User/SetOpt.html">Mercury::User::SetOpt</a></li>
+				
+					<li><a href="../../Mercury/User/Transactions.html">Mercury::User::Transactions</a></li>
+				
+					<li><a href="../../Mercury/User/Uncache.html">Mercury::User::Uncache</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="module">Mercury::Transaction::Lookup</h1>
+
+		<div id="description">
+			<p>
+The <a href="Lookup.html">Lookup</a> module implements methods for getting
+data from a <a href="Lookup.html">Lookup</a> <a
+href="../Response.html">Response</a> Object.
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+
+		<!-- Methods -->
+		
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="get-campaign-id-method" class="method-detail ">
+				<a name="method-i-get_campaign_id"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_campaign_id</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the campaign ID associated to the transaction.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-campaign-id-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 100</span>
+100:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_campaign_id</span>
+101:       <span class="ruby-ivar">@campaign_id</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;campaign_id(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/campaign_id&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+102:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-content-id-method" class="method-detail ">
+				<a name="method-i-get_content_id"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_content_id</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the content id of the content sent to the receiver.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-content-id-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 125</span>
+125:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_content_id</span>
+126:       <span class="ruby-ivar">@content_id</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;content_id(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/content_id&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+127:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-events-method" class="method-detail ">
+				<a name="method-i-get_events"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_events</span><span
+						class="method-args">(timestamp)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the associated event array of the timestamp.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-events-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 156</span>
+156:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_events</span> <span class="ruby-identifier">timestamp</span>
+157:       
+158:       <span class="ruby-identifier">raise</span>(<span class="ruby-constant">IndexError</span>, <span class="ruby-value str">&quot;Timestamp not found&quot;</span>) <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">history</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">timestamp</span>)
+159:       <span class="ruby-identifier">history</span>[<span class="ruby-identifier">timestamp</span>]
+160:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-from-name-method" class="method-detail ">
+				<a name="method-i-get_from_name"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_from_name</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the name of the sender.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-from-name-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 120</span>
+120:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_from_name</span>
+121:       <span class="ruby-ivar">@from_name</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;from_name(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/from_name&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>]
+122:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-from-number-method" class="method-detail ">
+				<a name="method-i-get_from_number"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_from_number</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the 10-digit mobile phone number of the sender.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-from-number-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 115</span>
+115:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_from_number</span>
+116:       <span class="ruby-ivar">@from</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;from(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/from&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+117:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-status-method" class="method-detail ">
+				<a name="method-i-get_status"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_status</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the text description of the transaction status.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-status-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 130</span>
+130:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_status</span>
+131:       <span class="ruby-ivar">@status</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;status(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/status&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>]
+132:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-timestamps-method" class="method-detail ">
+				<a name="method-i-get_timestamps"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_timestamps</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the array of timestamps. Each timestamp is associated to one or more
+events of the transaction.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-timestamps-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 151</span>
+151:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_timestamps</span>
+152:       <span class="ruby-identifier">history</span>.<span class="ruby-identifier">keys</span>
+153:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-to-name-method" class="method-detail ">
+				<a name="method-i-get_to_name"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_to_name</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the name of the receiver.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-to-name-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 110</span>
+110:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_to_name</span>
+111:       <span class="ruby-ivar">@to_name</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;to_name(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/to_name&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>]
+112:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-to-number-method" class="method-detail ">
+				<a name="method-i-get_to_number"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_to_number</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the 10-digit mobile phone number of the receiver.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-to-number-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 105</span>
+105:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_to_number</span>
+106:       <span class="ruby-ivar">@to</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;to(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/to&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+107:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="private-instance-method-details" class="method-section section">
+			<h3 class="section-header">Private Instance Methods</h3>
+
+		
+			<div id="history-method" class="method-detail ">
+				<a name="method-i-history"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">history</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Creates the history Hash containing all the data from the events.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="history-source">
+<pre>
+     <span class="ruby-comment cmt"># File transaction.rb, line 135</span>
+135:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">history</span>
+136:       
+137:       <span class="ruby-ivar">@history</span> <span class="ruby-operator">||=</span> {}
+138:           <span class="ruby-ivar">@xml</span>.<span class="ruby-identifier">scan</span>(<span class="ruby-regexp re">/&lt;event(.*?)&lt;\/event&gt;/</span>) <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">event</span><span class="ruby-operator">|</span>
+139:             <span class="ruby-identifier">event</span> = <span class="ruby-identifier">event</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Array</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">join</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">to_s</span>
+140:             
+141:         <span class="ruby-identifier">match</span>     = <span class="ruby-regexp re">/timestamp=['&quot;](.*?)['&quot;](.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-identifier">event</span>)
+142:         <span class="ruby-identifier">timestamp</span> = <span class="ruby-identifier">match</span>[<span class="ruby-value">1</span>]
+143:             <span class="ruby-ivar">@history</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">timestamp</span>) <span class="ruby-operator">?</span> <span class="ruby-ivar">@history</span>[<span class="ruby-identifier">timestamp</span>] <span class="ruby-operator">&lt;&lt;</span> (<span class="ruby-identifier">match</span>[<span class="ruby-value">3</span>]) <span class="ruby-operator">:</span> <span class="ruby-ivar">@history</span>[<span class="ruby-identifier">timestamp</span>] = [<span class="ruby-identifier">match</span>[<span class="ruby-value">3</span>]]
+144:           <span class="ruby-keyword kw">end</span> <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@history</span>.<span class="ruby-identifier">empty?</span>
+145:           <span class="ruby-ivar">@history</span>
+146:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

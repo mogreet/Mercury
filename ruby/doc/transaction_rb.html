@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>File: transaction.rb [Mercury]</title>
+
+	<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+	<script src="./js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+</head>
+
+<body class="file file-popup">
+	<div id="metadata">
+		<dl>
+			<dt class="modified-date">Last Modified</dt>
+			<dd class="modified-date">Mon Feb 07 09:12:12 -0800 2011</dd>
+
+			
+			<dt class="requires">Requires</dt>
+			<dd class="requires">
+				<ul>
+				
+				</ul>
+			</dd>
+			
+
+			
+		</dl>
+	</div>
+
+	<div id="documentation">
+		
+		<div class="description">
+			<h2>Description</h2>
+			<p>
+The Transaction class allows to manage transaction call object responses
+from the MoMS API (Mogreet Message System).
+</p>
+<p>
+The available modules are used to extend a Response object from the <a
+href="Mercury.html">Mercury</a>.
+</p>
+<h3>Examples of requests to the Mercury::Transaction:</h3>
+<p>
+Using a <a href="Mercury.html">Mercury</a> object m.
+</p>
+<h4>Send</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;campaign_id&quot;] = &quot;34110&quot;
+ argHash[&quot;message&quot;] = &quot;Tom tests the SDK&quot;
+ argHash[&quot;content_id&quot;] = &quot;2150&quot;
+ argHash[&quot;from&quot;] = &quot;3108760944&quot;
+ argHash[&quot;from_name&quot;] = &quot;Tom&quot;
+ argHash[&quot;to&quot;] = &quot;3107840189&quot;
+ argHash[&quot;to_name&quot;] = &quot;Jerry&quot;
+</pre>
+<h5>Performing the send: </h5>
+<pre>
+ s = m.transaction.send(argHash)
+</pre>
+<h5>Getting the message id and the hash:</h5>
+<pre>
+ puts &quot;Message ID: &quot; &lt;&lt; s.get_message_id
+ puts &quot;Hash ID: &quot;  &lt;&lt; s.get_hash
+</pre>
+<h5>Lookup</h5>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;message_id&quot;] = &quot;74232280&quot; 
+ argHash[&quot;hash&quot;] = &quot;ifdc0fpd&quot;
+</pre>
+<h5>Performing the lookup: </h5>
+<pre>
+ l = m.transaction.lookup(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Campaign ID: &quot; &lt;&lt; l.get_campaign_id.to_s
+ puts &quot;To Number: &quot; &lt;&lt; l.get_to_number.to_s
+ puts &quot;To Name: &quot; &lt;&lt; l.get_to_name
+ puts &quot;From Number: &quot; &lt;&lt; l.get_from_number.to_s
+ puts &quot;From Name: &quot; &lt;&lt; l.get_from_name
+ puts &quot;Content ID: &quot; &lt;&lt; l.get_content_id.to_s
+ puts &quot;Status: &quot; &lt;&lt; l.get_status
+ puts &quot;Timestamps Array: &quot; &lt;&lt; l.get_timestamps.inspect
+ puts &quot;Events for first timestamp (&quot; &lt;&lt; l.get_timestamps[0] &lt;&lt; &quot;): &quot; &lt;&lt; l.get_events(l.get_timestamps[0]).inspect
+</pre>
+<h2>Contact</h2>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Thomas SCHWEBEL for Mogreet
+</p>
+</td></tr>
+<tr><td valign="top">Website</td><td><p>
+<a href="http://www.mogreet.com/">www.mogreet.com/</a>
+</p>
+</td></tr>
+<tr><td valign="top">Date</td><td><p>
+Monday December 06, 2010
+</p>
+</td></tr>
+</table>
+
+		</div>
+		
+	</div>
+</body>
+</html>
+

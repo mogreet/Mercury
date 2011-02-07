@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Mercury::User</title>
+
+	<link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#classes">Classes</a>
+          <a href="../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../user_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="user.rb">user.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+			<div id="namespace-list-section" class="section">
+				<h3 class="section-header">Namespace</h3>
+				<ul class="link-list">
+					
+					<li><span class="type">MODULE</span> <a href="User/GetOpt.html">Mercury::User::GetOpt</a></li>
+					
+					<li><span class="type">MODULE</span> <a href="User/Info.html">Mercury::User::Info</a></li>
+					
+					<li><span class="type">MODULE</span> <a href="User/SetOpt.html">Mercury::User::SetOpt</a></li>
+					
+					<li><span class="type">MODULE</span> <a href="User/Transactions.html">Mercury::User::Transactions</a></li>
+					
+					<li><span class="type">MODULE</span> <a href="User/Uncache.html">Mercury::User::Uncache</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+					<li><a href="#method-i-getopt">#getopt</a></li>
+					
+					<li><a href="#method-i-info">#info</a></li>
+					
+					<li><a href="#method-i-setopt">#setopt</a></li>
+					
+					<li><a href="#method-i-transactions">#transactions</a></li>
+					
+					<li><a href="#method-i-uncache">#uncache</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../Mercury.html">Mercury</a></li>
+				
+					<li><a href="../Mercury/Response.html">Mercury::Response</a></li>
+				
+					<li><a href="../Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+				
+					<li><a href="../Mercury/System.html">Mercury::System</a></li>
+				
+					<li><a href="../Mercury/System/Ping.html">Mercury::System::Ping</a></li>
+				
+					<li><a href="../Mercury/System/Status.html">Mercury::System::Status</a></li>
+				
+					<li><a href="../Mercury/Transaction.html">Mercury::Transaction</a></li>
+				
+					<li><a href="../Mercury/Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+				
+					<li><a href="../Mercury/Transaction/Send.html">Mercury::Transaction::Send</a></li>
+				
+					<li><a href="../Mercury/User.html">Mercury::User</a></li>
+				
+					<li><a href="../Mercury/User/GetOpt.html">Mercury::User::GetOpt</a></li>
+				
+					<li><a href="../Mercury/User/Info.html">Mercury::User::Info</a></li>
+				
+					<li><a href="../Mercury/User/SetOpt.html">Mercury::User::SetOpt</a></li>
+				
+					<li><a href="../Mercury/User/Transactions.html">Mercury::User::Transactions</a></li>
+				
+					<li><a href="../Mercury/User/Uncache.html">Mercury::User::Uncache</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">Mercury::User</h1>
+
+		<div id="description">
+			<p>
+The <a href="User.html">User</a> class allows to manage user call object
+responses from the MoMS API (Mogreet Message <a
+href="System.html">System</a>).
+</p>
+<p>
+The available modules are used to extend a <a
+href="Response.html">Response</a> object from the <a
+href="../Mercury.html">Mercury</a>.
+</p>
+<h3>Examples of requests to the Mercury::User:</h3>
+<p>
+Using a <a href="../Mercury.html">Mercury</a> object m.
+</p>
+<h4><a href="User/GetOpt.html">GetOpt</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the getopt: </h5>
+<pre>
+ go = m.user.getopt(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; go.get_number.to_s
+ puts &quot;Campaigns Array: &quot; &lt;&lt; go.get_campaigns.inspect
+ puts &quot;Status Code for first campaign (&quot; &lt;&lt; go.get_campaigns[0].to_s &lt;&lt; &quot;): &quot; &lt;&lt; go.get_campaign_status_code(go.get_campaigns[0]).to_s
+ puts &quot;Status for first campaign (&quot; &lt;&lt; go.get_campaigns[0].to_s &lt;&lt; &quot;): &quot; &lt;&lt; go.get_campaign_status(go.get_campaigns[0]).to_s
+</pre>
+<h4><a href="User/SetOpt.html">SetOpt</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+ argHash[&quot;campaign_id&quot;] = &quot;45520&quot;
+ argHash[&quot;status_code&quot;] = &quot;-1&quot;
+</pre>
+<h5>Performing the setopt: </h5>
+<pre>
+ so = m.user.setopt(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; so.get_number.to_s
+ puts &quot;Campaign Id: &quot; &lt;&lt; so.get_campaign_id
+ puts &quot;Campaign Status: &quot; &lt;&lt; so.get_campaign_status
+ puts &quot;Campaign Status Code: &quot; &lt;&lt; so.get_campaign_status_code
+</pre>
+<h4><a href="User/Uncache.html">Uncache</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the uncache: </h5>
+<pre>
+ u = m.user.uncache(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number uncached: &quot; &lt;&lt; u.get_number.to_s
+</pre>
+<h4><a href="User/Info.html">Info</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the info: </h5>
+<pre>
+ i = m.user.info(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; i.get_number.to_s
+ puts &quot;Carrier Id: &quot; &lt;&lt; i.get_carrier_id.to_s
+ puts &quot;Carrier Name: &quot; &lt;&lt; i.get_carrier_name
+ puts &quot;Handset Name: &quot; &lt;&lt; i.get_handset_name
+ puts &quot;Handset Id: &quot; &lt;&lt; i.get_handset_id.to_s
+</pre>
+<h4><a href="User/Transactions.html">Transactions</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the transactions: </h5>
+<pre>
+ t = m.user.transactions(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Campaigns: &quot; &lt;&lt; t.get_campaigns.inspect
+ first_campaign = t.get_campaigns[0].to_s
+ puts &quot;First campaign: &quot; &lt;&lt; t.get_campaign_name(first_campaign)
+ puts &quot;Transactions for the first campaign (&quot; &lt;&lt; t.get_campaigns[0] &lt;&lt; &quot;): &quot; &lt;&lt; (t.get_campaign_transactions first_campaign).inspect
+ first_trans = (t.get_campaign_transactions first_campaign)[1].to_s
+ puts &quot;Hash for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt;  t.get_transaction_hash( first_campaign, first_trans)
+ puts &quot;DateStamp for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_datestamp( first_campaign, first_trans)
+ puts &quot;To Number for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_to_number( first_campaign, first_trans).to_s
+ puts &quot;From Number for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_from_number( first_campaign, first_trans).to_s
+ puts &quot;To Name for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_to_name( first_campaign, first_trans)
+ puts &quot;From Name for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_from_name( first_campaign, first_trans)
+</pre>
+<h2>Contact</h2>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Thomas SCHWEBEL for Mogreet
+</p>
+</td></tr>
+<tr><td valign="top">Website</td><td><p>
+<a href="http://www.mogreet.com/">www.mogreet.com/</a>
+</p>
+</td></tr>
+<tr><td valign="top">Date</td><td><p>
+Monday December 06, 2010
+</p>
+</td></tr>
+</table>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(client_id, token)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File user.rb, line 84</span>
+84:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span> <span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>
+85:     <span class="ruby-ivar">@argHash</span> = { <span class="ruby-value str">'client_id'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">client_id</span>, <span class="ruby-value str">'token'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">token</span> }
+86:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="getopt-method" class="method-detail ">
+				<a name="method-i-getopt"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">getopt</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The getopt method returns the opt in status of any mobile number. The hash
+in argument needs to contain a &#8216;number&#8217; key.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="getopt-source">
+<pre>
+    <span class="ruby-comment cmt"># File user.rb, line 93</span>
+93:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">getopt</span> <span class="ruby-identifier">args</span>
+94:     
+95:     <span class="ruby-comment cmt"># Creates and returns a Response extending the GetOpt module.</span>
+96:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;number&quot;</span>], <span class="ruby-identifier">args</span>)
+97:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;getopt&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">GetOpt</span>)
+98:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="info-method" class="method-detail ">
+				<a name="method-i-info"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">info</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The info method returns the user carrier and handset info if available. The
+hash in argument needs to contain a &#8216;number&#8217; key.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="info-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 120</span>
+120:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">info</span> <span class="ruby-identifier">args</span>
+121:     
+122:     <span class="ruby-comment cmt"># Creates and returns a Response extending the Info module.</span>
+123:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;number&quot;</span>], <span class="ruby-identifier">args</span>)
+124:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;info&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">Info</span>)
+125:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="setopt-method" class="method-detail ">
+				<a name="method-i-setopt"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">setopt</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The setopt method sets the opt in status of any mobile number. The hash in
+argument needs to contain &#8216;number&#8217;, &#8216;campaign_id&#8217;
+and &#8216;status_code&#8217; keys.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="setopt-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 102</span>
+102:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">setopt</span> <span class="ruby-identifier">args</span>
+103:     
+104:     <span class="ruby-comment cmt"># Creates and returns a Response extending the SetOpt module.</span>
+105:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;number&quot;</span>, <span class="ruby-value str">&quot;campaign_id&quot;</span>, <span class="ruby-value str">&quot;status_code&quot;</span>], <span class="ruby-identifier">args</span>)
+106:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;setopt&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">SetOpt</span>)
+107:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="transactions-method" class="method-detail ">
+				<a name="method-i-transactions"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">transactions</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The transactions method returns the user’s transactions (open and
+closed).         The hash in argument needs to contain a
+&#8216;number&#8217; key.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="transactions-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 129</span>
+129:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">transactions</span> <span class="ruby-identifier">args</span>
+130:     
+131:     <span class="ruby-comment cmt"># Creates and returns a Response extending the Info module.</span>
+132:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;number&quot;</span>], <span class="ruby-identifier">args</span>)
+133:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;transactions&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">Transactions</span>)
+134:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="uncache-method" class="method-detail ">
+				<a name="method-i-uncache"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">uncache</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The uncache method clears the user carrier and handset info from the
+Mogreet cache. The hash in argument needs to contain a &#8216;number&#8217;
+key.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="uncache-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 111</span>
+111:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">uncache</span> <span class="ruby-identifier">args</span>
+112:     
+113:     <span class="ruby-comment cmt"># Creates and returns a Response extending the Uncache module.</span>
+114:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;number&quot;</span>], <span class="ruby-identifier">args</span>)
+115:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;uncache&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">Uncache</span>)
+116:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

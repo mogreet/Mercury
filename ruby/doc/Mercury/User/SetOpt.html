@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Module: Mercury::User::SetOpt</title>
+
+	<link rel="stylesheet" href="../../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="module">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../index.html">Home</a>
+          <a href="../../index.html#classes">Classes</a>
+          <a href="../../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../../user_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="user.rb">user.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-i-get_campaign_id">#get_campaign_id</a></li>
+					
+					<li><a href="#method-i-get_campaign_status">#get_campaign_status</a></li>
+					
+					<li><a href="#method-i-get_campaign_status_code">#get_campaign_status_code</a></li>
+					
+					<li><a href="#method-i-get_number">#get_number</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../../Mercury.html">Mercury</a></li>
+				
+					<li><a href="../../Mercury/Response.html">Mercury::Response</a></li>
+				
+					<li><a href="../../Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+				
+					<li><a href="../../Mercury/System.html">Mercury::System</a></li>
+				
+					<li><a href="../../Mercury/System/Ping.html">Mercury::System::Ping</a></li>
+				
+					<li><a href="../../Mercury/System/Status.html">Mercury::System::Status</a></li>
+				
+					<li><a href="../../Mercury/Transaction.html">Mercury::Transaction</a></li>
+				
+					<li><a href="../../Mercury/Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+				
+					<li><a href="../../Mercury/Transaction/Send.html">Mercury::Transaction::Send</a></li>
+				
+					<li><a href="../../Mercury/User.html">Mercury::User</a></li>
+				
+					<li><a href="../../Mercury/User/GetOpt.html">Mercury::User::GetOpt</a></li>
+				
+					<li><a href="../../Mercury/User/Info.html">Mercury::User::Info</a></li>
+				
+					<li><a href="../../Mercury/User/SetOpt.html">Mercury::User::SetOpt</a></li>
+				
+					<li><a href="../../Mercury/User/Transactions.html">Mercury::User::Transactions</a></li>
+				
+					<li><a href="../../Mercury/User/Uncache.html">Mercury::User::Uncache</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="module">Mercury::User::SetOpt</h1>
+
+		<div id="description">
+			<p>
+The <a href="SetOpt.html">SetOpt</a> module implements methods for getting
+data from a <a href="SetOpt.html">SetOpt</a> <a
+href="../Response.html">Response</a> Object.
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+
+		<!-- Methods -->
+		
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="get-campaign-id-method" class="method-detail ">
+				<a name="method-i-get_campaign_id"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_campaign_id</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the campaign ID where the opt has been set.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-campaign-id-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 149</span>
+149:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_campaign_id</span>
+150:       <span class="ruby-ivar">@campaign_id</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/id=['&quot;](.*?)['&quot;](.*?)&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/&lt;campaign(.*?)&lt;\/campaign&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">1</span>])[<span class="ruby-value">1</span>].<span class="ruby-identifier">to_i</span>
+151:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-campaign-status-method" class="method-detail ">
+				<a name="method-i-get_campaign_status"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_campaign_status</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the campaign status (OPTEDIN or OPTEDOUT).
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-campaign-status-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 154</span>
+154:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_campaign_status</span>
+155:       <span class="ruby-ivar">@campaign_status</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;status(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/status&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/&lt;campaign(.*?)&lt;\/campaign&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">1</span>])[<span class="ruby-value">2</span>]
+156:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-campaign-status-code-method" class="method-detail ">
+				<a name="method-i-get_campaign_status_code"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_campaign_status_code</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the campaign status code (1 (OPTEDIN) or -2 (OPTEDOUT)).
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-campaign-status-code-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 159</span>
+159:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_campaign_status_code</span>
+160:       <span class="ruby-ivar">@campaign_status_code</span> <span class="ruby-operator">||=</span>  <span class="ruby-regexp re">/&lt;status(.*?)code=['&quot;](.*?)['&quot;](.*?)&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/&lt;campaign(.*?)&lt;\/campaign&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">1</span>])[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+161:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="get-number-method" class="method-detail ">
+				<a name="method-i-get_number"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">get_number</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Gets the 10-digit mobile phone number.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="get-number-source">
+<pre>
+     <span class="ruby-comment cmt"># File user.rb, line 144</span>
+144:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">get_number</span>
+145:       <span class="ruby-ivar">@number</span> <span class="ruby-operator">||=</span> <span class="ruby-regexp re">/&lt;number(.*?)&gt;\s*&lt;!\[CDATA\[(.*?)\]\]&gt;\s*&lt;\/number&gt;/</span><span class="ruby-identifier">m</span>.<span class="ruby-identifier">match</span>(<span class="ruby-ivar">@xml</span>)[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>
+146:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

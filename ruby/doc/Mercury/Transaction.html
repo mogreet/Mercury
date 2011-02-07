@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Mercury::Transaction</title>
+
+	<link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#classes">Classes</a>
+          <a href="../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../transaction_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="transaction.rb">transaction.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+			<div id="namespace-list-section" class="section">
+				<h3 class="section-header">Namespace</h3>
+				<ul class="link-list">
+					
+					<li><span class="type">MODULE</span> <a href="Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+					
+					<li><span class="type">MODULE</span> <a href="Transaction/Send.html">Mercury::Transaction::Send</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+					<li><a href="#method-i-lookup">#lookup</a></li>
+					
+					<li><a href="#method-i-send">#send</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../Mercury.html">Mercury</a></li>
+				
+					<li><a href="../Mercury/Response.html">Mercury::Response</a></li>
+				
+					<li><a href="../Mercury/ResponseError.html">Mercury::ResponseError</a></li>
+				
+					<li><a href="../Mercury/System.html">Mercury::System</a></li>
+				
+					<li><a href="../Mercury/System/Ping.html">Mercury::System::Ping</a></li>
+				
+					<li><a href="../Mercury/System/Status.html">Mercury::System::Status</a></li>
+				
+					<li><a href="../Mercury/Transaction.html">Mercury::Transaction</a></li>
+				
+					<li><a href="../Mercury/Transaction/Lookup.html">Mercury::Transaction::Lookup</a></li>
+				
+					<li><a href="../Mercury/Transaction/Send.html">Mercury::Transaction::Send</a></li>
+				
+					<li><a href="../Mercury/User.html">Mercury::User</a></li>
+				
+					<li><a href="../Mercury/User/GetOpt.html">Mercury::User::GetOpt</a></li>
+				
+					<li><a href="../Mercury/User/Info.html">Mercury::User::Info</a></li>
+				
+					<li><a href="../Mercury/User/SetOpt.html">Mercury::User::SetOpt</a></li>
+				
+					<li><a href="../Mercury/User/Transactions.html">Mercury::User::Transactions</a></li>
+				
+					<li><a href="../Mercury/User/Uncache.html">Mercury::User::Uncache</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">Mercury::Transaction</h1>
+
+		<div id="description">
+			<p>
+The <a href="Transaction.html">Transaction</a> class allows to manage
+transaction call object responses from the MoMS API (Mogreet Message <a
+href="System.html">System</a>).
+</p>
+<p>
+The available modules are used to extend a <a
+href="Response.html">Response</a> object from the <a
+href="../Mercury.html">Mercury</a>.
+</p>
+<h3>Examples of requests to the Mercury::Transaction:</h3>
+<p>
+Using a <a href="../Mercury.html">Mercury</a> object m.
+</p>
+<h4><a href="Transaction/Send.html">Send</a></h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;campaign_id&quot;] = &quot;34110&quot;
+ argHash[&quot;message&quot;] = &quot;Tom tests the SDK&quot;
+ argHash[&quot;content_id&quot;] = &quot;2150&quot;
+ argHash[&quot;from&quot;] = &quot;3108760944&quot;
+ argHash[&quot;from_name&quot;] = &quot;Tom&quot;
+ argHash[&quot;to&quot;] = &quot;3107840189&quot;
+ argHash[&quot;to_name&quot;] = &quot;Jerry&quot;
+</pre>
+<h5>Performing the send: </h5>
+<pre>
+ s = m.transaction.send(argHash)
+</pre>
+<h5>Getting the message id and the hash:</h5>
+<pre>
+ puts &quot;Message ID: &quot; &lt;&lt; s.get_message_id
+ puts &quot;Hash ID: &quot;  &lt;&lt; s.get_hash
+</pre>
+<h5><a href="Transaction/Lookup.html">Lookup</a></h5>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;message_id&quot;] = &quot;74232280&quot; 
+ argHash[&quot;hash&quot;] = &quot;ifdc0fpd&quot;
+</pre>
+<h5>Performing the lookup: </h5>
+<pre>
+ l = m.transaction.lookup(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Campaign ID: &quot; &lt;&lt; l.get_campaign_id.to_s
+ puts &quot;To Number: &quot; &lt;&lt; l.get_to_number.to_s
+ puts &quot;To Name: &quot; &lt;&lt; l.get_to_name
+ puts &quot;From Number: &quot; &lt;&lt; l.get_from_number.to_s
+ puts &quot;From Name: &quot; &lt;&lt; l.get_from_name
+ puts &quot;Content ID: &quot; &lt;&lt; l.get_content_id.to_s
+ puts &quot;Status: &quot; &lt;&lt; l.get_status
+ puts &quot;Timestamps Array: &quot; &lt;&lt; l.get_timestamps.inspect
+ puts &quot;Events for first timestamp (&quot; &lt;&lt; l.get_timestamps[0] &lt;&lt; &quot;): &quot; &lt;&lt; l.get_events(l.get_timestamps[0]).inspect
+</pre>
+<h2>Contact</h2>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Thomas SCHWEBEL for Mogreet
+</p>
+</td></tr>
+<tr><td valign="top">Website</td><td><p>
+<a href="http://www.mogreet.com/">www.mogreet.com/</a>
+</p>
+</td></tr>
+<tr><td valign="top">Date</td><td><p>
+Monday December 06, 2010
+</p>
+</td></tr>
+</table>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(client_id, token)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File transaction.rb, line 52</span>
+52:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span> <span class="ruby-identifier">client_id</span>, <span class="ruby-identifier">token</span>
+53:     <span class="ruby-ivar">@argHash</span> = { <span class="ruby-value str">'client_id'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">client_id</span>, <span class="ruby-value str">'token'</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">token</span> }
+54:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="lookup-method" class="method-detail ">
+				<a name="method-i-lookup"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">lookup</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The lookup method  returns  the      info,        status,        and   
+history    of the requested transaction.  The hash in argument needs to
+contain &#8216;message_id&#8217; and &#8216;hash&#8217; keys.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="lookup-source">
+<pre>
+    <span class="ruby-comment cmt"># File transaction.rb, line 70</span>
+70:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">lookup</span> <span class="ruby-identifier">args</span>
+71:     
+72:     <span class="ruby-comment cmt"># Creates and returns a Response extending the Lookup module</span>
+73:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;message_id&quot;</span>, <span class="ruby-value str">&quot;hash&quot;</span>], <span class="ruby-identifier">args</span>)
+74:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;lookup&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">Lookup</span>)
+75:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="send-method" class="method-detail ">
+				<a name="method-i-send"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">send</span><span
+						class="method-args">(args)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+The send method initiates a transaction and delivery   of an    SMS  
+or MMS depending on the        set    up of      your campaign. The hash in
+argument needs to contain &#8216;campaign_id&#8217;, &#8216;to&#8217;,
+&#8216;from&#8217; and &#8216;message&#8217; keys.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="send-source">
+<pre>
+    <span class="ruby-comment cmt"># File transaction.rb, line 61</span>
+61:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">args</span>
+62:     
+63:     <span class="ruby-comment cmt"># Creates and returns a Response extending the Send module.</span>
+64:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">check_arguments</span>([<span class="ruby-value str">&quot;campaign_id&quot;</span>, <span class="ruby-value str">&quot;to&quot;</span>, <span class="ruby-value str">&quot;from&quot;</span>, <span class="ruby-value str">&quot;message&quot;</span>], <span class="ruby-identifier">args</span>)
+65:     <span class="ruby-constant">Mercury</span>.<span class="ruby-identifier">make_response_object</span>(<span class="ruby-value str">&quot;send&quot;</span>, <span class="ruby-identifier">args</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-ivar">@argHash</span>)).<span class="ruby-identifier">extend</span>(<span class="ruby-constant">Send</span>)
+66:   <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

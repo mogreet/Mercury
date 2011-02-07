@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>File: user.rb [Mercury]</title>
+
+	<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet" />
+
+	<script src="./js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="./js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+</head>
+
+<body class="file file-popup">
+	<div id="metadata">
+		<dl>
+			<dt class="modified-date">Last Modified</dt>
+			<dd class="modified-date">Mon Feb 07 09:12:09 -0800 2011</dd>
+
+			
+			<dt class="requires">Requires</dt>
+			<dd class="requires">
+				<ul>
+				
+				</ul>
+			</dd>
+			
+
+			
+		</dl>
+	</div>
+
+	<div id="documentation">
+		
+		<div class="description">
+			<h2>Description</h2>
+			<p>
+The User class allows to manage user call object responses from the MoMS
+API (Mogreet Message System).
+</p>
+<p>
+The available modules are used to extend a Response object from the <a
+href="Mercury.html">Mercury</a>.
+</p>
+<h3>Examples of requests to the Mercury::User:</h3>
+<p>
+Using a <a href="Mercury.html">Mercury</a> object m.
+</p>
+<h4>GetOpt</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the getopt: </h5>
+<pre>
+ go = m.user.getopt(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; go.get_number.to_s
+ puts &quot;Campaigns Array: &quot; &lt;&lt; go.get_campaigns.inspect
+ puts &quot;Status Code for first campaign (&quot; &lt;&lt; go.get_campaigns[0].to_s &lt;&lt; &quot;): &quot; &lt;&lt; go.get_campaign_status_code(go.get_campaigns[0]).to_s
+ puts &quot;Status for first campaign (&quot; &lt;&lt; go.get_campaigns[0].to_s &lt;&lt; &quot;): &quot; &lt;&lt; go.get_campaign_status(go.get_campaigns[0]).to_s
+</pre>
+<h4>SetOpt</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+ argHash[&quot;campaign_id&quot;] = &quot;45520&quot;
+ argHash[&quot;status_code&quot;] = &quot;-1&quot;
+</pre>
+<h5>Performing the setopt: </h5>
+<pre>
+ so = m.user.setopt(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; so.get_number.to_s
+ puts &quot;Campaign Id: &quot; &lt;&lt; so.get_campaign_id
+ puts &quot;Campaign Status: &quot; &lt;&lt; so.get_campaign_status
+ puts &quot;Campaign Status Code: &quot; &lt;&lt; so.get_campaign_status_code
+</pre>
+<h4>Uncache</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the uncache: </h5>
+<pre>
+ u = m.user.uncache(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number uncached: &quot; &lt;&lt; u.get_number.to_s
+</pre>
+<h4>Info</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the info: </h5>
+<pre>
+ i = m.user.info(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Number: &quot; &lt;&lt; i.get_number.to_s
+ puts &quot;Carrier Id: &quot; &lt;&lt; i.get_carrier_id.to_s
+ puts &quot;Carrier Name: &quot; &lt;&lt; i.get_carrier_name
+ puts &quot;Handset Name: &quot; &lt;&lt; i.get_handset_name
+ puts &quot;Handset Id: &quot; &lt;&lt; i.get_handset_id.to_s
+</pre>
+<h4>Transactions</h4>
+<h5>Creating the parameters Hash and adding parameters:</h5>
+<pre>
+ argHash = Hash.new
+ argHash[&quot;number&quot;] = &quot;3105767889&quot;
+</pre>
+<h5>Performing the transactions: </h5>
+<pre>
+ t = m.user.transactions(argHash)
+</pre>
+<h5>Getting the info:</h5>
+<pre>
+ puts &quot;Campaigns: &quot; &lt;&lt; t.get_campaigns.inspect
+ first_campaign = t.get_campaigns[0].to_s
+ puts &quot;First campaign: &quot; &lt;&lt; t.get_campaign_name(first_campaign)
+ puts &quot;Transactions for the first campaign (&quot; &lt;&lt; t.get_campaigns[0] &lt;&lt; &quot;): &quot; &lt;&lt; (t.get_campaign_transactions first_campaign).inspect
+ first_trans = (t.get_campaign_transactions first_campaign)[1].to_s
+ puts &quot;Hash for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt;  t.get_transaction_hash( first_campaign, first_trans)
+ puts &quot;DateStamp for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_datestamp( first_campaign, first_trans)
+ puts &quot;To Number for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_to_number( first_campaign, first_trans).to_s
+ puts &quot;From Number for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_from_number( first_campaign, first_trans).to_s
+ puts &quot;To Name for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_to_name( first_campaign, first_trans)
+ puts &quot;From Name for the first campaign (&quot; &lt;&lt; first_campaign &lt;&lt; &quot;) and first transaction (&quot; &lt;&lt; first_trans &lt;&lt; &quot;): &quot; &lt;&lt; t.get_transaction_from_name( first_campaign, first_trans)
+</pre>
+<h2>Contact</h2>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Thomas SCHWEBEL for Mogreet
+</p>
+</td></tr>
+<tr><td valign="top">Website</td><td><p>
+<a href="http://www.mogreet.com/">www.mogreet.com/</a>
+</p>
+</td></tr>
+<tr><td valign="top">Date</td><td><p>
+Monday December 06, 2010
+</p>
+</td></tr>
+</table>
+
+		</div>
+		
+	</div>
+</body>
+</html>
+
