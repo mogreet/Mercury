@@ -1,0 +1,375 @@
+<HTML>
+<HEAD>
+<TITLE>Mogreet SDK</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000">
+<UL>
+<LI><A HREF="#NAME">NAME
+ 
+</A><LI><A HREF="#SYNOPSIS">SYNOPSIS
+ 
+</A><LI><A HREF="#DESCRIPTION">DESCRIPTION
+ 
+</A><LI><A HREF="#CONSTRUCTOR">CONSTRUCTOR
+ 
+</A><UL>
+<LI><A HREF="#Mercury">Mercury
+ 
+</A></UL>
+<LI><A HREF="#FUNCTIONS">FUNCTIONS
+ 
+</A><UL>
+<LI><A HREF="#processRequest">processRequest
+ 
+</A><LI><A HREF="#setParams">setParams
+ 
+</A><LI><A HREF="#ping">ping
+ 
+</A><LI><A HREF="#send">send
+ 
+</A><LI><A HREF="#lookup">lookup
+ 
+</A><LI><A HREF="#getopt">getopt
+ 
+</A><LI><A HREF="#setopt">setopt
+ 
+</A><LI><A HREF="#uncache">uncache
+ 
+</A><LI><A HREF="#info">info
+ 
+</A><LI><A HREF="#transactions">transactions
+ 
+</A></UL>
+<LI><A HREF="#AUTHOR">AUTHOR
+ 
+</A></UL>
+<HR>
+<H1><A NAME="NAME">NAME
+ 
+</A></H1>
+
+<PRE> Mercury - Allows to execute three types of requests to the MoMS API.
+ </PRE>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS
+ 
+</A></H1>
+
+<P> <b>use</b> Mercury;</br>
+ <b>new Mercury</b>($clientId,$token);
+ 
+</P><HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION
+ 
+</A></H1>
+
+<P> The Mercury is an object that allows to execute three types of requests (system(<A HREF="ping.html">Ping</A>), user(<A HREF="getopt.html">Getopt</A>, <A HREF="setopt.html">Setopt</A>, <A HREF="info.html">Info</A>, <A HREF="uncache.html">Uncache</A>, <A HREF="transactions.html">Transactions</A>) and transaction(<A HREF="lookup.html">Lookup</A>, <A HREF="send.html">Send</A>)) to the MoMS (Mogreet Messaging System) API. </br>
+ The MoMS (Mogreet Message System) is a dynamic SMS, MMS, and email messaging system which supports many different clients, many different campaigns, 
+ many different message flows, many different aggregators and many different carriers.
+ 
+</P><HR>
+<H1><A NAME="CONSTRUCTOR">CONSTRUCTOR
+ 
+</A></H1>
+<HR>
+<H2><A NAME="Mercury">Mercury
+ 
+</A></H2>
+<DL><DT><A NAME="new%20Mercury(%24clientId%2c%24token)">new Mercury($clientId,$token)
+ 
+</A></DT>
+<DD>
+
+<PRE> Constructs a new Mercury.
+ 
+</PRE>
+
+<P> <b>Parameters</b>:
+ 
+</P>
+<PRE>    - $clientId - Client ID
+    - $token - Token</PRE>
+</DD>
+</DL>
+<HR>
+<H1><A NAME="FUNCTIONS">FUNCTIONS
+ 
+</A></H1>
+<HR>
+<H2><A NAME="processRequest">processRequest
+ 
+</A></H2>
+<DL><DT><A NAME="processRequest(%24url%2c%24params%2c%24reqName)">processRequest($url,$params,$reqName)
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns a XML document which content is the XML response of the processed request.
+ 
+</PRE>
+
+<P> <b>Parameters</b> :
+ <ul>
+    <li>$url: <i>Client ID</i>
+    <li>$params: <i>Parameters string formatted as URL parameters (param1=value1&amp;param2=value2&amp;param3=value3&amp;...)</i>
+    <li>$reqName: <i>Request's name</i>
+ </ul>
+ <b>Returns</b>: a XML Document
+
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="setParams">setParams
+ 
+</A></H2>
+<DL><DT><A NAME="setParams()">setParams()
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns a URL format string created HashMap key-value pairs.
+ 
+</PRE>
+
+<P> <b>Parameters</b>:
+ <ul>
+    <li>%hash - List of parameters (param_name-param_value pairs)
+ </ul>
+ <b>Returns</b> a URL format string: param1=value1&amp;param2=value2&amp;param3=value3&amp;...
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="ping">ping
+ 
+</A></H2>
+<DL><DT><A NAME="ping()">ping()
+ 
+</A></DT>
+<DD>
+
+<PRE> Tests connectivity to the Moms API servers.
+ 
+</PRE>
+
+<P></P></DD>
+</DL>
+<HR>
+<H2><A NAME="send">send
+ 
+</A></H2>
+<DL><DT><A NAME="send(%5c%25hash)">send(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Initiates a transaction and delivery of an SMS or MMS.
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b> 
+    my %hash=("campaign_id"=>$campaignId,"to"=>$to,"message"=>$message,"content_id"=>$contentId);
+    $myMercury->send(\%hash);
+ </pre>
+ <b>Paramters</b>: $hash: A HashMap object that must contain the following keys with their corresponding value:
+ <ul>
+    <li> "campaign_id" => "...": <i>An ID connected to a specific campaign setup in the Campaign Manager or provided by your account representative.</i>
+ 	<li> "to" => "...": <i>A 10-digit mobile phone number.</i>
+    <li> "message" => "...": <i>Depending on your campaign set up, the message presented to the "to" user.</i>
+  	<li> "content_id" => "...": <i>An ID associated to the content being sent (optional - depending on your campaign set up, this parameter may be required).</i>
+ </ul>
+ <b>Returns</b> a new Send response object.
+
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="lookup">lookup
+ 
+</A></H2>
+<DL><DT><A NAME="lookup(%5c%25hash)">lookup(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns the info, status and history of the requested transaction.
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b> 
+    my %hash=("message_id"=>$messageId,"hash"=>$hash);
+    $myMercury->lookup(\%hash);
+ </pre>
+ <b>Parameters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+ <li> "message_id" => "...": <i>An ID returned from a <A HREF="#send">send</A> or from <A HREF="#transactions">transactions</A> method.</i>
+ 	<li> "hash" => "...": <i>A hash returned from a <A HREF="#send">send</A> or from a <A HREF="#transactions">transactions</A> method.</i>
+  </ul>
+ <b>Returns</b> a new Lookup response object.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getopt">getopt
+ 
+</A></H2>
+<DL><DT><A NAME="getopt(%5c%25hash)">getopt(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns the opt in status of any mobile number.
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b>
+    my %hash=("number"=>$number);
+    $myMercury->getopt(\%hash);
+ </pre>
+ <b>Paramters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+    <li>"number" => "...": <i>A 10-digit mobile phone number.</i>
+ </ul>
+ <b>Returns</b> a new Getopt response object.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="setopt">setopt
+ 
+</A></H2>
+<DL><DT><A NAME="setopt(%5c%25hash)">setopt(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Sets the opt in status of any mobile number.</PRE>
+
+<P> <pre>
+ <b>Code sample:</b>
+    my %hash=("number"=>$number,"campaign_id"=>$campaignId,"status_code"=>$statusCode);
+    $myMercury->setopt(\%hash);
+ </pre>
+ <b>Parameters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+ 	<li> "number" => "...": <i>A 10-digit mobile phone number.</i>
+ 	<li> "campaign_id" => "...": <i>An ID connected to a specific campaign setup in the Campaign Manager or provided by your account representative.</i>
+ 	<li> "status_code" => "...": <i>See the bellow table for available codes to use here.</i>
+  </ul>
+ 
+  <table border="1">
+  	<tr>
+  		<td>Status</td>
+  		<td>Status code</td>
+ 		<td>Description</td>
+ 	</tr>
+  	<tr>
+  		<td>OPTEDIN</td>
+  		<td>1</td>
+ 		<td>User is opted into the campaign</td>
+  	</tr>
+  	<tr>
+  		<td>OPTEDOUT</td>
+ 		<td>-2</td>
+ 		<td>User is opted out of the campaign</td>
+  	</tr>
+  </table>
+  <br />
+ 
+ <b>Returns</b> a new Setopt response object.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="uncache">uncache
+ 
+</A></H2>
+<DL><DT><A NAME="uncache(%5c%25hash)">uncache(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Clears the user carrier and handset info from the Mogreet cache.
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b>
+    my %hash=("number"=>$number);
+    $myMercury->uncache(\%hash);
+ </pre>
+ <b>Parameters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+    <li>"number" => "...": <i>A 10-digit mobile phone number.</i>
+ </ul>
+ <b>Returns</b> a new Uncache response object.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="info">info
+ 
+</A></H2>
+<DL><DT><A NAME="info(%5c%25hash)">info(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns the user carrier and handset info if available.
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b>
+    my %hash=("number"=>$number);
+    $myMercury->info(\%hash);
+ </pre>
+ <b>Parameters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+    <li>"number" => "...": <i>A 10-digit mobile phone number.</i>
+ </ul>
+ <b>Returns</b> a new Info response object.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="transactions">transactions
+ 
+</A></H2>
+<DL><DT><A NAME="transactions(%5c%25hash)">transactions(\%hash)
+ 
+</A></DT>
+<DD>
+
+<PRE> Returns the user's transactions (open and closed).
+ 
+</PRE>
+
+<P> <pre>
+ <b>Code sample:</b>
+    my %hash=("number"=>$number,"campaign_id"=>$campaignId);
+    $myMercury->transactions(\%hash);
+ </pre>
+ <b>Parameters</b>: $hash: A HashMap object that must contains the following keys with their corresponding value:
+ <ul>
+    <li>"campaign_id" => "...": <i>A campaign id to search on, if excluded, returns all transactions for the client's campaigns.</i>
+    <li>"start_date" => "...": <i>Narrow search by adding a date to start searching on (YYYY-MM-DD).</i>
+    <li>"end_date" => "...": <i>Narrow search by adding a date to stop searching on (YYYY-MM-DD).</i>
+ </ul>
+ <b>Returns</b> a new Info response object.
+
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+ 
+</A></H1>
+
+<P> Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+</P>
+</BODY>
+</HTML>

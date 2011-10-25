@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SMSCuryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SMSCuryAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SMSCuryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SMSCuryViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SMSCuryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */; };
+		F459E35314353C2000AE3655 /* Getopt.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34214353C2000AE3655 /* Getopt.m */; };
+		F459E35414353C2000AE3655 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34414353C2000AE3655 /* Info.m */; };
+		F459E35514353C2000AE3655 /* Lookup.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34614353C2000AE3655 /* Lookup.m */; };
+		F459E35614353C2000AE3655 /* Mercury.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34814353C2000AE3655 /* Mercury.m */; };
+		F459E35714353C2000AE3655 /* Ping.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34A14353C2000AE3655 /* Ping.m */; };
+		F459E35814353C2000AE3655 /* Send.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34C14353C2000AE3655 /* Send.m */; };
+		F459E35914353C2000AE3655 /* Setopt.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E34E14353C2000AE3655 /* Setopt.m */; };
+		F459E35A14353C2000AE3655 /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E35014353C2000AE3655 /* Transactions.m */; };
+		F459E35B14353C2000AE3655 /* Uncache.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E35214353C2000AE3655 /* Uncache.m */; };
+		F459E37B14353F9D00AE3655 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36014353F9D00AE3655 /* CXMLDocument_CreationExtensions.m */; };
+		F459E37C14353F9D00AE3655 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36214353F9D00AE3655 /* CXMLNode_CreationExtensions.m */; };
+		F459E37D14353F9D00AE3655 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36414353F9D00AE3655 /* CXHTMLDocument.m */; };
+		F459E37E14353F9D00AE3655 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36614353F9D00AE3655 /* CXMLDocument_PrivateExtensions.m */; };
+		F459E37F14353F9D00AE3655 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36814353F9D00AE3655 /* CXMLDocument.m */; };
+		F459E38014353F9D00AE3655 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36A14353F9D00AE3655 /* CXMLElement_CreationExtensions.m */; };
+		F459E38114353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36C14353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.m */; };
+		F459E38214353F9D00AE3655 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E36E14353F9D00AE3655 /* CXMLElement.m */; };
+		F459E38314353F9D00AE3655 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E37014353F9D00AE3655 /* CXMLNamespaceNode.m */; };
+		F459E38414353F9D00AE3655 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E37214353F9D00AE3655 /* CXMLNode_PrivateExtensions.m */; };
+		F459E38514353F9D00AE3655 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E37414353F9D00AE3655 /* CXMLNode_XPathExtensions.m */; };
+		F459E38614353F9D00AE3655 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E37614353F9D00AE3655 /* CXMLNode.m */; };
+		F459E38714353F9D00AE3655 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = F459E37914353F9D00AE3655 /* CTidy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SMSCuryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSCuryAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SMSCuryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSCuryAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SMSCury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSCury.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SMSCuryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SMSCuryViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SMSCuryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSCuryViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSCuryViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SMSCury_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSCury_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SMSCury-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SMSCury-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F459E34114353C2000AE3655 /* Getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Getopt.h; path = ../Mercury_iOS/Classes/Getopt.h; sourceTree = SOURCE_ROOT; };
+		F459E34214353C2000AE3655 /* Getopt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Getopt.m; path = ../Mercury_iOS/Classes/Getopt.m; sourceTree = SOURCE_ROOT; };
+		F459E34314353C2000AE3655 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Info.h; path = ../Mercury_iOS/Classes/Info.h; sourceTree = SOURCE_ROOT; };
+		F459E34414353C2000AE3655 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Info.m; path = ../Mercury_iOS/Classes/Info.m; sourceTree = SOURCE_ROOT; };
+		F459E34514353C2000AE3655 /* Lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lookup.h; path = ../Mercury_iOS/Classes/Lookup.h; sourceTree = SOURCE_ROOT; };
+		F459E34614353C2000AE3655 /* Lookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lookup.m; path = ../Mercury_iOS/Classes/Lookup.m; sourceTree = SOURCE_ROOT; };
+		F459E34714353C2000AE3655 /* Mercury.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mercury.h; path = ../Mercury_iOS/Classes/Mercury.h; sourceTree = SOURCE_ROOT; };
+		F459E34814353C2000AE3655 /* Mercury.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mercury.m; path = ../Mercury_iOS/Classes/Mercury.m; sourceTree = SOURCE_ROOT; };
+		F459E34914353C2000AE3655 /* Ping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ping.h; path = ../Mercury_iOS/Classes/Ping.h; sourceTree = SOURCE_ROOT; };
+		F459E34A14353C2000AE3655 /* Ping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ping.m; path = ../Mercury_iOS/Classes/Ping.m; sourceTree = SOURCE_ROOT; };
+		F459E34B14353C2000AE3655 /* Send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Send.h; path = ../Mercury_iOS/Classes/Send.h; sourceTree = SOURCE_ROOT; };
+		F459E34C14353C2000AE3655 /* Send.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Send.m; path = ../Mercury_iOS/Classes/Send.m; sourceTree = SOURCE_ROOT; };
+		F459E34D14353C2000AE3655 /* Setopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Setopt.h; path = ../Mercury_iOS/Classes/Setopt.h; sourceTree = SOURCE_ROOT; };
+		F459E34E14353C2000AE3655 /* Setopt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Setopt.m; path = ../Mercury_iOS/Classes/Setopt.m; sourceTree = SOURCE_ROOT; };
+		F459E34F14353C2000AE3655 /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transactions.h; path = ../Mercury_iOS/Classes/Transactions.h; sourceTree = SOURCE_ROOT; };
+		F459E35014353C2000AE3655 /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transactions.m; path = ../Mercury_iOS/Classes/Transactions.m; sourceTree = SOURCE_ROOT; };
+		F459E35114353C2000AE3655 /* Uncache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Uncache.h; path = ../Mercury_iOS/Classes/Uncache.h; sourceTree = SOURCE_ROOT; };
+		F459E35214353C2000AE3655 /* Uncache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Uncache.m; path = ../Mercury_iOS/Classes/Uncache.m; sourceTree = SOURCE_ROOT; };
+		F459E35F14353F9D00AE3655 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		F459E36014353F9D00AE3655 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		F459E36114353F9D00AE3655 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		F459E36214353F9D00AE3655 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		F459E36314353F9D00AE3655 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.h"; sourceTree = SOURCE_ROOT; };
+		F459E36414353F9D00AE3655 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m"; sourceTree = SOURCE_ROOT; };
+		F459E36514353F9D00AE3655 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F459E36614353F9D00AE3655 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F459E36714353F9D00AE3655 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.h"; sourceTree = SOURCE_ROOT; };
+		F459E36814353F9D00AE3655 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m"; sourceTree = SOURCE_ROOT; };
+		F459E36914353F9D00AE3655 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F459E36A14353F9D00AE3655 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F459E36B14353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F459E36C14353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F459E36D14353F9D00AE3655 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement.h"; sourceTree = SOURCE_ROOT; };
+		F459E36E14353F9D00AE3655 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m"; sourceTree = SOURCE_ROOT; };
+		F459E36F14353F9D00AE3655 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h"; sourceTree = SOURCE_ROOT; };
+		F459E37014353F9D00AE3655 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m"; sourceTree = SOURCE_ROOT; };
+		F459E37114353F9D00AE3655 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F459E37214353F9D00AE3655 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F459E37314353F9D00AE3655 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F459E37414353F9D00AE3655 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F459E37514353F9D00AE3655 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode.h"; sourceTree = SOURCE_ROOT; };
+		F459E37614353F9D00AE3655 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m"; sourceTree = SOURCE_ROOT; };
+		F459E37814353F9D00AE3655 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		F459E37914353F9D00AE3655 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		F459E37A14353F9D00AE3655 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = "../TouchCode-TouchXML-5005e8e/Source/TouchXML.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SMSCuryAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SMSCuryAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SMSCuryViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SMSCury.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F459E35E14353F9D00AE3655 /* Creation */,
+				F459E36314353F9D00AE3655 /* CXHTMLDocument.h */,
+				F459E36414353F9D00AE3655 /* CXHTMLDocument.m */,
+				F459E36514353F9D00AE3655 /* CXMLDocument_PrivateExtensions.h */,
+				F459E36614353F9D00AE3655 /* CXMLDocument_PrivateExtensions.m */,
+				F459E36714353F9D00AE3655 /* CXMLDocument.h */,
+				F459E36814353F9D00AE3655 /* CXMLDocument.m */,
+				F459E36914353F9D00AE3655 /* CXMLElement_CreationExtensions.h */,
+				F459E36A14353F9D00AE3655 /* CXMLElement_CreationExtensions.m */,
+				F459E36B14353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.h */,
+				F459E36C14353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.m */,
+				F459E36D14353F9D00AE3655 /* CXMLElement.h */,
+				F459E36E14353F9D00AE3655 /* CXMLElement.m */,
+				F459E36F14353F9D00AE3655 /* CXMLNamespaceNode.h */,
+				F459E37014353F9D00AE3655 /* CXMLNamespaceNode.m */,
+				F459E37114353F9D00AE3655 /* CXMLNode_PrivateExtensions.h */,
+				F459E37214353F9D00AE3655 /* CXMLNode_PrivateExtensions.m */,
+				F459E37314353F9D00AE3655 /* CXMLNode_XPathExtensions.h */,
+				F459E37414353F9D00AE3655 /* CXMLNode_XPathExtensions.m */,
+				F459E37514353F9D00AE3655 /* CXMLNode.h */,
+				F459E37614353F9D00AE3655 /* CXMLNode.m */,
+				F459E37714353F9D00AE3655 /* Tidy */,
+				F459E37A14353F9D00AE3655 /* TouchXML.h */,
+				F459E34114353C2000AE3655 /* Getopt.h */,
+				F459E34214353C2000AE3655 /* Getopt.m */,
+				F459E34314353C2000AE3655 /* Info.h */,
+				F459E34414353C2000AE3655 /* Info.m */,
+				F459E34514353C2000AE3655 /* Lookup.h */,
+				F459E34614353C2000AE3655 /* Lookup.m */,
+				F459E34714353C2000AE3655 /* Mercury.h */,
+				F459E34814353C2000AE3655 /* Mercury.m */,
+				F459E34914353C2000AE3655 /* Ping.h */,
+				F459E34A14353C2000AE3655 /* Ping.m */,
+				F459E34B14353C2000AE3655 /* Send.h */,
+				F459E34C14353C2000AE3655 /* Send.m */,
+				F459E34D14353C2000AE3655 /* Setopt.h */,
+				F459E34E14353C2000AE3655 /* Setopt.m */,
+				F459E34F14353C2000AE3655 /* Transactions.h */,
+				F459E35014353C2000AE3655 /* Transactions.m */,
+				F459E35114353C2000AE3655 /* Uncache.h */,
+				F459E35214353C2000AE3655 /* Uncache.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SMSCury_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* SMSCuryViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SMSCury-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F459E35E14353F9D00AE3655 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				F459E35F14353F9D00AE3655 /* CXMLDocument_CreationExtensions.h */,
+				F459E36014353F9D00AE3655 /* CXMLDocument_CreationExtensions.m */,
+				F459E36114353F9D00AE3655 /* CXMLNode_CreationExtensions.h */,
+				F459E36214353F9D00AE3655 /* CXMLNode_CreationExtensions.m */,
+			);
+			name = Creation;
+			path = "../TouchCode-TouchXML-5005e8e/Source/Creation";
+			sourceTree = SOURCE_ROOT;
+		};
+		F459E37714353F9D00AE3655 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				F459E37814353F9D00AE3655 /* CTidy.h */,
+				F459E37914353F9D00AE3655 /* CTidy.m */,
+			);
+			name = Tidy;
+			path = "../TouchCode-TouchXML-5005e8e/Source/Tidy";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SMSCury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMSCury" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSCury;
+			productName = SMSCury;
+			productReference = 1D6058910D05DD3D006BFB54 /* SMSCury.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMSCury" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SMSCury */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SMSCuryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SMSCuryAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SMSCuryViewController.m in Sources */,
+				F459E35314353C2000AE3655 /* Getopt.m in Sources */,
+				F459E35414353C2000AE3655 /* Info.m in Sources */,
+				F459E35514353C2000AE3655 /* Lookup.m in Sources */,
+				F459E35614353C2000AE3655 /* Mercury.m in Sources */,
+				F459E35714353C2000AE3655 /* Ping.m in Sources */,
+				F459E35814353C2000AE3655 /* Send.m in Sources */,
+				F459E35914353C2000AE3655 /* Setopt.m in Sources */,
+				F459E35A14353C2000AE3655 /* Transactions.m in Sources */,
+				F459E35B14353C2000AE3655 /* Uncache.m in Sources */,
+				F459E37B14353F9D00AE3655 /* CXMLDocument_CreationExtensions.m in Sources */,
+				F459E37C14353F9D00AE3655 /* CXMLNode_CreationExtensions.m in Sources */,
+				F459E37D14353F9D00AE3655 /* CXHTMLDocument.m in Sources */,
+				F459E37E14353F9D00AE3655 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				F459E37F14353F9D00AE3655 /* CXMLDocument.m in Sources */,
+				F459E38014353F9D00AE3655 /* CXMLElement_CreationExtensions.m in Sources */,
+				F459E38114353F9D00AE3655 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				F459E38214353F9D00AE3655 /* CXMLElement.m in Sources */,
+				F459E38314353F9D00AE3655 /* CXMLNamespaceNode.m in Sources */,
+				F459E38414353F9D00AE3655 /* CXMLNode_PrivateExtensions.m in Sources */,
+				F459E38514353F9D00AE3655 /* CXMLNode_XPathExtensions.m in Sources */,
+				F459E38614353F9D00AE3655 /* CXMLNode.m in Sources */,
+				F459E38714353F9D00AE3655 /* CTidy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMSCury_Prefix.pch;
+				INFOPLIST_FILE = "SMSCury-Info.plist";
+				PRODUCT_NAME = SMSCury;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMSCury_Prefix.pch;
+				INFOPLIST_FILE = "SMSCury-Info.plist";
+				PRODUCT_NAME = SMSCury;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMSCury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMSCury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

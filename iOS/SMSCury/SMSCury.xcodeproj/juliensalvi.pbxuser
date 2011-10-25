@@ -1,0 +1,195 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SMSCuryAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {573, 543}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 479}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SMSCuryAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavSelRange = "{2222, 0}";
+			sepNavVisRange = "{0, 1322}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SMSCury */ = {
+		activeExec = 0;
+		executables = (
+			F459E26B1434D4FE00AE3655 /* SMSCury */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SMSCuryViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {573, 543}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 474}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 1365}}";
+			sepNavSelRange = "{721, 0}";
+			sepNavVisRange = "{534, 1358}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F459E26B1434D4FE00AE3655 /* SMSCury */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SMSCury */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SMSCury */,
+		);
+		codeSenseManager = F459E2811434D50900AE3655 /* Code sense */;
+		executables = (
+			F459E26B1434D4FE00AE3655 /* SMSCury */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					395,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339091352;
+			PBXWorkspaceStateSaveDate = 339091352;
+		};
+		perUserProjectItems = {
+			F459E3EA1436862B00AE3655 /* PBXTextBookmark */ = F459E3EA1436862B00AE3655 /* PBXTextBookmark */;
+			F459E3EB1436862B00AE3655 /* PBXTextBookmark */ = F459E3EB1436862B00AE3655 /* PBXTextBookmark */;
+			F459E3EC1436862B00AE3655 /* PBXTextBookmark */ = F459E3EC1436862B00AE3655 /* PBXTextBookmark */;
+			F459E3ED1436862B00AE3655 /* PBXTextBookmark */ = F459E3ED1436862B00AE3655 /* PBXTextBookmark */;
+			F459E3EE1436862B00AE3655 /* PBXTextBookmark */ = F459E3EE1436862B00AE3655 /* PBXTextBookmark */;
+			F459E3EF1436862B00AE3655 /* PBXTextBookmark */ = F459E3EF1436862B00AE3655 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F459E2801434D50900AE3655 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F459E26B1434D4FE00AE3655 /* SMSCury */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SMSCury;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F459E2801434D50900AE3655 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F459E2811434D50900AE3655 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F459E34814353C2000AE3655 /* Mercury.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 1898}}";
+			sepNavSelRange = "{1342, 0}";
+			sepNavVisRange = "{835, 1111}";
+		};
+	};
+	F459E3EA1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F459E34814353C2000AE3655 /* Mercury.m */;
+		name = "Mercury.m: 40";
+		rLen = 0;
+		rLoc = 1342;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 835;
+	};
+	F459E3EB1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SMSCuryAppDelegate.m */;
+		name = "SMSCuryAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 2222;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	F459E3EC1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SMSCuryAppDelegate.h */;
+		name = "SMSCuryAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	F459E3ED1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SMSCuryViewController.h */;
+		name = "SMSCuryViewController.h: 11";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	F459E3EE1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */;
+		name = "SMSCuryViewController.m: 28";
+		rLen = 0;
+		rLoc = 721;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 183;
+	};
+	F459E3EF1436862B00AE3655 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SMSCuryViewController.m */;
+		name = "SMSCuryViewController.m: 28";
+		rLen = 0;
+		rLoc = 721;
+		rType = 0;
+		vrLen = 1358;
+		vrLoc = 534;
+	};
+}

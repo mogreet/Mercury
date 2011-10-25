@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="15dip">
+ 
+  <TextView
+    android:id="@+id/loginLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Put your client ID, Token and campaign ID"
+    android:paddingBottom="10dip">
+  </TextView>
+  <EditText 
+    android:id="@+id/clientfield"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your client ID"
+    android:inputType="number"
+    android:layout_below="@id/loginLabel">
+  </EditText>
+  <EditText 
+    android:id="@+id/tokenfield"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your token"
+    android:inputType="text"
+    android:layout_below="@id/clientfield">
+  </EditText>
+  <EditText 
+    android:id="@+id/campidfield"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your campaign ID"
+    android:inputType="number"
+    android:layout_below="@id/tokenfield">
+  </EditText>
+</RelativeLayout>

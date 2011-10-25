@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Mogreet SDKs - Tutorial 1: Mercury for iOS</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style type="text/css">
+	#corpus
+	{
+	   margin-left: 155px;
+	   margin-bottom: 20px;
+		margin-rigth: 155px;
+	   padding: 10px;
+	   color: #000000;
+	   background-color: #dcdcdc;
+	   border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+
+<div id="title_tuto">
+<center><h1> Tutorial 1 : First steps with Mercury on iOS platform</h1></center>
+</br>
+</div>
+
+<div id="corpus">
+<p>This tutorial is for those who want to learn how to use the <b>Mogreet SDK</b> called Mercury on the iOS Platform. To manage the iOS SDK provided by Apple, you have to register as an Apple programmer here. You may have to pay for registering but it depends on your status, you can register for free if you are a student. After this operation, dowload the iOS SDK 4.3 with Xcode if you did not before.</p>
+<p>Below, we will see how to establish a connection with the Mogreet API servers and, for example, we will do a PING call the Mogreet API.</p>
+
+</br>
+<h2>1. Get started with iOS 4 and Xcode</h2>
+<h3>1.1. Create an iOS project</h3>
+<p>You are now ready to create your first iOS application using Mercury. When Xcode is launched, click on <i>Application</i> on the top left corner under the iOS icon. You will have several choices: you can create a <i>Navigation-based</i> application, an <i>OpenGL ES</i> application or a <i>Tab Bar</i> application and much more. Choose the best skeleton for your project, but for our example you can choose a Tab Bar or a simple View-based application. You can see thereafter the different types of projects you can create:
+<center><img src="img/newProject.png" title="New Projects" width="550" height="450"/></center>
+</p>
+
+<h3>1.2. Discovery of Xcode IDE</h3>
+<p>You can see how Xcode looks like. On your left you can find the project files with the classes, the ViewController interfaces or the excecutables. On the top left corner you can find a combo item where you can choose to run (Ctrl+R) your application as an iPhone or an iPad. If you want, you can run your application to see the iPhone virtual device in action!
+</p>
+
+<h3>1.3. Import the Mercury librairy and TouchXML</h3>
+<p>Once your project created and saved, you have to import the Mercury library. First of all, you have to dowload Mercury for iOS from <a href="https://github.com/mogreet/Mercury">Github</a>. You have also to download the TouchXML library to modify the Merucry SDK, you can find it <a href= "https://github.com/TouchCode/TouchXML">here</a>. Alright, now it is time to import the libraries: first add TouchXML into your project: in order to enable the <i>libxml2</i> library go to <i>Project->Edit project settings</i>, activate the "Build" tab and search for "header search paths" and add <b>/usr/include/libxml2</b> value. Then search for "other linker flags" and add <b>-lxml2</b> value.<br/>Now, you can import the Mercury library. Right click your project on the browser on your left and select <i>Add->Existing Files...</i>. Choose all Mercury files in the downloaded folder and add them. Right now, you are able to modify and use the Mercury SDK as you wish.
+</p>
+
+<h2>2. Creation of a PING call</h2>
+<h3>2.1. Creation of the interface thanks to Interface Builder</h3>
+<p>Build a graphical interface with the iOS SDK is very easy and convenient.Go to the project browser on the left, in the <i>Resources</i> folder open the &lt;yourView&gt;.xib file. The Interface Builder will launch and you will be able to customize your view. Open the Library in <i>Tools->Library</i>. As you can see on the picture below, you can pick objects up in the Libray in order to add them in the view. For our example, let us put two <b><i>Text Fields</i></b> followed by a <b><i>Button</i></b> in order to validate the Ping call. Then to collect the data from the XML, let us add four <b><i>Labels</i></b> in the View. You can also add a <b><i>Navigation Bar</i></b> to give a name to the view:
+<center><img src="img/interfaceBuilder.png" title="Interface Builder from Xcode" width="700" height="550"/></center>
+Now you have to import the TextFields, button and labels into your code in order to interact with them. From the the Library, select the "Class" tab and choose your ViewController class. Then select "Outlet" in the combo which is located in the middle of the window. Put the names of the objects you would like to import in your code as it is shown below. Click "+" to add. Then you have to add a listener to the button. Select <i>"Action"</i> in the combo item and put the name of your function which will be called when the button will be clicked and let the <i>id</i> type.
+<center><img src="img/creationVariables.png" title="Import variables into the code" width="250" height="650"/></center>
+Once this step done, go to <i>File->Write Class Files...</i> to overwrite the viewController header and its class. Save the file and click on "Merge". The fileMerge application will appear and you will choose which side you want to keep. Click on the combo item on the bottom right corner and select "choose left". Now you can save and quit to see the modified code.<br/>The last step with Interface Builder consists to link the View with the objects into the code. Open the Interface Builder, and click on <b>"File's Owner"</b> to open the connection window. Select the tab with the white arrow and from the outlets make the connections between the variables with their corresponding item in the View as explained below. You also need to connect the function to the "File's Owner", make a right click on the UIButton in the <i>.xib</i> window and select <b>"Touch up Inside"</b> to make a connection with the "File's Owner", then click on the name of your function which must appear.
+<center><img src="img/linkWithInterface.png" title="Connections between code and interface" width="440" height="640"/>  <img src="img/linkButton.png" title="Connect the button's listener"/></center>
+Your graphical interface is now ready to use.
+</p>
+
+<h3>2.2. Coding the Application with Objective-C</h3>
+<p>The entire code will be implemented in the button's function you create before. First of all, do not forget to import the Mercury library then you have to create collect the token and the client ID from the <i>Text Fields</i> in order to initialize the Mercury server. Here is an example of how to create an new Mercury object:
+<pre>
+	NSString *clientIDstr = clientPing.text;
+	int clientIDint = [clientIDstr intValue];
+	NSString *token = tokenPing.text;
+
+	Mercury *mercury = [[Mercury alloc] initMercury:clientIDint withToken:token];
+</pre>
+Once this step done, we have to create a new Ping object to make a Ping call to the Mogreet API. I advise you to use the iOS Mercury documentation at any time, it will be a great help. 
+<pre>
+	Ping *newPing = [[Ping alloc] init];
+	newPing = [mercury ping];
+</pre>
+Thanks to the getters, you can collect the data from the XML file and display the collected information in the labels. Here is the whole code of the function to implement for the Ping call:
+<pre>
+- (IBAction)validatePing:(id)sender {
+
+	NSString *clientIDstr = clientPing.text;
+	int clientIDint = [clientIDstr intValue];
+	NSString *token = tokenPing.text;
+
+    Mercury *mercury = [[Mercury alloc] initMercury:clientIDint withToken:token];
+	Ping *newPing = [[Ping alloc] init];
+	newPing = [mercury ping];
+	
+	//Getting the data from the XML file.
+	NSString *mess = [newPing getMessage];
+	NSString *stat = [newPing getResponseStatus];
+	int code = [newPing getResponseCode];
+		
+	[respStatus setText: [NSString stringWithFormat:@"Response Status: %@", stat]];
+	[messPing setText: [NSString stringWithFormat:@"Message: %@", mess]];
+	[respCodePing setText: [NSString stringWithFormat:@"Response Code: %d", code]];
+	
+	[newPing release];
+	[mercury release];
+	
+}
+</pre>
+Now run your application as an iPhone or an iPad and click on the button to make a Ping call. This what you should have on your screen:
+<center><img src="img/pingiPhone.png" title="Before PING call" width="300" height="650"/> <img src="img/pingFinal.png" title="After PING call" width="300" height="650"/></center>
+You can find the entire source code of the application <a href="https://github.com/mogreet/Mercury">here</a>. 
+</p>
+
+<h2>3. Conclusion</h2>
+<p>This tutorial comes to its end. You are now able to use the Mogreet SDK to build iOS application. You can make other applications using the SEND or the INFO call of Mercury and create useful app. Also, be sure to have the documentation about the SDK any time you use it. In the second tutorial, we shall see how to send SMS through Mercury using the SEND call. 
+</p>
+</div>
+<div id=footer_tuto>
+<hr>
+<center><p> Tutorial created by Julien SALVI for Mogreet Inc, 2011 --- <a href="mailto:oleur.utbm@gmail.com">Contact</a></p></center>
+</body>
+
+
+
+</html>

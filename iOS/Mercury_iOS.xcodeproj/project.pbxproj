@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Mercury_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Mercury_iOSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F448D7BF141E65BC00D8A91D /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7A4141E65BC00D8A91D /* CXMLDocument_CreationExtensions.m */; };
+		F448D7C0141E65BC00D8A91D /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7A6141E65BC00D8A91D /* CXMLNode_CreationExtensions.m */; };
+		F448D7C1141E65BC00D8A91D /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7A8141E65BC00D8A91D /* CXHTMLDocument.m */; };
+		F448D7C2141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7AA141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.m */; };
+		F448D7C3141E65BC00D8A91D /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7AC141E65BC00D8A91D /* CXMLDocument.m */; };
+		F448D7C4141E65BC00D8A91D /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7AE141E65BC00D8A91D /* CXMLElement_CreationExtensions.m */; };
+		F448D7C5141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7B0141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.m */; };
+		F448D7C6141E65BC00D8A91D /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7B2141E65BC00D8A91D /* CXMLElement.m */; };
+		F448D7C7141E65BC00D8A91D /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7B4141E65BC00D8A91D /* CXMLNamespaceNode.m */; };
+		F448D7C8141E65BC00D8A91D /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7B6141E65BC00D8A91D /* CXMLNode_PrivateExtensions.m */; };
+		F448D7C9141E65BC00D8A91D /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7B8141E65BC00D8A91D /* CXMLNode_XPathExtensions.m */; };
+		F448D7CA141E65BC00D8A91D /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7BA141E65BC00D8A91D /* CXMLNode.m */; };
+		F448D7CB141E65BC00D8A91D /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7BD141E65BC00D8A91D /* CTidy.m */; };
+		F448D7E2141E738100D8A91D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D7E0141E738100D8A91D /* SecondViewController.m */; };
+		F448D80F141E7D7D00D8A91D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D80D141E7D7D00D8A91D /* ThirdViewController.m */; };
+		F448D810141E7D7D00D8A91D /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D80E141E7D7D00D8A91D /* ThirdViewController.xib */; };
+		F448D835141E88B100D8A91D /* GetoptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D833141E88B100D8A91D /* GetoptViewController.m */; };
+		F448D836141E88B100D8A91D /* GetoptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D834141E88B100D8A91D /* GetoptViewController.xib */; };
+		F448D847141E8D8F00D8A91D /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D845141E8D8F00D8A91D /* InfoViewController.m */; };
+		F448D848141E8D8F00D8A91D /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D846141E8D8F00D8A91D /* InfoViewController.xib */; };
+		F448D866141E955C00D8A91D /* SetoptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D864141E955C00D8A91D /* SetoptViewController.m */; };
+		F448D867141E955C00D8A91D /* SetoptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D865141E955C00D8A91D /* SetoptViewController.xib */; };
+		F448D8AB141EB65900D8A91D /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8A9141EB65900D8A91D /* TransactionsViewController.m */; };
+		F448D8AC141EB65900D8A91D /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D8AA141EB65900D8A91D /* TransactionsViewController.xib */; };
+		F448D8CC141EBD9C00D8A91D /* UncacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8CA141EBD9C00D8A91D /* UncacheViewController.m */; };
+		F448D8CD141EBD9C00D8A91D /* UncacheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F448D8CB141EBD9C00D8A91D /* UncacheViewController.xib */; };
+		F448D8E0141EC1D000D8A91D /* Mercury.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8DF141EC1D000D8A91D /* Mercury.m */; };
+		F448D8E6141EC23100D8A91D /* Ping.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8E5141EC23100D8A91D /* Ping.m */; };
+		F448D8F1141EC4ED00D8A91D /* Getopt.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8F0141EC4ED00D8A91D /* Getopt.m */; };
+		F448D8F4141EC51600D8A91D /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D8F3141EC51600D8A91D /* Info.m */; };
+		F448D906141EC58F00D8A91D /* Setopt.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D905141EC58F00D8A91D /* Setopt.m */; };
+		F448D90B141EC5E100D8A91D /* Transactions.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D90A141EC5E100D8A91D /* Transactions.m */; };
+		F448D90E141EC61E00D8A91D /* Uncache.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D90D141EC61E00D8A91D /* Uncache.m */; };
+		F448D911141EC64A00D8A91D /* Lookup.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D910141EC64A00D8A91D /* Lookup.m */; };
+		F448D914141EC66500D8A91D /* Send.m in Sources */ = {isa = PBXBuildFile; fileRef = F448D913141EC66500D8A91D /* Send.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Mercury_iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mercury_iOSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Mercury_iOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mercury_iOSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Mercury_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercury_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Mercury_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mercury_iOS_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Mercury_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mercury_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F448D7A3141E65BC00D8A91D /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		F448D7A4141E65BC00D8A91D /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		F448D7A5141E65BC00D8A91D /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		F448D7A6141E65BC00D8A91D /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		F448D7A7141E65BC00D8A91D /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.h"; sourceTree = SOURCE_ROOT; };
+		F448D7A8141E65BC00D8A91D /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m"; sourceTree = SOURCE_ROOT; };
+		F448D7A9141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F448D7AA141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F448D7AB141E65BC00D8A91D /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.h"; sourceTree = SOURCE_ROOT; };
+		F448D7AC141E65BC00D8A91D /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m"; sourceTree = SOURCE_ROOT; };
+		F448D7AD141E65BC00D8A91D /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F448D7AE141E65BC00D8A91D /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F448D7AF141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F448D7B0141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F448D7B1141E65BC00D8A91D /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement.h"; sourceTree = SOURCE_ROOT; };
+		F448D7B2141E65BC00D8A91D /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m"; sourceTree = SOURCE_ROOT; };
+		F448D7B3141E65BC00D8A91D /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h"; sourceTree = SOURCE_ROOT; };
+		F448D7B4141E65BC00D8A91D /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m"; sourceTree = SOURCE_ROOT; };
+		F448D7B5141E65BC00D8A91D /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F448D7B6141E65BC00D8A91D /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F448D7B7141E65BC00D8A91D /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.h"; sourceTree = SOURCE_ROOT; };
+		F448D7B8141E65BC00D8A91D /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m"; sourceTree = SOURCE_ROOT; };
+		F448D7B9141E65BC00D8A91D /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode.h"; sourceTree = SOURCE_ROOT; };
+		F448D7BA141E65BC00D8A91D /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = "../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m"; sourceTree = SOURCE_ROOT; };
+		F448D7BC141E65BC00D8A91D /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		F448D7BD141E65BC00D8A91D /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		F448D7BE141E65BC00D8A91D /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = "../TouchCode-TouchXML-5005e8e/Source/TouchXML.h"; sourceTree = SOURCE_ROOT; };
+		F448D7DF141E738100D8A91D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F448D7E0141E738100D8A91D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F448D80C141E7D7D00D8A91D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F448D80D141E7D7D00D8A91D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F448D80E141E7D7D00D8A91D /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ThirdViewController.xib; path = Classes/ThirdViewController.xib; sourceTree = "<group>"; };
+		F448D832141E88B100D8A91D /* GetoptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetoptViewController.h; sourceTree = "<group>"; };
+		F448D833141E88B100D8A91D /* GetoptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetoptViewController.m; sourceTree = "<group>"; };
+		F448D834141E88B100D8A91D /* GetoptViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GetoptViewController.xib; path = Classes/GetoptViewController.xib; sourceTree = "<group>"; };
+		F448D844141E8D8F00D8A91D /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		F448D845141E8D8F00D8A91D /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		F448D846141E8D8F00D8A91D /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = InfoViewController.xib; path = Classes/InfoViewController.xib; sourceTree = "<group>"; };
+		F448D863141E955C00D8A91D /* SetoptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetoptViewController.h; sourceTree = "<group>"; };
+		F448D864141E955C00D8A91D /* SetoptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetoptViewController.m; sourceTree = "<group>"; };
+		F448D865141E955C00D8A91D /* SetoptViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SetoptViewController.xib; path = Classes/SetoptViewController.xib; sourceTree = "<group>"; };
+		F448D8A8141EB65900D8A91D /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		F448D8A9141EB65900D8A91D /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
+		F448D8AA141EB65900D8A91D /* TransactionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransactionsViewController.xib; path = Classes/TransactionsViewController.xib; sourceTree = "<group>"; };
+		F448D8C9141EBD9C00D8A91D /* UncacheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncacheViewController.h; sourceTree = "<group>"; };
+		F448D8CA141EBD9C00D8A91D /* UncacheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncacheViewController.m; sourceTree = "<group>"; };
+		F448D8CB141EBD9C00D8A91D /* UncacheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UncacheViewController.xib; path = Classes/UncacheViewController.xib; sourceTree = "<group>"; };
+		F448D8DE141EC1D000D8A91D /* Mercury.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mercury.h; sourceTree = "<group>"; };
+		F448D8DF141EC1D000D8A91D /* Mercury.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mercury.m; sourceTree = "<group>"; };
+		F448D8E4141EC23100D8A91D /* Ping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ping.h; sourceTree = "<group>"; };
+		F448D8E5141EC23100D8A91D /* Ping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ping.m; sourceTree = "<group>"; };
+		F448D8EF141EC4ED00D8A91D /* Getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Getopt.h; sourceTree = "<group>"; };
+		F448D8F0141EC4ED00D8A91D /* Getopt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Getopt.m; sourceTree = "<group>"; };
+		F448D8F2141EC51600D8A91D /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		F448D8F3141EC51600D8A91D /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		F448D904141EC58F00D8A91D /* Setopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setopt.h; sourceTree = "<group>"; };
+		F448D905141EC58F00D8A91D /* Setopt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setopt.m; sourceTree = "<group>"; };
+		F448D909141EC5E100D8A91D /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
+		F448D90A141EC5E100D8A91D /* Transactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transactions.m; sourceTree = "<group>"; };
+		F448D90C141EC61E00D8A91D /* Uncache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uncache.h; sourceTree = "<group>"; };
+		F448D90D141EC61E00D8A91D /* Uncache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uncache.m; sourceTree = "<group>"; };
+		F448D90F141EC64A00D8A91D /* Lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lookup.h; sourceTree = "<group>"; };
+		F448D910141EC64A00D8A91D /* Lookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lookup.m; sourceTree = "<group>"; };
+		F448D912141EC66500D8A91D /* Send.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Send.h; sourceTree = "<group>"; };
+		F448D913141EC66500D8A91D /* Send.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Send.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F448D7CD141E69DE00D8A91D /* Mercury */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				1D3623240D0F684500981E51 /* Mercury_iOSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Mercury_iOSAppDelegate.m */,
+				F448D7DF141E738100D8A91D /* SecondViewController.h */,
+				F448D7E0141E738100D8A91D /* SecondViewController.m */,
+				F448D80C141E7D7D00D8A91D /* ThirdViewController.h */,
+				F448D80D141E7D7D00D8A91D /* ThirdViewController.m */,
+				F448D832141E88B100D8A91D /* GetoptViewController.h */,
+				F448D833141E88B100D8A91D /* GetoptViewController.m */,
+				F448D844141E8D8F00D8A91D /* InfoViewController.h */,
+				F448D845141E8D8F00D8A91D /* InfoViewController.m */,
+				F448D863141E955C00D8A91D /* SetoptViewController.h */,
+				F448D864141E955C00D8A91D /* SetoptViewController.m */,
+				F448D8A8141EB65900D8A91D /* TransactionsViewController.h */,
+				F448D8A9141EB65900D8A91D /* TransactionsViewController.m */,
+				F448D8C9141EBD9C00D8A91D /* UncacheViewController.h */,
+				F448D8CA141EBD9C00D8A91D /* UncacheViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Mercury_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Mercury_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F448DE351423CF0000D8A91D /* Documentation */,
+				F448D7A2141E65BC00D8A91D /* Creation */,
+				F448D7A7141E65BC00D8A91D /* CXHTMLDocument.h */,
+				F448D7A8141E65BC00D8A91D /* CXHTMLDocument.m */,
+				F448D7A9141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.h */,
+				F448D7AA141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.m */,
+				F448D7AB141E65BC00D8A91D /* CXMLDocument.h */,
+				F448D7AC141E65BC00D8A91D /* CXMLDocument.m */,
+				F448D7AD141E65BC00D8A91D /* CXMLElement_CreationExtensions.h */,
+				F448D7AE141E65BC00D8A91D /* CXMLElement_CreationExtensions.m */,
+				F448D7AF141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.h */,
+				F448D7B0141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.m */,
+				F448D7B1141E65BC00D8A91D /* CXMLElement.h */,
+				F448D7B2141E65BC00D8A91D /* CXMLElement.m */,
+				F448D7B3141E65BC00D8A91D /* CXMLNamespaceNode.h */,
+				F448D7B4141E65BC00D8A91D /* CXMLNamespaceNode.m */,
+				F448D7B5141E65BC00D8A91D /* CXMLNode_PrivateExtensions.h */,
+				F448D7B6141E65BC00D8A91D /* CXMLNode_PrivateExtensions.m */,
+				F448D7B7141E65BC00D8A91D /* CXMLNode_XPathExtensions.h */,
+				F448D7B8141E65BC00D8A91D /* CXMLNode_XPathExtensions.m */,
+				F448D7B9141E65BC00D8A91D /* CXMLNode.h */,
+				F448D7BA141E65BC00D8A91D /* CXMLNode.m */,
+				F448D7BB141E65BC00D8A91D /* Tidy */,
+				F448D7BE141E65BC00D8A91D /* TouchXML.h */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Mercury_iOS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Mercury_iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F448D8CB141EBD9C00D8A91D /* UncacheViewController.xib */,
+				F448D8AA141EB65900D8A91D /* TransactionsViewController.xib */,
+				F448D865141E955C00D8A91D /* SetoptViewController.xib */,
+				F448D846141E8D8F00D8A91D /* InfoViewController.xib */,
+				F448D834141E88B100D8A91D /* GetoptViewController.xib */,
+				F448D80E141E7D7D00D8A91D /* ThirdViewController.xib */,
+				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Mercury_iOS-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F448D7A2141E65BC00D8A91D /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				F448D7A3141E65BC00D8A91D /* CXMLDocument_CreationExtensions.h */,
+				F448D7A4141E65BC00D8A91D /* CXMLDocument_CreationExtensions.m */,
+				F448D7A5141E65BC00D8A91D /* CXMLNode_CreationExtensions.h */,
+				F448D7A6141E65BC00D8A91D /* CXMLNode_CreationExtensions.m */,
+			);
+			name = Creation;
+			path = "../TouchCode-TouchXML-5005e8e/Source/Creation";
+			sourceTree = SOURCE_ROOT;
+		};
+		F448D7BB141E65BC00D8A91D /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				F448D7BC141E65BC00D8A91D /* CTidy.h */,
+				F448D7BD141E65BC00D8A91D /* CTidy.m */,
+			);
+			name = Tidy;
+			path = "../TouchCode-TouchXML-5005e8e/Source/Tidy";
+			sourceTree = SOURCE_ROOT;
+		};
+		F448D7CD141E69DE00D8A91D /* Mercury */ = {
+			isa = PBXGroup;
+			children = (
+				F448D8DE141EC1D000D8A91D /* Mercury.h */,
+				F448D8DF141EC1D000D8A91D /* Mercury.m */,
+				F448D7D0141E6A1000D8A91D /* User */,
+				F448D7CE141E69ED00D8A91D /* System */,
+				F448D7CF141E6A0000D8A91D /* Transaction */,
+			);
+			name = Mercury;
+			sourceTree = "<group>";
+		};
+		F448D7CE141E69ED00D8A91D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F448D8E4141EC23100D8A91D /* Ping.h */,
+				F448D8E5141EC23100D8A91D /* Ping.m */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		F448D7CF141E6A0000D8A91D /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F448D90F141EC64A00D8A91D /* Lookup.h */,
+				F448D910141EC64A00D8A91D /* Lookup.m */,
+				F448D912141EC66500D8A91D /* Send.h */,
+				F448D913141EC66500D8A91D /* Send.m */,
+			);
+			name = Transaction;
+			sourceTree = "<group>";
+		};
+		F448D7D0141E6A1000D8A91D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F448D8EF141EC4ED00D8A91D /* Getopt.h */,
+				F448D8F0141EC4ED00D8A91D /* Getopt.m */,
+				F448D8F2141EC51600D8A91D /* Info.h */,
+				F448D8F3141EC51600D8A91D /* Info.m */,
+				F448D904141EC58F00D8A91D /* Setopt.h */,
+				F448D905141EC58F00D8A91D /* Setopt.m */,
+				F448D909141EC5E100D8A91D /* Transactions.h */,
+				F448D90A141EC5E100D8A91D /* Transactions.m */,
+				F448D90C141EC61E00D8A91D /* Uncache.h */,
+				F448D90D141EC61E00D8A91D /* Uncache.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		F448DE351423CF0000D8A91D /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Mercury_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mercury_iOS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercury_iOS;
+			productName = Mercury_iOS;
+			productReference = 1D6058910D05DD3D006BFB54 /* Mercury_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mercury_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Mercury_iOS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Mercury_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				F448D810141E7D7D00D8A91D /* ThirdViewController.xib in Resources */,
+				F448D836141E88B100D8A91D /* GetoptViewController.xib in Resources */,
+				F448D848141E8D8F00D8A91D /* InfoViewController.xib in Resources */,
+				F448D867141E955C00D8A91D /* SetoptViewController.xib in Resources */,
+				F448D8AC141EB65900D8A91D /* TransactionsViewController.xib in Resources */,
+				F448D8CD141EBD9C00D8A91D /* UncacheViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Mercury_iOSAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				F448D7BF141E65BC00D8A91D /* CXMLDocument_CreationExtensions.m in Sources */,
+				F448D7C0141E65BC00D8A91D /* CXMLNode_CreationExtensions.m in Sources */,
+				F448D7C1141E65BC00D8A91D /* CXHTMLDocument.m in Sources */,
+				F448D7C2141E65BC00D8A91D /* CXMLDocument_PrivateExtensions.m in Sources */,
+				F448D7C3141E65BC00D8A91D /* CXMLDocument.m in Sources */,
+				F448D7C4141E65BC00D8A91D /* CXMLElement_CreationExtensions.m in Sources */,
+				F448D7C5141E65BC00D8A91D /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				F448D7C6141E65BC00D8A91D /* CXMLElement.m in Sources */,
+				F448D7C7141E65BC00D8A91D /* CXMLNamespaceNode.m in Sources */,
+				F448D7C8141E65BC00D8A91D /* CXMLNode_PrivateExtensions.m in Sources */,
+				F448D7C9141E65BC00D8A91D /* CXMLNode_XPathExtensions.m in Sources */,
+				F448D7CA141E65BC00D8A91D /* CXMLNode.m in Sources */,
+				F448D7CB141E65BC00D8A91D /* CTidy.m in Sources */,
+				F448D7E2141E738100D8A91D /* SecondViewController.m in Sources */,
+				F448D80F141E7D7D00D8A91D /* ThirdViewController.m in Sources */,
+				F448D835141E88B100D8A91D /* GetoptViewController.m in Sources */,
+				F448D847141E8D8F00D8A91D /* InfoViewController.m in Sources */,
+				F448D866141E955C00D8A91D /* SetoptViewController.m in Sources */,
+				F448D8AB141EB65900D8A91D /* TransactionsViewController.m in Sources */,
+				F448D8CC141EBD9C00D8A91D /* UncacheViewController.m in Sources */,
+				F448D8E0141EC1D000D8A91D /* Mercury.m in Sources */,
+				F448D8E6141EC23100D8A91D /* Ping.m in Sources */,
+				F448D8F1141EC4ED00D8A91D /* Getopt.m in Sources */,
+				F448D8F4141EC51600D8A91D /* Info.m in Sources */,
+				F448D906141EC58F00D8A91D /* Setopt.m in Sources */,
+				F448D90B141EC5E100D8A91D /* Transactions.m in Sources */,
+				F448D90E141EC61E00D8A91D /* Uncache.m in Sources */,
+				F448D911141EC64A00D8A91D /* Lookup.m in Sources */,
+				F448D914141EC66500D8A91D /* Send.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mercury_iOS_Prefix.pch;
+				INFOPLIST_FILE = "Mercury_iOS-Info.plist";
+				PRODUCT_NAME = Mercury_iOS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mercury_iOS_Prefix.pch;
+				INFOPLIST_FILE = "Mercury_iOS-Info.plist";
+				PRODUCT_NAME = Mercury_iOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mercury_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mercury_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

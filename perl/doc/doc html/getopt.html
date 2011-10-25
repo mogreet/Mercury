@@ -1,0 +1,145 @@
+<HTML>
+<HEAD>
+<TITLE>Mogreet SDK</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000">
+<UL>
+<LI><A HREF="#NAME">NAME
+ 
+</A><LI><A HREF="#SYNOPSIS">SYNOPSIS
+ 
+</A><LI><A HREF="#DESCRIPTION">DESCRIPTION
+ 
+</A><LI><A HREF="#CONSTRUCTOR">CONSTRUCTOR
+ 
+</A><UL>
+<LI><A HREF="#Getopt">Getopt
+ 
+</A></UL>
+<LI><A HREF="#FUNCTIONS">FUNCTIONS
+
+</A><UL>
+<LI><A HREF="#getCampaignsIdList">getCampaignsIdList
+ 
+</A><LI><A HREF="#getCampaignStatusCode">getCampaignStatusCode
+ 
+</A><LI><A HREF="#getCampaignStatus">getCampaignStatus
+ 
+</A><LI><A HREF="#printElts">printElts
+ 
+</A></UL>
+<LI><A HREF="#AUTHOR">AUTHOR
+ 
+</A></UL>
+<HR>
+<H1><A NAME="NAME">NAME
+ 
+</A></H1>
+
+<PRE> Getopt - Contains the response from a getopt request to the Moms API
+ </PRE>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS
+ 
+</A></H1>
+
+<P> <b>use</b> Getopt;</br>
+ <b>new Getopt</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+</P><HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION
+ 
+</A></H1>
+
+<P> The Getopt object contains the response from a <A HREF="mercury.html#getopt">getopt</A> request to the Moms API.
+ 
+</P><HR>
+<H1><A NAME="CONSTRUCTOR">CONSTRUCTOR
+ 
+</A></H1>
+<HR>
+<H2><A NAME="Getopt">Getopt
+ 
+</A></H2>
+<DL><DT><A NAME="Getopt(%24xmlDoc)">Getopt($xmlDoc)
+ 
+</A></DT>
+<DD>
+
+<PRE> This function creates a new Getopt response object.
+ 
+</PRE>
+
+<P> <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="FUNCTIONS">FUNCTIONS
+
+</A></H1>
+<HR>
+<H2><A NAME="getCampaignsIdList">getCampaignsIdList
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignsIdList()">getCampaignsIdList()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the campaigns ID.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getCampaignStatusCode">getCampaignStatusCode
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignStatusCode(%24campaignId)">getCampaignStatusCode($campaignId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the status code of the specified campaign.
+ 0 if the specified campaign ID does not exist.
+
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getCampaignStatus">getCampaignStatus
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignStatus(%24campaignId)">getCampaignStatus($campaignId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the status label of the specified campaign.
+ 0 if the specified campaign ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="printElts">printElts
+ 
+</A></H2>
+<DL><DT><A NAME="printElts()">printElts()
+ 
+</A></DT>
+<DD>
+
+<P> Prints each campaign with its id, status code, content.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+ 
+</A></H1>
+
+<P> Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+  
+</P>
+</BODY>
+</HTML>

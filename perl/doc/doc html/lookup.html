@@ -1,0 +1,264 @@
+<HTML>
+<HEAD>
+<TITLE>Mogreet SDK</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000">
+<UL>
+<LI><A HREF="#NAME">NAME
+ 
+</A><LI><A HREF="#SYNOPSIS">SYNOPSIS
+ 
+</A><LI><A HREF="#DESCRIPTION">DESCRIPTION
+ 
+</A><LI><A HREF="#CONSTRUCTOR">CONSTRUCTOR
+
+</A><UL>
+<LI><A HREF="#Lookup">Lookup
+ 
+</A></UL>
+<LI><A HREF="#FUNCTIONS">FUNCTIONS
+
+</A><UL>
+<LI><A HREF="#getCampaignId">getCampaignId
+ 
+</A><LI><A HREF="#getFromNumber">getFromNumber
+ 
+</A><LI><A HREF="#getFromName">getFromName
+ 
+</A><LI><A HREF="#getToNumber">getToNumber
+ 
+</A><LI><A HREF="#getToName">getToName
+ 
+</A><LI><A HREF="#getContentId">getContentId
+ 
+</A><LI><A HREF="#getStatus">getStatus
+ 
+</A><LI><A HREF="#getTimestampsList">getTimestampsList
+ 
+</A><LI><A HREF="#getEventList">getEventList
+ 
+</A><LI><A HREF="#getEvents">getEvents
+ 
+</A><LI><A HREF="#getEventsTC">getEventsTC
+ 
+</A><LI><A HREF="#printElts">printElts
+ 
+</A></UL>
+<LI><A HREF="#AUTHOR">AUTHOR
+ 
+</A></UL>
+<HR>
+<H1><A NAME="NAME">NAME
+ 
+</A></H1>
+
+<PRE> Lookup - Contains the response from a lookup request to the Moms API
+ </PRE>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS
+ 
+</A></H1>
+
+<P> <b>use</b> Lookup;</br>
+ <b>new Lookup</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+</P><HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION
+ 
+</A></H1>
+
+<P> The Lookup object contains the response from a <A HREF="mercury.html#lookup">lookup</A> request to the Moms API.
+ 
+</P><HR>
+<H1><A NAME="CONSTRUCTOR">CONSTRUCTOR
+
+</A></H1>
+<HR>
+<H2><A NAME="Lookup">Lookup
+ 
+</A></H2>
+<DL><DT><A NAME="Lookup(%24xmlDoc)">Lookup($xmlDoc)
+ 
+</A></DT>
+<DD>
+
+<PRE> Creates a new Lookup response object.
+ 
+</PRE>
+
+<P> <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="FUNCTIONS">FUNCTIONS
+
+</A></H1>
+<HR>
+<H2><A NAME="getCampaignId">getCampaignId
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignId()">getCampaignId()
+
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the campaign ID of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getFromNumber">getFromNumber
+ 
+</A></H2>
+<DL><DT><A NAME="getFromNumber()">getFromNumber()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the sender number of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getFromName">getFromName
+ 
+</A></H2>
+<DL><DT><A NAME="getFromName()">getFromName()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the sender name of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getToNumber">getToNumber
+ 
+</A></H2>
+<DL><DT><A NAME="getToNumber()">getToNumber()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the receiver number of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getToName">getToName
+ 
+</A></H2>
+<DL><DT><A NAME="getToName()">getToName()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the receiver name of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getContentId">getContentId
+ 
+</A></H2>
+<DL><DT><A NAME="getContentId()">getContentId()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the content ID of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getStatus">getStatus
+ 
+</A></H2>
+<DL><DT><A NAME="getStatus()">getStatus()
+
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the status label of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getTimestampsList">getTimestampsList
+ 
+</A></H2>
+<DL><DT><A NAME="getTimestampsList()">getTimestampsList()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the timestamps events of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getEventList">getEventList
+ 
+</A></H2>
+<DL><DT><A NAME="getEventList()">getEventList()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the events of the requested transaction.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getEvents">getEvents
+ 
+</A></H2>
+<DL><DT><A NAME="getEvents(%24timestamp)">getEvents($timestamp)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of the events that occured at the specified timestamp of the requested transaction.
+ Null if the specified timestamp does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getEventsTC">getEventsTC
+ 
+</A></H2>
+<DL><DT><A NAME="getEventsTC()">getEventsTC()
+ 
+</A></DT>
+<DD>
+
+<P> Prints all the events with their timestamp and content.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="printElts">printElts
+ 
+</A></H2>
+<DL><DT><A NAME="printElts()">printElts()
+ 
+</A></DT>
+<DD>
+
+<P> Prints all the elements.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+ 
+</A></H1>
+
+<P> Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+</P>
+</BODY>
+</HTML>

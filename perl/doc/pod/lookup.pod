@@ -1,0 +1,270 @@
+=head1 NAME
+ 
+ Lookup - Contains the response from a lookup request to the Moms API
+ 
+
+=cut
+
+=head1 SYNOPSIS
+ 
+=begin html
+ 
+ <b>use</b> Lookup;</br>
+ <b>new Lookup</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+=end html
+ 
+
+=cut
+
+=head1 DESCRIPTION
+ 
+=begin html
+ 
+ The Lookup object contains the response from a <A HREF="mercury.html#lookup">lookup</A> request to the Moms API.
+ 
+=end html
+ 
+
+=cut
+
+=head1 CONSTRUCTOR
+
+=head2 Lookup
+ 
+=over 4
+ 
+=item Lookup($xmlDoc)
+ 
+ Creates a new Lookup response object.
+ 
+=begin html
+ 
+ <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head1 FUNCTIONS
+
+=head2 getCampaignId
+ 
+=over 4
+ 
+=item getCampaignId()
+
+=begin html
+ 
+ <b>Returns</b> the campaign ID of the requested transaction.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 getFromNumber
+ 
+=over 4
+ 
+=item getFromNumber()
+ 
+=begin html
+ 
+ <b>Returns</b> the sender number of the requested transaction.
+ 
+=end html 
+
+=back
+ 
+
+=cut
+
+=head2 getFromName
+ 
+=over 4
+ 
+=item getFromName()
+ 
+=begin html
+ 
+ <b>Returns</b> the sender name of the requested transaction.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 getToNumber
+ 
+=over 4
+ 
+=item getToNumber()
+ 
+=begin html
+ 
+ <b>Returns</b> the receiver number of the requested transaction.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 getToName
+ 
+=over 4
+ 
+=item getToName()
+ 
+=begin html
+ 
+ <b>Returns</b> the receiver name of the requested transaction.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head2 getContentId
+ 
+=over 4
+ 
+=item getContentId()
+ 
+=begin html
+ 
+ <b>Returns</b> the content ID of the requested transaction.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head2 getStatus
+ 
+=over 4 
+	
+=item getStatus()
+
+=begin html
+ 
+ <b>Returns</b> the status label of the requested transaction.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 getTimestampsList
+ 
+=over 4 
+ 
+=item getTimestampsList()
+ 
+=begin html
+ 
+ <b>Returns</b> the list of all the timestamps events of the requested transaction.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head2 getEventList
+ 
+=over 4 
+ 
+=item getEventList()
+ 
+=begin html
+ 
+ <b>Returns</b> the list of all the events of the requested transaction.
+ 
+=end html
+ 
+=back
+
+
+=cut
+
+=head2 getEvents
+ 
+=over 4 
+ 
+=item getEvents($timestamp)
+ 
+=begin html
+ 
+ <b>Returns</b> the list of the events that occured at the specified timestamp of the requested transaction.
+ Null if the specified timestamp does not exist.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head2 getEventsTC
+ 
+=over 4
+
+=item getEventsTC()
+ 
+=begin html
+ 
+ Prints all the events with their timestamp and content.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 printElts
+ 
+=over 4
+ 
+=item printElts()
+ 
+=begin html
+ 
+ Prints all the elements.
+ 
+=end hml
+ 
+=back
+ 
+
+=cut
+
+=head1 AUTHOR
+ 
+=begin html
+ 
+ Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+=end html
+ 
+
+=cut
+

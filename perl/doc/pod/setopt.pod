@@ -1,0 +1,133 @@
+=head1 NAME
+ 
+ Setopt - Contains the response from a setopt request to the Moms API
+ 
+
+=cut
+
+=head1 SYNOPSIS
+
+=begin html
+ 
+ <b>use</b> Setopt;</br>
+ <b>new Setopt</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+=end html
+ 
+
+=cut
+
+=head1 DESCRIPTION
+ 
+=begin html
+ 
+ The Setopt object contains the response from a <A HREF="mercury.html#setopt">setopt</A> request to the Moms API.
+
+=end html
+ 
+
+=cut
+
+=head1 CONSTRUCTOR
+ 
+=head2 Setopt
+ 
+=over 4
+ 
+=item Setopt
+ 
+ Creates a new Setopt response object.
+
+=begin html
+ 
+ <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head1 FUNCTIONS
+ 
+=head2 getCampaignId
+ 
+=over 4
+
+=item getCampaignId()
+ 
+=begin html
+ 
+ <b>Returns</b> the campaign ID.
+ 
+=end html
+
+=back
+ 
+
+=cut
+
+=head2 getCampaignStatusCode
+ 
+=over 4
+ 
+=item getCampaignStatusCode()
+ 
+=begin html
+ 
+ <b>Returns</b> the campaign status code.
+ 
+=end html 
+
+=back
+ 
+
+=cut
+
+=head2 getCampaignStatus
+ 
+=over 4
+ 
+=item getCampaignStatus()
+ 
+=begin html
+ 
+ <b>Returns</b> the campaign status label.
+ 
+=end html  
+ 
+=back
+ 
+
+=cut
+
+=head2 printElts
+ 
+=over 4
+ 
+=item printElts()
+ 
+=begin html
+ 
+ Prints all the elements.
+ 
+=end html
+ 
+=back
+ 
+
+=cut
+
+=head1 AUTHOR
+ 
+=begin html
+ 
+ Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+=end html
+ 
+
+=cut
+

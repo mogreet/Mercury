@@ -1,0 +1,41 @@
+This SDK provides programmatic control of the MoMS API through Objective-C for iOS.
+Using this SDK, a client can trigger a send to a user over SMS, MMS or e-mail, check the status of a send, manage opt-in status and more.
+
+-documentation/ Contains the SDK doc.
+-classes/       Contains the different source files.
+
+**********************************************************************
+**********************  iOS Version  *********************************
+**********************************************************************
+This SDK has been developed thanks to iOS 4.3.
+You have to use a version superior or equal to iOS 4.3.
+
+
+**********************************************************************
+********************* XML Parser: TouchXML ***************************
+**********************************************************************
+In order to parse the XML files from Mogreet API, the TouchXML has been used.
+If you want to work with the SDK you have to import TouchXML into your project.
+	<> GO to https://github.com/TouchCode/TouchXML and download the TouchXML archives.
+	<> Then enable the libxml2 library: Go to "project->Edit project settings"
+										Activate "Build" tab
+										Search for "header search paths" and add /usr/include/libxml2 value to it.
+										Search for "other linker flags" and add -lxml2 value.
+	<> Finally, you have to add the TouchXML classes to your project.
+
+
+**********************************************************************
+***************** Import Mercury into a new Project ******************
+**********************************************************************
+If you want to create a new project which uses the functionalities of Mercury, you will have to import the Mercury files to your project.
+First of all, you have to add the TouchXML library and then the Mercury library.
+Right click your project on the browser on your left and select Add->Existing Files... 
+Choose all Mercury files in the downloaded folder and add them into you project. 
+
+
+**********************************************************************
+*******************  Get started with Xcode  *************************
+**********************************************************************
+To get started I advise you to use the tutorials about the iOS Mercury.
+You can find them here: http://corp.mogreet.com/sdks..html 
+

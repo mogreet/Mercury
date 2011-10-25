@@ -1,0 +1,19 @@
+This SDK provides programmatic control of the MOMs API through Java for Android.
+Using this SDK, a client can trigger a send to a user over SMS, MMS, or email, check the status of a send, manage opt-in status and more.
+
+-doc/ Contains the SDK Javadoc.
+-src/ Contains the different source files.
+
+********************************************************************************
+**************        About the XML AndroidManifest      ***********************
+********************************************************************************
+In order to be able to establish an internet connection on the Android app, you have to put this line below in the <manifest ></manifest> block :
+
+		<uses-permission android:name="android.permission.INTERNET" />
+
+
+********************************************************************************
+********************       Android version             *************************
+********************************************************************************
+You must have a version superior or equal to Android 2.2 to run an app on your device.
+

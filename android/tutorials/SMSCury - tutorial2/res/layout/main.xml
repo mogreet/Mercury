@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:id="@+id/linearLayout1" 
+    	android:orientation="vertical" 
+    	android:layout_height="match_parent">
+        <TextView 
+        	android:text="From:" 
+        	android:id="@+id/fromText" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold">
+        </TextView>
+        <EditText 
+        	android:id="@+id/fromNumField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Put your 10-digits number"
+        	android:inputType="number">
+        </EditText>
+        <TextView 
+        	android:id="@+id/toText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\nTo:"
+        	android:textStyle="bold">
+        </TextView>
+        <EditText 
+        	android:id="@+id/toNumField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Put his/her 10-digits number"
+        	android:inputType="number">
+        </EditText>
+        <TextView 
+        	android:id="@+id/messageText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\nMessage: "
+        	android:textStyle="bold">
+        </TextView>
+        <EditText 
+        	android:id="@+id/messageField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Your message..."
+        	android:lines="5">
+        </EditText>
+        <TextView
+        	android:id="@+id/smsMessage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\n\nMessage delivered: "
+        	android:textStyle="bold">
+        </TextView>
+	</LinearLayout>
+</LinearLayout>

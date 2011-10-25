@@ -1,0 +1,261 @@
+<HTML>
+<HEAD>
+<TITLE>Mogreet SDK</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000">
+<UL>
+<LI><A HREF="#NAME">NAME
+ 
+</A><LI><A HREF="#SYNOPSIS">SYNOPSIS
+ 
+</A><LI><A HREF="#DESCRIPTION">DESCRIPTION
+ 
+</A><LI><A HREF="#CONSTRUCTOR">CONSTRUCTOR
+ 
+</A><UL>
+<LI><A HREF="#Transactions">Transactions
+ 
+</A></UL>
+<LI><A HREF="#FUNCTIONS">FUNCTIONS
+ 
+</A><UL>
+<LI><A HREF="#getCampaignsIdList">getCampaignsIdList
+ 
+</A><LI><A HREF="#getCampaignNames">getCampaignNames
+ 
+</A><LI><A HREF="#getTransactionsIdList">getTransactionsIdList
+ 
+</A><LI><A HREF="#getTransactionsIdListFrom">getTransactionsIdListFrom
+ 
+</A><LI><A HREF="#getValue">getValue
+ 
+</A><LI><A HREF="#getHash">getHash
+ 
+</A><LI><A HREF="#getDatestamp">getDatestamp
+ 
+</A><LI><A HREF="#getFromNumber">getFromNumber
+ 
+</A><LI><A HREF="#getFromName">getFromName
+ 
+</A><LI><A HREF="#getToNumber">getToNumber
+ 
+</A><LI><A HREF="#getToName">getToName
+ 
+</A><LI><A HREF="#printElts">printElts
+ 
+</A></UL>
+<LI><A HREF="#AUTHOR">AUTHOR
+ 
+</A></UL>
+<HR>
+<H1><A NAME="NAME">NAME
+ 
+</A></H1>
+
+<PRE> Transactions - Contains the response from a transactions request to the Moms API
+ </PRE>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS
+ 
+</A></H1>
+
+<P> <b>use</b> Transactions;</br>
+ <b>new Transactions</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+</P><HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION
+ 
+</A></H1>
+
+<P> The Transactions object contains the response from a <A HREF="mercury.html#transactions">transactions</A> request to the Moms API.
+ 
+</P><HR>
+<H1><A NAME="CONSTRUCTOR">CONSTRUCTOR
+ 
+</A></H1>
+<HR>
+<H2><A NAME="Transactions">Transactions
+ 
+</A></H2>
+<DL><DT><A NAME="Transactions(%24xmlDoc)">Transactions($xmlDoc)
+ 
+</A></DT>
+<DD>
+
+<PRE> Creates a new Transactions response object.</PRE>
+
+<P> <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="FUNCTIONS">FUNCTIONS
+ 
+</A></H1>
+<HR>
+<H2><A NAME="getCampaignsIdList">getCampaignsIdList
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignsIdList()">getCampaignsIdList()
+
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the campaigns ID.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getCampaignNames">getCampaignNames
+ 
+</A></H2>
+<DL><DT><A NAME="getCampaignNames(%24campaignId)">getCampaignNames($campaignId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the names for the specified campaign ID (a campaign can have more than one name).
+
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getTransactionsIdList">getTransactionsIdList
+ 
+</A></H2>
+<DL><DT><A NAME="getTransactionsIdList()">getTransactionsIdList()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the transactions ID.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getTransactionsIdListFrom">getTransactionsIdListFrom
+ 
+</A></H2>
+<DL><DT><A NAME="getTransactionsIdListFrom(%24campaignId)">getTransactionsIdListFrom($campaignId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the list of all the transactions ID for the specified campaign ID.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getValue">getValue
+ 
+</A></H2>
+<DL><DT><A NAME="getValue(%24campaignId%2c%24transactionId%2c%24key)">getValue($campaignId,$transactionId,$key)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the value for the specified key.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getHash">getHash
+ 
+</A></H2>
+<DL><DT><A NAME="getHash(%24campaignId%2c%24transactionId)">getHash($campaignId,$transactionId)
+
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the hash corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getDatestamp">getDatestamp
+ 
+</A></H2>
+<DL><DT><A NAME="getDatestamp(%24campaignId%2c%24transactionId)">getDatestamp($campaignId,$transactionId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the datestamp corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getFromNumber">getFromNumber
+ 
+</A></H2>
+<DL><DT><A NAME="getFromNumber(%24campaignId%2c%24transactionId)">getFromNumber($campaignId,$transactionId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the sender's number corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getFromName">getFromName
+ 
+</A></H2>
+<DL><DT><A NAME="getFromName(%24campaignId%2c%24transactionId)">getFromName($campaignId,$transactionId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the sender's name corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getToNumber">getToNumber
+ 
+</A></H2>
+<DL><DT><A NAME="getToNumber(%24campaignId%2c%24transactionId)">getToNumber($campaignId,$transactionId)
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the receiver's number corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getToName">getToName
+ 
+</A></H2>
+<DL><DT><A NAME="getToName(%24campaignId%2c%24transactionId)">getToName($campaignId,$transactionId) 
+
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the receiver's name corresponding to the specified campaign ID and transaction ID. Null if the campaign ID or the transaction ID does not exist.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="printElts">printElts
+ 
+</A></H2>
+<DL><DT><A NAME="printElts()">printElts()
+ 
+</A></DT>
+<DD>
+
+<P> Prints each campaign with its informations.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+ 
+</A></H1>
+
+<P> Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+</P>
+</BODY>
+</HTML>

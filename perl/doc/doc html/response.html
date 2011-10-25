@@ -1,0 +1,201 @@
+<HTML>
+<HEAD>
+<TITLE>Mogreet SDK</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" TEXT="#000000">
+<UL>
+<LI><A HREF="#NAME">NAME
+ 
+</A><LI><A HREF="#SYNOPSIS">SYNOPSIS
+ 
+</A><LI><A HREF="#DESCRIPTION">DESCRIPTION
+ 
+</A><LI><A HREF="#CONSTRUCTOR">CONSTRUCTOR
+ 
+</A><UL>
+<LI><A HREF="#Response">Response
+ 
+</A></UL>
+<LI><A HREF="#FUNCTIONS">FUNCTIONS
+ 
+</A><UL>
+<LI><A HREF="#setResponseCodeStatusMessage">setResponseCodeStatusMessage
+ 
+</A><LI><A HREF="#responseIsValid">responseIsValid
+ 
+</A><LI><A HREF="#getResponseCode">getResponseCode
+ 
+</A><LI><A HREF="#getResponseStatus">getResponseStatus
+ 
+</A><LI><A HREF="#getMessage">getMessage
+ 
+</A><LI><A HREF="#getData">getData
+ 
+</A><LI><A HREF="#printElts">printElts
+ 
+</A></UL>
+<LI><A HREF="#AUTHOR">AUTHOR
+ 
+</A></UL>
+<HR>
+<H1><A NAME="NAME">NAME
+ 
+</A></H1>
+
+<PRE> Response - Super class for all the kind of responses that can be obtained from the Moms API requests
+ </PRE>
+<HR>
+<H1><A NAME="SYNOPSIS">SYNOPSIS
+ 
+</A></H1>
+
+<P> <b>use</b> Response;</br>
+ <b>new Response</b>($xmlDoc); #$xmlDoc is an xml file
+ 
+</P><HR>
+<H1><A NAME="DESCRIPTION">DESCRIPTION
+ 
+</A></H1>
+
+<P> The Response object represents a response from the MoMS API (Mogreet Message System).</br>
+ 
+ 
+ It is created by the <A HREF="mercury.html">Mercury</A> and it is the result of an API call to the MoMS.</br>
+  
+ Response is the super class for all the kind of responses that can be obtained from the Moms API requests (<A HREF="ping.html">Ping</A>, <A HREF="send.html">Send</A>, <A HREF="lookup.html">Lookup</A>, <A HREF="transactions.html">Transactions</A>, <A HREF="uncache.html">Uncache</A>, <A HREF="getopt.html">Getopt</A>, <A HREF="setopt.html">Setopt</A>, <A HREF="info.html">Info</A>).</br>
+ 
+ It contains common methods for the subclasses.
+ 
+</P><HR>
+<H1><A NAME="CONSTRUCTOR">CONSTRUCTOR
+ 
+</A></H1>
+<HR>
+<H2><A NAME="Response">Response
+ 
+</A></H2>
+<DL><DT><A NAME="Response(%24xmlDoc)">Response($xmlDoc)
+ 
+</A></DT>
+<DD>
+
+<PRE> Constructs a new Response object.
+ 
+</PRE>
+
+<P> <b>Paramters</b>: $xmlDoc: XML document that is returned by all the requests.
+ 
+</P></DD>
+</DL>
+<HR>
+<H1><A NAME="FUNCTIONS">FUNCTIONS
+ 
+</A></H1>
+<HR>
+<H2><A NAME="setResponseCodeStatusMessage">setResponseCodeStatusMessage
+ 
+</A></H2>
+<DL><DT><A NAME="setResponseCodeStatusMessage()">setResponseCodeStatusMessage()
+ 
+</A></DT>
+<DD>
+
+<PRE> This function set the different attributes of the response class using XML::Simple to parse the XML document
+ 
+</PRE>
+</DD>
+</DL>
+<HR>
+<H2><A NAME="responseIsValid">responseIsValid
+ 
+</A></H2>
+<DL><DT><A NAME="responseIsValid()">responseIsValid()
+ 
+</A></DT>
+<DD>
+
+<PRE> Checks if the response code is 1,
+ 
+</PRE>
+
+<P> <b>Returns</b> True (1) if the response code is 1, False (0) if it is not.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getResponseCode">getResponseCode
+ 
+</A></H2>
+<DL><DT><A NAME="getResponseCode()">getResponseCode()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the response code.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getResponseStatus">getResponseStatus
+ 
+</A></H2>
+<DL><DT><A NAME="getResponseStatus()">getResponseStatus()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the response status.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getMessage">getMessage
+ 
+</A></H2>
+<DL><DT><A NAME="getMessage()">getMessage()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b> the response message.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="getData">getData
+ 
+</A></H2>
+<DL><DT><A NAME="getData()">getData()
+ 
+</A></DT>
+<DD>
+
+<P> <b>Returns</b>XML data.
+ 
+</P></DD>
+</DL>
+<HR>
+<H2><A NAME="printElts">printElts
+ 
+</A></H2>
+<DL><DT><A NAME="printElts()">printElts()
+  
+</A></DT>
+<DD>
+
+<PRE> Prints the status code, message and code of the XML Document.
+  
+</PRE>
+</DD>
+</DL>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+ 
+</A></H1>
+
+<P> Anais Brossas for Mogreet (<A HREF="http://www.mogreet.com">www.mogreet.com</A>)</br>
+ Date: Tuesday, October 04, 2011 
+ 
+</P>
+</BODY>
+</HTML>

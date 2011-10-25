@@ -1,0 +1,1524 @@
+TMercury_iOS
+v7
+r0
+t339380739.542265
+cCheck dependencies
+cProcessInfoPlistFile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Info.plist Mercury_iOS-Info.plist
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib
+cProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch.gch Mercury_iOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/Mercury_iOS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOSAppDelegate.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/FirstViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXHTMLDocument.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNamespaceNode.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CTidy.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SecondViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/ThirdViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/GetoptViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/InfoViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SetoptViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/TransactionsViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/UncacheViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS normal i386
+cGenerateDSYMFile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app.dSYM /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS
+cTouch /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/getopt.h
+c000000004D4F6E990000000000000CBC
+t1297051289
+s3260
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004D54CF300000000000002401
+t1297403696
+s9217
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/HTMLtree.h
+c000000004D54CF300000000000000E65
+t1297403696
+s3685
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004D54CF3000000000000098A9
+t1297403696
+s39081
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/tree.h
+c000000004D54CF300000000000008F14
+t1297403696
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xmlIO.h
+c000000004D54CF3000000000000028D0
+t1297403696
+s10448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004D54CF300000000000003F47
+t1297403696
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004D54CF300000000000004BF8
+t1297403696
+s19448
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m
+c000000004E1CD2CC0000000000001641
+t1310511820
+s5697
+i"CXHTMLDocument.h"
+i<libxml/parser.h>
+i<libxml/htmlparser.h>
+i<libxml/HTMLtree.h>
+i<libxml/xpath.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.h
+c000000004E1CD2CC0000000000000AAD
+t1310511820
+s2733
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m
+c000000004E1CD2CC00000000000022EC
+t1310511820
+s8940
+i"CXMLDocument.h"
+i<libxml/parser.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h
+c000000004E1CD2CC00000000000005FE
+t1310511820
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m
+c000000004E1CD2CC000000000000069E
+t1310511820
+s1694
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.h
+c000000004E1CD2CC0000000000000775
+t1310511820
+s1909
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m
+c000000004E1CD2CC00000000000024CC
+t1310511820
+s9420
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m
+c000000004E1CD2CC00000000000008B6
+t1310511820
+s2230
+i"CXMLElement_CreationExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m
+c000000004E1CD2CC0000000000000668
+t1310511820
+s1640
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h
+c000000004E1CD2CC00000000000001B7
+t1310511820
+s439
+i<Foundation/Foundation.h>
+i"CXMLNode.h"
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m
+c000000004E1CD2CC0000000000000979
+t1310511820
+s2425
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m
+c000000004E1CD2CC0000000000002786
+t1310511820
+s10118
+i"CXMLNode.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_CreationExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i<libxml/xmlIO.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h
+c000000004E1CD2CC0000000000000624
+t1310511820
+s1572
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m
+c000000004E1CD2CC0000000000000ADD
+t1310511820
+s2781
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m
+c000000004E1CD2CC0000000000000B1C
+t1310511820
+s2844
+i"CXMLNode_XPathExtensions.h"
+i"CXMLDocument.h"
+i"CXMLNode_PrivateExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.h
+c000000004E1CD2CC0000000000000814
+t1310511820
+s2068
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m
+c000000004E1CD2CC0000000000000720
+t1310511820
+s1824
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.h
+c000000004E1CD2CC0000000000000954
+t1310511820
+s2388
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m
+c000000004E1CD2CC0000000000000FD7
+t1310511820
+s4055
+i"CXMLNode_CreationExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.h
+c000000004E1CD2CC0000000000000762
+t1310511820
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m
+c000000004E1CD2CC0000000000001D6D
+t1310511820
+s7533
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/TouchXML.h
+c000000004E1CD2CC00000000000005F3
+t1310511820
+s1523
+i"CXMLDocument.h"
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLNode.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNode_XPathExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.h
+c000000004E8A5282000000000000021F
+t1317687938
+s543
+i<UIKit/UIKit.h>
+i"Mercury.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m
+c000000004E8A52300000000000000946
+t1317687856
+s2374
+i"FirstViewController.h"
+i"Mercury.h"
+i"Ping.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.h
+c000000004E73C24800000000000009FD
+t1316209224
+s2557
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m
+c000000004E73C23E0000000000000EBA
+t1316209214
+s3770
+i"Getopt.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.h
+c000000004E73865900000000000002AA
+t1316193881
+s682
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m
+c000000004E7CCE390000000000000CBE
+t1316802105
+s3262
+i"GetoptViewController.h"
+i"Mercury.h"
+i"Getopt.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib
+c000000004E6E7E2B0000000000061A33
+t1315864107
+s399923
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.h
+c000000004E73C239000000000000083B
+t1316209209
+s2107
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m
+c000000004E73C2320000000000000D41
+t1316209202
+s3393
+i"Info.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.h
+c000000004E73871700000000000002CC
+t1316194071
+s716
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m
+c000000004E7CCF180000000000000CD8
+t1316802328
+s3288
+i"InfoViewController.h"
+i"Mercury.h"
+i"Info.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib
+c000000004E73C3240000000000062B92
+t1316209444
+s404370
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.h
+c000000004E73C1920000000000000CEF
+t1316209042
+s3311
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m
+c000000004E73C18B000000000000145E
+t1316209035
+s5214
+i"Lookup.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.h
+c000000004E777AE900000000000024E1
+t1316453097
+s9441
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+i"Ping.h"
+i"Lookup.h"
+i"Send.h"
+i"Getopt.h"
+i"Info.h"
+i"Setopt.h"
+i"Transactions.h"
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m
+c000000004E85F14A0000000000001163
+t1317400906
+s4451
+i"Mercury.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.h
+c000000004E73862E00000000000001DF
+t1316193838
+s479
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m
+c000000004E7386350000000000000C5E
+t1316193845
+s3166
+i"Mercury_iOSAppDelegate.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.h
+c000000004E73C1A70000000000000629
+t1316209063
+s1577
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m
+c000000004E73C19D00000000000007FA
+t1316209053
+s2042
+i"Ping.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.h
+c000000004E6E91A90000000000000221
+t1315869097
+s545
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m
+c000000004E6E935D0000000000000220
+t1315869533
+s544
+i"Response.h"
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.h
+c000000004E8A536B000000000000035A
+t1317688171
+s858
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m
+c000000004E8A535D0000000000000F0B
+t1317688157
+s3851
+i"SecondViewController.h"
+i"Mercury.h"
+i"FirstViewController.h"
+i"Lookup.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.xib
+c000000004E6E3C010000000000001877
+t1315847169
+s6263
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.h
+c000000004E73C18500000000000006CB
+t1316209029
+s1739
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m
+c000000004E73C1750000000000000A10
+t1316209013
+s2576
+i"Send.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.h
+c000000004E73C22C0000000000000768
+t1316209196
+s1896
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m
+c000000004E73C2260000000000000BC7
+t1316209190
+s3015
+i"Setopt.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.h
+c000000004E7388F900000000000002F8
+t1316194553
+s760
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m
+c000000004E7CCF640000000000000D00
+t1316802404
+s3328
+i"SetoptViewController.h"
+i"Mercury.h"
+i"Setopt.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib
+c000000004E7138B00000000000062DB7
+t1316042928
+s404919
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.h
+c000000004E73864A00000000000002F7
+t1316193866
+s759
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m
+c000000004E7CCDE40000000000000CA5
+t1316802020
+s3237
+i"ThirdViewController.h"
+i"Mercury.h"
+i"Send.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib
+c000000004E6E62340000000000063689
+t1315856948
+s407177
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.h
+c000000004E73C21C0000000000000D45
+t1316209180
+s3397
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m
+c000000004E73C1BC0000000000001636
+t1316209084
+s5686
+i"Transactions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.h
+c000000004E73822700000000000002FE
+t1316192807
+s766
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m
+c000000004E7CD0010000000000000E4E
+t1316802561
+s3662
+i"TransactionsViewController.h"
+i"Mercury.h"
+i"Transactions.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib
+c000000004E72952A0000000000063033
+t1316132138
+s405555
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.h
+c000000004E73C1B500000000000006A1
+t1316209077
+s1697
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m
+c000000004E73C1AE0000000000000903
+t1316209070
+s2307
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.h
+c000000004E73895A000000000000025D
+t1316194650
+s605
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m
+c000000004E7CD1590000000000000B45
+t1316802905
+s2885
+i"UncacheViewController.h"
+i"Mercury.h"
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib
+c000000004E6E89F900000000000606E3
+t1315867129
+s394979
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.h
+c000000004E89FA620000000000000152
+t1317665378
+s338
+i<Foundation/Foundation.h>
+i"Mercury.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m
+c000000004E89F9E300000000000000EC
+t1317665251
+s236
+i"dataPersistenceMercury.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib
+c000000004E84DEBF0000000000121DBD
+t1317330623
+s1187261
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib
+c000000004E6E8653000000000001087D
+t1315866195
+s67709
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Mercury_iOS_Prefix.pch
+c000000004E6E2C4F00000000000000BF
+t1315843151
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib
+c000000004E7147520000000000065FB6
+t1316046674
+s417718
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app
+t1317687939
+s476
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app.dSYM
+t1317687939
+s102
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/FirstView.nib
+t1317686808
+s5749
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/GetoptViewController.nib
+t1317686809
+s7038
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Info.plist
+t1317686806
+s607
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/InfoViewController.nib
+t1317686809
+s7464
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/MainWindow.nib
+t1317686808
+s4109
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS
+t1317687939
+s157976
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/PkgInfo
+t1317686806
+s8
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/SecondView.nib
+t1317686808
+s8859
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/SecondViewController.nib
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/SetoptViewController.nib
+t1317686809
+s7618
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/ThirdViewController.nib
+t1317686809
+s7913
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/TransactionsViewController.nib
+t1317686810
+s7732
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/UncacheViewController.nib
+t1317686810
+s6295
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CTidy.o
+t1317686813
+s4012
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXHTMLDocument.o
+t1317686813
+s20220
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument.o
+t1317686813
+s25900
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+t1317686812
+s10924
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+t1317686813
+s9840
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement.o
+t1317686813
+s22332
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+t1317686813
+s13556
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+t1317686813
+s9596
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNamespaceNode.o
+t1317686813
+s21504
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode.o
+t1317686813
+s43468
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+t1317686812
+s19244
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+t1317686813
+s14544
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+t1317686813
+s17084
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/FirstViewController.o
+t1317687939
+s45348
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Getopt.o
+t1317686814
+s19364
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/GetoptViewController.o
+t1317686813
+s48164
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Info.o
+t1317686814
+s18092
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/InfoViewController.o
+t1317686813
+s48552
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Lookup.o
+t1317686814
+s25632
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury.o
+t1317686814
+s21056
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOS.LinkFileList
+c000000004E8A4E1600000000000012A1
+t1317686806
+s4769
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOSAppDelegate.o
+t1317686812
+s54992
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Ping.o
+t1317686814
+s13844
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Response.o
+t1315869534
+s11452
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SecondViewController.o
+t1317687939
+s50636
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Send.o
+t1317686814
+s15540
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Setopt.o
+t1317686814
+s16720
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SetoptViewController.o
+t1317686813
+s48588
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/ThirdViewController.o
+t1317686813
+s48624
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Transactions.o
+t1317686814
+s25672
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/TransactionsViewController.o
+t1317686814
+s49848
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Uncache.o
+t1317686814
+s14780
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/UncacheViewController.o
+t1317686814
+s46740
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/dataPersistenceMercury.o
+t1317665562
+s5500
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/main.o
+t1317686812
+s6324
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/main.m
+c000000004E6E2C4F0000000000000169
+t1315843151
+s361
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.h
+c000000004E1CD2CC0000000000000621
+t1310511820
+s1569
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLDocument.h
+c000000004E1CD2CC0000000000000AAD
+t1310511820
+s2733
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h
+c000000004E1CD2CC00000000000005FE
+t1310511820
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement.h
+c000000004E1CD2CC0000000000000775
+t1310511820
+s1909
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.h
+c000000004E1CD2CC000000000000059D
+t1310511820
+s1437
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.h
+c000000004E1CD2CC0000000000000580
+t1310511820
+s1408
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h
+c000000004E1CD2CC00000000000001B7
+t1310511820
+s439
+i<Foundation/Foundation.h>
+i"CXMLNode.h"
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode.h
+c000000004E1CD2CC0000000000000B01
+t1310511820
+s2817
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h
+c000000004E1CD2CC0000000000000624
+t1310511820
+s1572
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.h
+c000000004E1CD2CC00000000000005FC
+t1310511820
+s1532
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.h
+c000000004E1CD2CC0000000000000814
+t1310511820
+s2068
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.h
+c000000004E1CD2CC0000000000000954
+t1310511820
+s2388
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.h
+c000000004E1CD2CC0000000000000762
+t1310511820
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch.gch
+t1317686812
+s15814064
+
+N/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmutwpzvbojcdlbvwnozuvdemqki/Mercury_iOS_Prefix.pch.gch
+t2
+s0
+
+NMercury_iOS-Info.plist
+c000000004E6E2C4F000000000000038D
+t1315843151
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339380739#339380739#0(0"0(0#1#0"8616361632#0"0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CTidy.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.537157
+e339379613.587842
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CTidy.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m339379613#339379613#0(0"0(0#0#95"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m8619404672#2222"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CTidy.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXHTMLDocument.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.872493
+e339379613.013404
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXHTMLDocument.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m339379612#339379613#0(0"0(0#0#99"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m8617595584#2235"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXHTMLDocument.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.013505
+e339379613.186672
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m339379613#339379613#0(0"0(0#0#97"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m8590159040#2231"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.760032
+e339379612.872383
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m339379612#339379612#0(0"0(0#0#125"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m8618139776#2278"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.966077
+e339379613.055946
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m339379612#339379613#0(0"0(0#0#115"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m8612485184#2267"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.186775
+e339379613.311157
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m339379613#339379613#0(0"0(0#0#96"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m8618216960#2229"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.056051
+e339379613.169428
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m339379613#339379613#0(0"0(0#0#115"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m8613472352#2267"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_CreationExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.169535
+e339379613.267429
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m339379613#339379613#0(0"0(0#0#118"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m8620420608#2273"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNamespaceNode.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.267531
+e339379613.388119
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNamespaceNode.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m339379613#339379613#0(0"0(0#0#102"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m8616399680#2241"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNamespaceNode.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.429765
+e339379613.623257
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m339379613#339379613#0(0"0(0#0#93"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m8612254592#2223"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.852167
+e339379612.965970
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m339379612#339379612#0(0"0(0#0#121"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m8603323040#2270"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_CreationExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.311261
+e339379613.429644
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m339379613#339379613#0(0"0(0#0#111"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m8613711520#2259"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.388222
+e339379613.537053
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m339379613#339379613#0(0"0(0#0#109"/Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m8612636064#2255"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/CXMLNode_XPathExtensions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/FirstViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.295426
+e339380739.437466
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/FirstViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m339380739#339380739#0(0"0(0#0#75"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m8608874400#2216"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/FirstViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.177910
+e339379614.302272
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Getopt.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m339379614#339379614#0(0"0(0#0#62"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m8609469056#2190"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Getopt.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/GetoptViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.722344
+e339379613.846020
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/GetoptViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m339379613#339379613#0(0"0(0#0#76"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m8616196448#2218"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/GetoptViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.262200
+e339379614.366365
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Info.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m339379614#339379614#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m8619840544#2186"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Info.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/InfoViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.759515
+e339379613.915095
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/InfoViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m339379613#339379613#0(0"0(0#0#74"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m8613206496#2214"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/InfoViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.507996
+e339379614.651410
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Lookup.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m339379614#339379614#0(0"0(0#0#62"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m8613524448#2190"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Lookup.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.046251
+e339379614.177731
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments
+lSLF07#2@71"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m339379614#339379614#0(230"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments339379614#100#130#0(6@63"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m339093706#137#0#137#0#51"format not a string literal and no format arguments0(0#0#63"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m8617007680#2192"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOSAppDelegate.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.642212
+e339379612.759924
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOSAppDelegate.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m339379612#339379612#0(0"0(0#0#78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m8621485216#2222"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury_iOSAppDelegate.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOSAppDelegate.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.139097
+e339379614.262101
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Ping.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m339379614#339379614#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m8612430272#2186"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Ping.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Response.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337562334.414282
+e337562334.629420
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Response.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m: In function '-[Response setResponseCodeStatusMessage]':
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:15: warning: unused variable 'url'
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m: At top level:
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:39: warning: incomplete implementation of class 'Response'
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:39: warning: method definition for '-initResponse:' not found
+lSLF07#2@72"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m337562334#337562334#0(553"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m: In function '-[Response setResponseCodeStatusMessage]':/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:15: warning: unused variable 'url'/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m: At top level:/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:39: warning: incomplete implementation of class 'Response'/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m:39: warning: method definition for '-initResponse:' not found4(22@21"Unused variable 'url'337562334#122#100#0(6@64"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m337562333#15#0#15#0#19"unused variable '*'0(23@13"At top level:337562334#222#80#0(6@64"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m337562333#0#0#0#0#0"0(22@45"Incomplete implementation of class 'Response'337562334#302#124#0(6@64"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m337562333#39#0#39#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-initResponse:' not found337562334#426#127#0(6@64"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m337562333#39#0#39#0#35"method definition for '*' not found0(0#0#64"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m8621365152#2194"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Response.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Response.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SecondViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.297456
+e339380739.448131
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SecondViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m339380739#339380739#0(0"0(0#0#76"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m8603115936#2218"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.525027
+e339379614.646943
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Send.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m339379614#339379614#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m8613366752#2186"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Send.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.302491
+e339379614.422513
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Setopt.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m339379614#339379614#0(0"0(0#0#62"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m8619404896#2190"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Setopt.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SetoptViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.846129
+e339379613.979196
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SetoptViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m339379613#339379613#0(0"0(0#0#76"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m8606971872#2218"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/SetoptViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/ThirdViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.623359
+e339379613.759408
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/ThirdViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m339379613#339379613#0(0"0(0#0#75"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m8617568896#2216"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/ThirdViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.366471
+e339379614.507887
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Transactions.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m339379614#339379614#0(0"0(0#0#68"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m8617929440#2202"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Transactions.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/TransactionsViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.915201
+e339379614.046147
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/TransactionsViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m339379613#339379614#0(0"0(0#0#82"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m8619716928#2230"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/TransactionsViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379614.422610
+e339379614.524925
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Uncache.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m339379614#339379614#0(0"0(0#0#63"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m8616292320#2192"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Uncache.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/UncacheViewController.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379613.979298
+e339379614.138992
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/UncacheViewController.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m339379613#339379614#0(0"0(0#0#77"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m8617783008#2220"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/UncacheViewController.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/dataPersistenceMercury.o /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339358362.615100
+e339358362.697995
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/dataPersistenceMercury.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m:14: warning: property 'myMercury' requires method '-myMercury' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m:14: warning: property 'myMercury' requires the method 'setMyMercury:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@86"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m339358362#339358362#0(445"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m:14: warning: property 'myMercury' requires method '-myMercury' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m:14: warning: property 'myMercury' requires the method 'setMyMercury:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@126"Property 'myMercury' requires method '-myMercury' to be defined - use @synthesize, @dynamic or provide a method implementation339358362#0#219#0(6@78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m339358051#14#0#14#0#0"0(22@133"Property 'myMercury' requires the method 'setMyMercury:' to be defined - use @synthesize, @dynamic or provide a method implementation339358362#219#226#0(6@78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m339358051#14#0#14#0#0"0(0#0#78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m8616414880#2222"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/dataPersistenceMercury.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/dataPersistenceMercury.o0#
+
+CCompileC build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/Mercury_iOS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379612.640860
+e339379612.731401
+r1
+xCompileC
+xbuild/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/main.o
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/juliensalvi/IOSApplication/Mercury_iOS/main.m339379612#339379612#0(0"0(0#0#52"/Users/juliensalvi/IOSApplication/Mercury_iOS/main.m8616450720#2178"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/main.m -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib
+s339379608.814034
+e339379609.388898
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib
+lSLF07#2@43"CompileXIB Classes/GetoptViewController.xib339379608#339379609#0(0"0(0#0#78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib8619796896#623"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/GetoptViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/GetoptViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib
+s339379609.083172
+e339379609.684987
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib
+lSLF07#2@41"CompileXIB Classes/InfoViewController.xib339379609#339379609#0(0"0(0#0#76"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib8619342624#619"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/InfoViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/InfoViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SecondViewController.xib
+r0
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib
+s339379609.388992
+e339379609.960936
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib
+lSLF07#2@43"CompileXIB Classes/SetoptViewController.xib339379609#339379609#0(0"0(0#0#78"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib8618928576#623"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/SetoptViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/SetoptViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib
+s339379608.409939
+e339379609.083079
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib
+lSLF07#2@42"CompileXIB Classes/ThirdViewController.xib339379608#339379609#0(0"0(0#0#77"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib8620523680#621"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/ThirdViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/ThirdViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib
+s339379609.685083
+e339379610.290573
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib
+lSLF07#2@49"CompileXIB Classes/TransactionsViewController.xib339379609#339379610#0(0"0(0#0#84"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib8617748640#635"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/TransactionsViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/TransactionsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib
+s339379609.961029
+e339379610.694741
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib
+lSLF07#2@44"CompileXIB Classes/UncacheViewController.xib339379609#339379610#0(0"0(0#0#79"/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib8617254656#625"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/UncacheViewController.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/UncacheViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib
+s339379608.186165
+e339379608.813896
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib339379608#339379608#0(0"0(0#0#59"/Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib8622021408#593"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/FirstView.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib
+s339379606.931766
+e339379608.185793
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib339379606#339379608#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib8612555616#595"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/MainWindow.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib
+s339379606.932739
+e339379608.409834
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib339379606#339379608#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib8612433696#595"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/SecondView.nib /Users/juliensalvi/IOSApplication/Mercury_iOS/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app.dSYM /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS
+s339380739.496144
+e339380739.539101
+r1
+xGenerateDSYMFile
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app.dSYM
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Mercury_iOS.app.dSYM build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS339380739#339380739#0(0"0(0#0#101"/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS8612870720#416"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app.dSYM0#
+
+CLd /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS normal i386
+s339380739.448222
+e339380739.496038
+r1
+xLd
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS
+xnormal
+xi386
+lSLF07#2@106"Link /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS339380739#339380739#0(0"0(0#0#0"8613392256#962"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -filelist /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Objects-normal/i386/Mercury_iOS.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Mercury_iOS0#
+
+CProcessInfoPlistFile /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Info.plist Mercury_iOS-Info.plist
+s339379606.916241
+e339379606.931659
+r1
+xProcessInfoPlistFile
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Info.plist
+xMercury_iOS-Info.plist
+lSLF07#2@30"Process Mercury_iOS-Info.plist339379606#339379606#0(0"0(0#0#68"/Users/juliensalvi/IOSApplication/Mercury_iOS/Mercury_iOS-Info.plist8612992672#512"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Mercury_iOS-Info.plist -genpkginfo /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app/Info.plist0#
+
+CProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch.gch Mercury_iOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339379610.694957
+e339379612.640604
+r1
+xProcessPCH
+x/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch.gch
+xMercury_iOS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Mercury_iOS_Prefix.pch339379610#339379612#0(0"0(0#0#68"/Users/juliensalvi/IOSApplication/Mercury_iOS/Mercury_iOS_Prefix.pch8616807904#2059"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-generated-files.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/Mercury_iOS-project-headers.hmap -F/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Mercury_iOS.build/Debug-iphonesimulator/Mercury_iOS.build/DerivedSources -c /Users/juliensalvi/IOSApplication/Mercury_iOS/Mercury_iOS_Prefix.pch -o /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmcoeernudsbpbdkpyqpbjjebslo/Mercury_iOS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/Mercury_iOS_Prefix-cmutwpzvbojcdlbvwnozuvdemqki/Mercury_iOS_Prefix.pch.gch Mercury_iOS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app
+s339380739.539182
+e339380739.542223
+r1
+xTouch
+x/Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app
+lSLF07#2@95"Touch /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app339380739#339380739#0(0"0(0#0#0"8613590272#296"    cd /Users/juliensalvi/IOSApplication/Mercury_iOS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/juliensalvi/IOSApplication/Mercury_iOS/build/Debug-iphonesimulator/Mercury_iOS.app0#
+

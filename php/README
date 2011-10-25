@@ -1,0 +1,8 @@
+This SDK provides programmatic control of the MoMS API through PHP. 
+Using this SDK, a client can trigger a send to a user over 
+SMS, MMS, or email, check the status of a send, manage opt-in status and more.
+
+- checkenv.php tests if your environment meets all the requirements
+- doc/ contains the SDK doc
+- examples/ contains two examples of applications using Mercury PHP
+- src/ contains the different source files

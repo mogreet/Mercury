@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Mogreet SDKs - Tutorial 2: Mercury for iOS</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style type="text/css">
+	#corpus
+	{
+	   margin-left: 155px;
+	   margin-bottom: 20px;
+		margin-rigth: 155px;
+	   padding: 10px;
+	   color: #000000;
+	   background-color: #dcdcdc;
+	   border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+
+<div id="title_tuto">
+<center><h1> Tutorial 2 : SMSCury, application which sends SMS</h1></center>
+</br>
+</div>
+
+<div id="corpus">
+<p>You have now enough knowledge to create your first real application using the Mogreet SDK. This tutorial is going to help you to build an application which will send a SMS to a number of your choice. This action is possible thanks to the SEND call which belongs to Mercury. 
+</p>
+<br/>
+
+<h2>1. Reminder about iOS and Xcode</h2>
+<p>For this application we are going to use Mercury, therefore do not forget to import the Mercury and TouchXML libraries as I explained in the previous tutorial. When you will launch Xcode, choose the <i>View-based</i> application to create SMSCury. As we are going to have only one view to send a SMS it is the optimal choice for this kind of application.
+</p>
+
+<h2>2. SMSCury application</h2>
+<h3>2.1. Graphical interface with Interface Builder</h2>
+<p>The graphical interface will be very simple but convenient. In order to collect the phone numbers and the message which will be sent, we are going to implement 3 <i>Text Fields</i>. Like the PING call in the previous tutorial, the request will be sent using a Button and we shall collect the message of the XML file if the SMS has been transmitted. After inserting the items on the View, you have to create the variables for the code. Go to "Outlet" into the combo item in the Library window to instantiate the names, and also put an action to the button. Then, save and overwrite the files as we saw previously in the first tutorial. Important step, do not forget to make connections between variables and items on the View!
+<center><img src="img/interface.png" title="Graphical interface" with="750" height="650"/></center>
+</p>
+
+<h2>2.2. Send a SMS</h2>
+<p>Here, you will learn how to use the SEND call of Mercury to send SMS. In the function created for the button, you will have to create a new Mercury and Send object. Do not forget to put your client ID and your token when you initialize your mercury:
+<pre>
+	Mercury *mercury = [[Mercury alloc] initMercury:clientID withToken:token];
+	Send *smsSend = [[Send alloc] init];
+</pre>
+In order to make a Send call to the Mogreet API, you have to give the parameters for the Send function. You have to create a NSMutableDictionary to collect the data from the Text Fields. This variable is built with value-key items, so you are going to fill it with these followed parameters: your campaign ID, your number, his/her number and the message you want to send:
+<pre>
+	NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+	[hash setObject:@"12345" forKey:@"campaign_id"];
+	[hash setObject:fromNumber.text forKey:@"from"];
+	[hash setObject:toNumber.text forKey:@"to"];
+	[hash setObject:messageSMS forKey:@"message"];
+
+	smsSend = [mercury send:hash]; 
+</pre>
+Alright, with this code the request will be sent to the Mogreet API server which will send your message to your contact. 
+</p>
+
+<h3>2.3. Hide the virtual KeyBoard</h3>
+<p>When you will click on a Text Field, the iPhone virtual Keyboard will appear in order to put a text in the item. Unfortunatly, you cannot hide it when it is displayed. Afterthere, I am going to provide a code sample which will hide the Keyboard when you click on the "return" button located on the Keyboard. In the ViewController header file, extend the class with the &lt;UITextFieldDelegate&gt; attribut:
+<pre>
+	@interface SMSCuryViewController : UIViewController &lt;UITextFieldDelegate&gt; {
+	
+	.......
+	
+	}
+	.....
+	@end
+</pre>
+After this step, you have to implement this function to hide the Keyboard in the ViewController File:
+<pre>
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+	if (textField == fromNumber || textField == toNumber || textField == messageSMS) {
+		[textField resignFirstResponder];
+	}
+	return YES;
+}
+</pre>
+At last but not the least, you have to make connections between Text Fields in the view and the <i>File's Owner</i>. Right click on the Text Field name and link the <i>delegate</i> item with the File's Owner as shown below. Then save and run your application to test this functionality.
+<center><img src="img/delegate.png" title="Delegate link"/></center>
+</p>
+
+<h3>2.4. Screen of the application</h3>
+<p>The application is done. You can find the entier source code on <a href="https:github.com/mogreet/Mercury">Github</a>:
+</p>
+<center><img src="img/beforeSend.png" title="Before sending" width="300" height="650"/> <img src="img/afterSend.png" title="After sending" width="300" height="650"/></center>
+
+<h2>3. Conclusion</h2>
+<p>Congratulation, you have created an application for iPhone which send SMS thanks to the Mogreet API. Now, you can improve this app by adding an analytic tool for the messages trafic or send a MMS. I advise you to have a look at the Documentation for the iOS Mercury, you will find all the methods for the API calls. Let us do it!
+</p>
+</div>
+<div id=footer_tuto>
+<hr>
+<center><p> Tutorial created by Julien SALVI for Mogreet Inc, 2011 --- <a href="mailto:oleur.utbm@gmail.com">Contact</a></p></center>
+</body>
+
+
+
+</html>

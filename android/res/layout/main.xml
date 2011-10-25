@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ScrollView
+    	android:id="@+id/ScrollView01"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    <TabHost
+    	android:id="@+id/TabHost01"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<LinearLayout
+    		android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent">
+    		<TabWidget
+    			android:id="@android:id/tabs"
+    			android:layout_width="fill_parent"
+    			android:layout_height="wrap_content">   		
+    		</TabWidget>
+    		<!-- Tab Content  -->
+    		<FrameLayout
+    			android:id="@android:id/tabcontent"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent">
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Ping">
+    				<TextView
+    					android:text="Create a new Mercury Server \n\nSend a PING Call to the Mogreet API \n"
+    					android:textColor="#ffffff"
+    					android:textSize="12sp"
+    					android:textStyle="bold"
+    					android:id="@+id/pingCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText
+    					android:id="@+id/clientID"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your Client ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/token"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your token"
+    					android:maxLines="2">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/rep1"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Ping call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcode"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatus"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmess"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the LOOKUP -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Lookup">
+    				<TextView
+    					android:text="Send a LOOKUP call to the Mogreet API \n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="12sp"
+    					android:id="@+id/lookupCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText
+    					android:id="@+id/messidlookup"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the message ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/hashlook"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the hash"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid2"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/replook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Lookup call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodelook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatuslook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmesslook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/campidlook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Campaign ID: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/fromnumlook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="From Number: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/fromnamelook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="From Name: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/tonumlook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="To Number: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/tonamelook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="To Name: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/conidlook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Content ID: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/statuslook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/eventlook"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="History - Events: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the SEND -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Send">
+    				<TextView
+    					android:text="Send a SEND call to the Mogreet API\n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="12sp"
+    					android:id="@+id/sendCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText
+    					android:id="@+id/campidsend"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the campaign ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/tosend"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the receiver number"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/fromsend"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the sender number"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/messagesend"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your message"
+    					android:maxLines="2">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/conidsend"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the content ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid3"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/repsend"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Send call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodesend"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatussend"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmesssend"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/sendmessid"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message ID: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/sendhash"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Hash: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the GETOPT  -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Getopt">
+    				<TextView
+    					android:text="Send a GETOPT call to the Mogreet API \n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="11sp"
+    					android:id="@+id/getoptCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText
+    					android:id="@+id/numget"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your number"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText
+    					android:id="@+id/campget"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the campaign ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid4"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/repgetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Getopt call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodegetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatusgetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmessgetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/campstatuscodeget"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Campaign Status Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/campstatusget"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Campaign Status: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the INFO -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Info">
+    				<TextView
+    					android:text="Send a INFO call to the Mogreet API\n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="12sp"
+    					android:id="@+id/infoCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText 
+    					android:id="@+id/numinfo"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your number"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid5"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/repinfo"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Info call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodeinfo"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatusinfo"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmessinfo"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/infonum"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Number: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/infocar"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Carrier: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/infocarid"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Carrier ID: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/infohand"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Handset: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/infohandid"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Handset ID: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the SETOPT -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Setopt">
+    				<TextView
+    					android:text="Send a SETOPT call to the Mogreet API\n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="12sp"
+    					android:id="@+id/setoptCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText 
+    					android:id="@+id/numset"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your number"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText 
+    					android:id="@+id/campset"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the campaign ID"
+    					android:maxLines="1">
+    				</EditText>
+    				<EditText 
+    					android:id="@+id/codeset"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter the campaign status code"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid6"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/repsetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Setopt call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodesetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatussetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmesssetopt"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the TRANSACTIONS -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Transactions">
+    				<TextView
+    					android:text="Send a TRANSACTIONS call to the Mogreet API \n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="10sp"
+    					android:id="@+id/transCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText
+    					android:id="@+id/transacnum"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your number"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid7"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/reptrans"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Transactions call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodetrans"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatustrans"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmesstrans"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    			
+    			<!-- Tab for the UNCACHE -->
+    			<LinearLayout
+    				android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:scrollbars="vertical"
+    				android:id="@+id/Uncache">
+    				<TextView
+    					android:text="Send a UNCACHE call to the Mogreet API\n"
+    					android:textColor="#ffffff"
+    					android:textStyle="bold"
+    					android:textSize="12sp"
+    					android:id="@+id/uncacheCall"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal">
+    				</TextView>
+    				<EditText 
+    					android:id="@+id/numuncache"
+    					android:layout_width="fill_parent"
+    					android:layout_height="wrap_content"
+    					android:hint="Enter your number"
+    					android:maxLines="1">
+    				</EditText>
+    				<Button
+    					android:id="@+id/valid8"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:layout_gravity="center_horizontal"
+    					android:text="Validate">
+    				</Button>
+    				<TextView
+    					android:id="@+id/repuncache"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:textStyle="bold"
+    					android:text="\n\nResponse to Uncache call: \n">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repcodeunc"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Code: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repstatusunc"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Response Status: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/repmessunc"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Message: ">
+    				</TextView>
+    				<TextView
+    					android:id="@+id/uncachenum"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:text="Number: ">
+    				</TextView>
+    			</LinearLayout>
+    			
+    		</FrameLayout>
+    		</LinearLayout>
+    	</TabHost>
+	</ScrollView>
+</LinearLayout>

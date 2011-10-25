@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Mogreet SDKs - Tutorial 2: Send SMS with Mercury</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style type="text/css">
+	#corpus
+	{
+	   margin-left: 155px;
+	   margin-bottom: 20px;
+		margin-rigth: 155px;
+	   padding: 10px;
+	   color: #000000;
+	   background-color: #dcdcdc;
+	   border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+
+<div id="title_tuto">
+<center><h1> Tutorial 2 : SMSCury, Android Application which sends SMS</h1></center>
+</div>
+
+<div id="corpus">
+<br/>
+<p>For this second tutorial, you will see how to use the Mercury SDK to send SMS through the Android platform. As we saw before, you will use the SEND call to the Mogreet API servers to send SMS to a person of your choice.
+</p>
+<h2>1. Reminder about Android and Mercury</h2>
+<p>In order to get ready, do not forget to add the Mercury Librairy in adding the <i>mogreetSDKAndroid.jar</i> which is in the Android Mercury SDK folder. If you do not remember how to import a new librairy, go to <i>Project->Properties->Java Build Path</i> and click on <i>Add External JARs</i> to select the Mercury librairy. Then import the package into your Activity (android.mercury.*;). Also, be sure to put the INTERNET permission in the AndroidManifest XML:
+<pre> &lt;uses-permission android:name="android.permission.INTERNET" /&gt;</pre>
+Alrigth, now we can start coding the Android application which will send a SMS to a phone number of your choice.
+</p>
+
+<h2>2. SMSCury application</h2>
+<h3>2.1. Build the Graphical interface</h3>
+<p>The interface will be very easy to build but efficient. You will also learn how to create a <i>menu</i> for an application. First of all, you have to add three TextView-EditView couples in order to get your number, the number which receives the message and the message writen by the user. You can also add a TextView to verify if the API call has been performed. If you want to write a quite long message, I advise you to extend the length of the message EditText. Below you will find a screen shot of the Graphical Layout and the XML code to build the interface.
+<center><img src="img/interface.png" title="Graphical interface of SMSCury" width="550pix" height="400pix"/></center>
+<pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    &gt;
+    &lt;LinearLayout 
+    	android:layout_width="match_parent" 
+    	android:id="@+id/linearLayout1" 
+    	android:orientation="vertical" 
+    	android:layout_height="match_parent"&gt;
+        &lt;TextView 
+        	android:text="From:" 
+        	android:id="@+id/fromText" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"&gt;
+        &lt;/TextView&gt;
+        &lt;EditText 
+        	android:id="@+id/fromNumField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Put your 10-digits number"
+		android:inputType="number"&gt;
+        &lt;/EditText&gt;
+        &lt;TextView 
+        	android:id="@+id/toText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\nTo:"
+        	android:textStyle="bold"&gt;
+        &lt;/TextView&gt;
+        &lt;EditText 
+        	android:id="@+id/toNumField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Put his/her 10-digits number"
+		android:inputType="number"&gt;
+        &lt;/EditText&gt;
+        &lt;TextView 
+        	android:id="@+id/messageText"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\nMessage: "
+        	android:textStyle="bold"&gt;
+        &lt;/TextView&gt;
+        &lt;EditText 
+        	android:id="@+id/messageField"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="Your message..."
+        	android:lines="5"&gt;
+        &lt;/EditText&gt;
+        &lt;TextView
+        	android:id="@+id/smsMessage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="\n\nMessage delivered: "
+        	android:textStyle="bold"&gt;
+        &lt;/TextView&gt;
+	&lt;/LinearLayout&gt;
+&lt;/LinearLayout&gt;
+</pre>
+</p>
+
+<h3>2.2. Creation of the Menu</h3>
+<p>A lot of Android application uses a menu. With this sample, you will be able to create menus with several items. Here we shall have only one item in our menu: Send a message. First, create a new folder called <i>"menu"</i> into the <i>res</i> folder and create a new <i>Android XML File</i>. A window is going to appear and you will have to fill some information: the name of your file and choose the type of ressource you would like to create. Here let us choose the "Menu" type. Once the XML file created, it is time to put an item in the menu. Like the other Android XML File, you can choose to use the <i>Layout</i> or write the XML code by yourself.
+Here is the code for the menu:
+<pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;menu
+  	xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+  	&lt;item android:id="@+id/send_message"
+  		android:icon="@drawable/ic_menu_send"
+  		android:title="Send message" /&gt;
+&lt;/menu&gt;
+</pre>
+As you can see above, an icon can be used to prettify your menu. I recommand you to use the icon names starting with <i>"ic_menu"</i> which are the official icons for the menu items. You should find them on Internet or in the Android SDK folder you downloaded from Google.<br/>
+We can now create the menu in the activity and add the listener. Here is the code for the menu:
+<pre>
+@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu, menu);
+		return true;
+	}
+    
+    @Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		super.onOptionsItemSelected(item);
+		switch (item.getItemId()) {
+		case R.id.send_message:
+			sendMessage("12345");
+			return true;
+		}
+		return false;
+	}
+</pre>
+</p>
+
+<h3>2.3. Activity: Send a SMS thanks to Mercury</h3>
+<p>You will learn now how to use the Mercury SDK to send a SMS. First of all, you have to create a new Mercury when the application is starting so put the new object in the <i>onCreate</i> function. As you can see above, when the menu item is clicked the function <i>sendMessage</i> is called with the <b>campaign ID</b> as parameter.<br/> 
+Let us have a look at this function. You have to create an HashMap (a Key-Value object) to collect the data from the TextFields. Then this HashMap will be the parameter for the SEND call (<i>i.e. Documentation</i>) with these following information: your campaign ID, your number, his/her number and the message. Finally, to send your message, click on the menu and press on the item ; if the transaction has been succesful sent, a message will appear saying the request is done. See below for the entire code of the application with the rendering:
+<pre>
+package android.mogreet;
+
+import java.util.HashMap;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.mercury.*;
+import android.mercury.transaction.Send;
+
+public class SMSCuryActivity extends Activity {
+	
+	private Mercury mercury;
+	private int clientID;
+	private String token;
+	
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        //////////////////////////////////////////////////////
+        // Please, Instantiate your TOKEN and your CLIENT ID
+        // clientID = 123;
+        // token = 1a2b3c;
+        //////////////////////////////////////////////////////
+        
+        //Creation of a new Mercury object with your client ID and your token.
+        mercury = new Mercury(clientID, token);  
+    }
+    
+    /**
+     * Creates the menu.
+     */
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu, menu);
+		return true;
+	}
+    
+	/**
+	 * Listener on the menu item.
+	 */
+    @Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		super.onOptionsItemSelected(item);
+		switch (item.getItemId()) {
+		case R.id.send_message:
+			//////////////////////////////////////////////////////////
+			//Modify this parameter below and enter your campaign ID//
+			//////////////////////////////////////////////////////////
+			sendMessage("12345");
+			return true;
+		}
+		return false;
+	}
+
+    /**
+     * Send a SMS to a 10-digit number thanks to Mercury SDK.
+     */
+	private void sendMessage(String campaignID) {
+		//Creation of the TextFields and 
+		EditText toNumber = (EditText) findViewById(R.id.toNumField);
+		EditText fromNumber = (EditText) findViewById(R.id.fromNumField);
+		EditText messageSMS = (EditText) findViewById(R.id.messageField);
+		TextView responseSMS = (TextView) findViewById(R.id.smsMessage);
+		
+		//Collecting data to make the SEND call.
+		HashMap&lt;String, String&gt; hash = new HashMap&lt;String, String&gt;();
+		hash.put("campaign_id", campaignID);
+		hash.put("from", fromNumber.getText().toString());
+		hash.put("to", toNumber.getText().toString());
+		hash.put("message", messageSMS.getText().toString());
+		
+		//Sending request to the Mogreet API: SMS sent.
+		Send sendMess = mercury.send(hash);
+		
+		responseSMS.setText("\n\nMessage delivered: "+sendMess.getMessage().toString());
+	}
+}
+</pre>
+<center><img src="img/beforeSending.png" title="Before Sending the message" width="550" height="500"/>  <img src="img/smsSent.png" title="After sending the SMS" width="550" height="500"/></center>
+</p>
+
+<h2>3. Conclusion</h2>
+<p>Congratulation, you have just created an application which sends SMS ! Do not forget to put your client ID, token and campaign ID in the code before running SMSCury. You can now improve this app by adding a media content to send MMS or add a button to choose a person directly in your address book. You can also create other applications using the different Mercury methods. Now your turn ! 
+</p>
+</div>
+<div id=footer_tuto>
+<hr>
+<center><p> Tutorial created by Julien SALVI for Mogreet Inc, 2011 --- <a href="mailto:oleur.utbm@gmail.com">Contact</a></p></center>
+</body>
+
+</html>

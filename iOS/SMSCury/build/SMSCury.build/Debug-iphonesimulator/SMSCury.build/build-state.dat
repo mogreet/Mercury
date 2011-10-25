@@ -1,0 +1,1108 @@
+TSMSCury
+v7
+r0
+t339098081.099141
+cCheck dependencies
+cProcessInfoPlistFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist SMSCury-Info.plist
+cCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+cProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch.gch SMSCury_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/SMSCury/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXHTMLDocument.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNamespaceNode.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CTidy.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury normal i386
+cGenerateDSYMFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+cTouch /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/HTMLparser.h
+c000000004D54CF300000000000002401
+t1297403696
+s9217
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/HTMLtree.h
+c000000004D54CF300000000000000E65
+t1297403696
+s3685
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004D54CF3000000000000098A9
+t1297403696
+s39081
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/tree.h
+c000000004D54CF300000000000008F14
+t1297403696
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xmlIO.h
+c000000004D54CF3000000000000028D0
+t1297403696
+s10448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004D54CF300000000000003F47
+t1297403696
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004D54CF300000000000004BF8
+t1297403696
+s19448
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.h
+c000000004E73C24800000000000009FD
+t1316209224
+s2557
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.h
+c000000004E73C239000000000000083B
+t1316209209
+s2107
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.h
+c000000004E73C1920000000000000CEF
+t1316209042
+s3311
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.h
+c000000004E777AE900000000000024E1
+t1316453097
+s9441
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+i"Ping.h"
+i"Lookup.h"
+i"Send.h"
+i"Getopt.h"
+i"Info.h"
+i"Setopt.h"
+i"Transactions.h"
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.h
+c000000004E73C1A70000000000000629
+t1316209063
+s1577
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.h
+c000000004E73C18500000000000006CB
+t1316209029
+s1739
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.h
+c000000004E73C22C0000000000000768
+t1316209196
+s1896
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.h
+c000000004E73C21C0000000000000D45
+t1316209180
+s3397
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.h
+c000000004E73C1B500000000000006A1
+t1316209077
+s1697
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m
+c000000004E73C23E0000000000000EBA
+t1316209214
+s3770
+i"Getopt.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m
+c000000004E73C2320000000000000D41
+t1316209202
+s3393
+i"Info.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m
+c000000004E73C18B000000000000145E
+t1316209035
+s5214
+i"Lookup.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h
+c000000004E777AE900000000000024E1
+t1316453097
+s9441
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+i"Ping.h"
+i"Lookup.h"
+i"Send.h"
+i"Getopt.h"
+i"Info.h"
+i"Setopt.h"
+i"Transactions.h"
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m
+c000000004E85F14A0000000000001163
+t1317400906
+s4451
+i"Mercury.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m
+c000000004E73C19D00000000000007FA
+t1316209053
+s2042
+i"Ping.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h
+c000000004E73C18500000000000006CB
+t1316209029
+s1739
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m
+c000000004E73C1750000000000000A10
+t1316209013
+s2576
+i"Send.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m
+c000000004E73C2260000000000000BC7
+t1316209190
+s3015
+i"Setopt.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m
+c000000004E73C1BC0000000000001636
+t1316209084
+s5686
+i"Transactions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m
+c000000004E73C1AE0000000000000903
+t1316209070
+s2307
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m
+c000000004E1CD2CC0000000000001641
+t1310511820
+s5697
+i"CXHTMLDocument.h"
+i<libxml/parser.h>
+i<libxml/htmlparser.h>
+i<libxml/HTMLtree.h>
+i<libxml/xpath.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m
+c000000004E1CD2CC00000000000022EC
+t1310511820
+s8940
+i"CXMLDocument.h"
+i<libxml/parser.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h
+c000000004E1CD2CC00000000000005FE
+t1310511820
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m
+c000000004E1CD2CC000000000000069E
+t1310511820
+s1694
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m
+c000000004E1CD2CC00000000000024CC
+t1310511820
+s9420
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m
+c000000004E1CD2CC00000000000008B6
+t1310511820
+s2230
+i"CXMLElement_CreationExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m
+c000000004E1CD2CC0000000000000668
+t1310511820
+s1640
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h
+c000000004E1CD2CC00000000000001B7
+t1310511820
+s439
+i<Foundation/Foundation.h>
+i"CXMLNode.h"
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m
+c000000004E1CD2CC0000000000000979
+t1310511820
+s2425
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m
+c000000004E1CD2CC0000000000002786
+t1310511820
+s10118
+i"CXMLNode.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_CreationExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i<libxml/xmlIO.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h
+c000000004E1CD2CC0000000000000624
+t1310511820
+s1572
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m
+c000000004E1CD2CC0000000000000ADD
+t1310511820
+s2781
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m
+c000000004E1CD2CC0000000000000B1C
+t1310511820
+s2844
+i"CXMLNode_XPathExtensions.h"
+i"CXMLDocument.h"
+i"CXMLNode_PrivateExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.h
+c000000004E1CD2CC0000000000000814
+t1310511820
+s2068
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m
+c000000004E1CD2CC0000000000000720
+t1310511820
+s1824
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.h
+c000000004E1CD2CC0000000000000954
+t1310511820
+s2388
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m
+c000000004E1CD2CC0000000000000FD7
+t1310511820
+s4055
+i"CXMLNode_CreationExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+i"CXMLNamespaceNode.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.h
+c000000004E1CD2CC0000000000000762
+t1310511820
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m
+c000000004E1CD2CC0000000000001D6D
+t1310511820
+s7533
+i"CTidy.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/TouchXML.h
+c000000004E1CD2CC00000000000005F3
+t1310511820
+s1523
+i"CXMLDocument.h"
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLNode.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNode_XPathExtensions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.h
+c000000004E849D7E00000000000001DF
+t1317313918
+s479
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m
+c000000004E8508330000000000000AAA
+t1317341235
+s2730
+i"SMSCuryAppDelegate.h"
+i"SMSCuryViewController.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.h
+c000000004E850DFE00000000000001DA
+t1317342718
+s474
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m
+c000000004E850E7D0000000000000AFA
+t1317342845
+s2810
+i"SMSCuryViewController.h"
+i"Mercury.h"
+i"Send.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+c000000004E849D7E0000000000004E29
+t1317313918
+s20009
+
+N/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+c000000004E85E8BD000000000005FD85
+t1317398717
+s392581
+
+N/Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch
+c000000004E849D7E00000000000000B7
+t1317313918
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+t1317405281
+s238
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM
+t1317405281
+s102
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist
+t1317316015
+s591
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/MainWindow.nib
+t1317316015
+s1681
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/PkgInfo
+t1317316015
+s8
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+t1317405281
+s114572
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCuryViewController.nib
+t1317398725
+s5954
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CTidy.o
+t1317341239
+s4004
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXHTMLDocument.o
+t1317341239
+s20208
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument.o
+t1317341239
+s25888
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+t1317341239
+s10912
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+t1317341239
+s9832
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement.o
+t1317341239
+s22320
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+t1317341239
+s13544
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+t1317341239
+s9588
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNamespaceNode.o
+t1317341239
+s21496
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode.o
+t1317341240
+s43456
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+t1317341239
+s19228
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+t1317341239
+s14532
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+t1317341239
+s17072
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o
+t1317341238
+s19384
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o
+t1317341238
+s18108
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o
+t1317341238
+s25652
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o
+t1317405280
+s21076
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o
+t1317341239
+s13860
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCury.LinkFileList
+c000000004E8508340000000000000D40
+t1317341236
+s3392
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o
+t1317344405
+s51464
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o
+t1317344405
+s45456
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o
+t1317341239
+s15556
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o
+t1317341239
+s16740
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o
+t1317341239
+s25692
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o
+t1317341239
+s14800
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o
+t1317341238
+s6316
+
+N/Users/juliensalvi/IOSApplication/SMSCury/main.m
+c000000004E849D7E0000000000000169
+t1317313918
+s361
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.h
+c000000004E1CD2CC0000000000000621
+t1310511820
+s1569
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLDocument.h
+c000000004E1CD2CC0000000000000AAD
+t1310511820
+s2733
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.h
+c000000004E1CD2CC00000000000005FE
+t1310511820
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement.h
+c000000004E1CD2CC0000000000000775
+t1310511820
+s1909
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.h
+c000000004E1CD2CC000000000000059D
+t1310511820
+s1437
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.h
+c000000004E1CD2CC0000000000000580
+t1310511820
+s1408
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.h
+c000000004E1CD2CC00000000000001B7
+t1310511820
+s439
+i<Foundation/Foundation.h>
+i"CXMLNode.h"
+i"CXMLElement.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode.h
+c000000004E1CD2CC0000000000000B01
+t1310511820
+s2817
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.h
+c000000004E1CD2CC0000000000000624
+t1310511820
+s1572
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.h
+c000000004E1CD2CC00000000000005FC
+t1310511820
+s1532
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.h
+c000000004E1CD2CC0000000000000814
+t1310511820
+s2068
+i"CXMLDocument.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.h
+c000000004E1CD2CC0000000000000954
+t1310511820
+s2388
+i"CXMLNode.h"
+
+N/Users/juliensalvi/IOSApplication/TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.h
+c000000004E1CD2CC0000000000000762
+t1310511820
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch
+t1317316017
+s15814064
+
+N/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch.gch
+t1317341238
+s15814064
+
+NSMSCury-Info.plist
+c000000004E849D7E000000000000038D
+t1317313918
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339098080#339098080#0(0"0(0#1#0"8617519584#0"0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CTidy.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.904519
+e339034039.955156
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CTidy.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m339034039#339034039#0(0"0(0#0#91"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m8610181408#2098"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Tidy/CTidy.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CTidy.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXHTMLDocument.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.289864
+e339034039.409633
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXHTMLDocument.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m339034039#339034039#0(0"0(0#0#95"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m8612093344#2111"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXHTMLDocument.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXHTMLDocument.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.409729
+e339034039.529388
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m339034039#339034039#0(0"0(0#0#93"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m8617260160#2107"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.192313
+e339034039.289767
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m339034039#339034039#0(0"0(0#0#121"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m8612870368#2154"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLDocument_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.407609
+e339034039.501249
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m339034039#339034039#0(0"0(0#0#111"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m8617382752#2143"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLDocument_PrivateExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.622125
+e339034039.764981
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m339034039#339034039#0(0"0(0#0#92"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m8617884544#2105"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.501359
+e339034039.622010
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m339034039#339034039#0(0"0(0#0#111"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m8616748384#2143"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_CreationExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.529497
+e339034039.653143
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@122"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m339034039#339034039#0(0"0(0#0#114"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m8616447968#2149"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLElement_ElementTreeExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNamespaceNode.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.653244
+e339034039.769275
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNamespaceNode.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m339034039#339034039#0(0"0(0#0#98"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m8616579744#2117"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNamespaceNode.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNamespaceNode.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.867009
+e339034040.051636
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m339034039#339034040#0(0"0(0#0#89"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m8606841632#2099"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.240797
+e339034039.407423
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m339034039#339034039#0(0"0(0#0#117"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m8612341152#2146"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/Creation/CXMLNode_CreationExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_CreationExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.765089
+e339034039.866880
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m339034039#339034039#0(0"0(0#0#107"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m8613566208#2135"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_PrivateExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.769376
+e339034039.904416
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m339034039#339034039#0(0"0(0#0#105"/Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m8612635040#2131"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../TouchCode-TouchXML-5005e8e/Source/CXMLNode_XPathExtensions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/CXMLNode_XPathExtensions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.602237
+e339034038.719459
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m339034038#339034038#0(0"0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m8612984448#2081"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.675100
+e339034038.789708
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m339034038#339034038#0(0"0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m8617358208#2077"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.719560
+e339034038.879534
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m339034038#339034038#0(0"0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m8617056832#2081"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339098080.728500
+e339098080.911407
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments
+lSLF07#2@82"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m339098080#339098080#0(252"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments339098080#111#141#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m339093706#137#0#137#0#51"format not a string literal and no format arguments0(0#0#74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m8612223776#2083"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.879645
+e339034039.033221
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m339034038#339034039#0(0"0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m8613546848#2077"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339037205.073430
+e339037205.164421
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o
+x/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m339037205#339037205#0(0"0(0#0#70"/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m8619565504#2090"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339037205.074506
+e339037205.195904
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o
+x/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m339037205#339037205#0(0"0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m8619089952#2096"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.907318
+e339034039.054949
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m339034038#339034039#0(0"0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m8612852064#2077"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.033331
+e339034039.136620
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m339034039#339034039#0(0"0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m8616756992#2081"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.055054
+e339034039.192206
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m339034039#339034039#0(0"0(0#0#79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m8616603008#2093"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034039.136727
+e339034039.240687
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m339034039#339034039#0(0"0(0#0#74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m8616382656#2083"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/SMSCury/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034038.451506
+e339034038.523605
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o
+x/Users/juliensalvi/IOSApplication/SMSCury/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/juliensalvi/IOSApplication/SMSCury/main.m339034038#339034038#0(0"0(0#0#48"/Users/juliensalvi/IOSApplication/SMSCury/main.m8613271936#2054"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/main.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+s339008815.362150
+e339008815.892508
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib339008815#339008815#0(0"0(0#0#56"/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib8606192352#579"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/MainWindow.nib /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+s339091524.891227
+e339091525.420960
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+lSLF07#2@36"CompileXIB SMSCuryViewController.xib339091524#339091525#0(0"0(0#0#67"/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib8609752896#601"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCuryViewController.nib /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+s339098081.065404
+e339098081.096395
+r1
+xGenerateDSYMFile
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/SMSCury.app.dSYM build/Debug-iphonesimulator/SMSCury.app/SMSCury339098081#339098081#0(0"0(0#0#89"/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury8612189824#392"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury -o /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM0#
+
+CLd /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury normal i386
+s339098080.911510
+e339098081.065306
+r1
+xLd
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+xnormal
+xi386
+lSLF07#2@94"Link /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury339098080#339098081#0(0"0(0#0#0"8613218880#922"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -filelist /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCury.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury0#
+
+CProcessInfoPlistFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist SMSCury-Info.plist
+s339008815.335818
+e339008815.362064
+r1
+xProcessInfoPlistFile
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist
+xSMSCury-Info.plist
+lSLF07#2@26"Process SMSCury-Info.plist339008815#339008815#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/SMSCury/SMSCury-Info.plist29555065834897524#488"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SMSCury-Info.plist -genpkginfo /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist0#
+
+CProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch SMSCury_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008815.892702
+e339008817.373741
+r1
+xProcessPCH
+x/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch
+xSMSCury_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SMSCury_Prefix.pch339008815#339008817#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch8605902912#1837"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -c /Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch -o /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch.gch SMSCury_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339034037.434077
+e339034038.451285
+r1
+xProcessPCH
+x/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch.gch
+xSMSCury_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SMSCury_Prefix.pch339034037#339034038#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch8613365856#1943"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -c /Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch -o /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gxljzhqzrhkljedtfljelmzzuvnb/SMSCury_Prefix.pch.gch0#
+
+CTouch /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+s339098081.096494
+e339098081.099104
+r1
+xTouch
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+lSLF07#2@87"Touch /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app339098081#339098081#0(0"0(0#0#0"8610755616#284"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app0#
+

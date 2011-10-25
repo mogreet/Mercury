@@ -1,0 +1,644 @@
+TSMSCury
+v7
+r0
+t339008817.995587
+cCheck dependencies
+cProcessInfoPlistFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist SMSCury-Info.plist
+cCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+cCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+cProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch SMSCury_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/SMSCury/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Getopt.h
+c000000004E73C24800000000000009FD
+t1316209224
+s2557
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Info.h
+c000000004E73C239000000000000083B
+t1316209209
+s2107
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Lookup.h
+c000000004E73C1920000000000000CEF
+t1316209042
+s3311
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Mercury.h
+c000000004E777AE900000000000024E1
+t1316453097
+s9441
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+i"Ping.h"
+i"Lookup.h"
+i"Send.h"
+i"Getopt.h"
+i"Info.h"
+i"Setopt.h"
+i"Transactions.h"
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Ping.h
+c000000004E73C1A70000000000000629
+t1316209063
+s1577
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Send.h
+c000000004E73C18500000000000006CB
+t1316209029
+s1739
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Setopt.h
+c000000004E73C22C0000000000000768
+t1316209196
+s1896
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Transactions.h
+c000000004E73C21C0000000000000D45
+t1316209180
+s3397
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/Mercury_iOS/Classes/Uncache.h
+c000000004E73C1B500000000000006A1
+t1316209077
+s1697
+i<Foundation/Foundation.h>
+i"TouchXML.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m
+c000000004E73C23E0000000000000EBA
+t1316209214
+s3770
+i"Getopt.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m
+c000000004E73C2320000000000000D41
+t1316209202
+s3393
+i"Info.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m
+c000000004E73C18B000000000000145E
+t1316209035
+s5214
+i"Lookup.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m
+c000000004E73C2820000000000001122
+t1316209282
+s4386
+i"Mercury.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m
+c000000004E73C19D00000000000007FA
+t1316209053
+s2042
+i"Ping.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m
+c000000004E73C1750000000000000A10
+t1316209013
+s2576
+i"Send.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m
+c000000004E73C2260000000000000BC7
+t1316209190
+s3015
+i"Setopt.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m
+c000000004E73C1BC0000000000001636
+t1316209084
+s5686
+i"Transactions.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m
+c000000004E73C1AE0000000000000903
+t1316209070
+s2307
+i"Uncache.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.h
+c000000004E849D7E00000000000001DF
+t1317313918
+s479
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m
+c000000004E849D7E0000000000000AAA
+t1317313918
+s2730
+i"SMSCuryAppDelegate.h"
+i"SMSCuryViewController.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.h
+c000000004E849D7E00000000000000EE
+t1317313918
+s238
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m
+c000000004E849D7E00000000000005C1
+t1317313918
+s1473
+i"SMSCuryViewController.h"
+
+N/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+c000000004E849D7E0000000000004E29
+t1317313918
+s20009
+
+N/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+c000000004E849D7E0000000000001A45
+t1317313918
+s6725
+
+N/Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch
+c000000004E849D7E00000000000000B7
+t1317313918
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist
+t1317316015
+s591
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/MainWindow.nib
+t1317316015
+s1681
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/PkgInfo
+t1317316015
+s8
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCuryViewController.nib
+t1317316015
+s1269
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCury.LinkFileList
+c000000004E84A5AF000000000000060F
+t1317316015
+s1551
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o
+t1317316017
+s51320
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o
+t1317316017
+s37952
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o
+t2
+s0
+
+N/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o
+t1317316017
+s6316
+
+N/Users/juliensalvi/IOSApplication/SMSCury/main.m
+c000000004E849D7E0000000000000169
+t1317313918
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch
+t1317316017
+s15814064
+
+NSMSCury-Info.plist
+c000000004E849D7E000000000000038D
+t1317313918
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339008814#339008815#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.580759
+e339008817.635500
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.h:25:22: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m: In function '-[Getopt initGetopt:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:43: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:43: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:44: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:45: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:51: error: 'resElemID' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:53: error: 'resElemCampStat' undeclared (first use in this function)
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m339008817#339008817#0(1701"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.h:25:22: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m: In function '-[Getopt initGetopt:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:34: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:43: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:43: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:44: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:45: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:51: error: 'resElemID' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m:53: error: 'resElemCampStat' undeclared (first use in this function)9(4@37"TouchXML.h: No such file or directory339008817#100#126#2(7@95"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#24#0#24#0#0"0(13@114"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.h339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.h337902024#25#0#25#0#0"0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.h337902024#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#338#140#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#34#0#34#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#732#131#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#34#0#34#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#863#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#43#0#43#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#1002#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#43#0#43#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1141#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#44#0#44#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1282#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#45#0#45#0#43"'*' undeclared (first use in this function)0(4@51"'resElemID' undeclared (first use in this function)339008817#1421#137#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#51#0#51#0#43"'*' undeclared (first use in this function)0(4@57"'resElemCampStat' undeclared (first use in this function)339008817#1558#143#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m337902014#53#0#53#0#43"'*' undeclared (first use in this function)0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m8602820512#1975"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Getopt.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Getopt.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.634314
+e339008817.706918
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m: In function '-[Info initInfo:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:44: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:44: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:45: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:46: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:47: error: 'resElemNum' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:48: error: 'resElemCarr' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:49: error: 'resElemCarrid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:50: error: 'resElemHandset' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:51: error: 'resElemHandsetid' undeclared (first use in this function)
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m339008817#339008817#0(2089"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m: In function '-[Info initInfo:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:33: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:44: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:44: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:45: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:46: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:47: error: 'resElemNum' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:48: error: 'resElemCarr' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:49: error: 'resElemCarrid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:50: error: 'resElemHandset' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m:51: error: 'resElemHandsetid' undeclared (first use in this function)12(4@37"TouchXML.h: No such file or directory339008817#98#124#2(7@93"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#24#0#24#0#0"0(13@112"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.h339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.h337902009#25#0#25#0#0"0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.h337902009#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#328#138#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#33#0#33#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#716#129#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#33#0#33#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#845#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#44#0#44#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#982#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#44#0#44#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1119#139#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#45#0#45#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1258#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#46#0#46#0#43"'*' undeclared (first use in this function)0(4@52"'resElemNum' undeclared (first use in this function)339008817#1395#136#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#47#0#47#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCarr' undeclared (first use in this function)339008817#1531#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#48#0#48#0#43"'*' undeclared (first use in this function)0(4@55"'resElemCarrid' undeclared (first use in this function)339008817#1668#139#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#49#0#49#0#43"'*' undeclared (first use in this function)0(4@56"'resElemHandset' undeclared (first use in this function)339008817#1807#140#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#50#0#50#0#43"'*' undeclared (first use in this function)0(4@58"'resElemHandsetid' undeclared (first use in this function)339008817#1947#142#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m337902002#51#0#51#0#43"'*' undeclared (first use in this function)0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m8602809824#1971"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Info.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Info.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.635578
+e339008817.712524
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m: In function '-[Lookup initLookup:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:47: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:47: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:48: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:49: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:50: error: 'resElemCampid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:51: error: 'resElemFrom' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:52: error: 'resElemTo' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:53: error: 'resElemfromname' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:54: error: 'resElemtoname' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:55: error: 'resElemContent' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:56: error: 'resElemStat' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:60: error: 'resElemEvent' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:61: error: 'resElemTime' undeclared (first use in this function)
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m339008817#339008817#0(2682"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m: In function '-[Lookup initLookup:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:32: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:47: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:47: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:48: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:49: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:50: error: 'resElemCampid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:51: error: 'resElemFrom' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:52: error: 'resElemTo' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:53: error: 'resElemfromname' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:54: error: 'resElemtoname' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:55: error: 'resElemContent' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:56: error: 'resElemStat' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:60: error: 'resElemEvent' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m:61: error: 'resElemTime' undeclared (first use in this function)16(4@37"TouchXML.h: No such file or directory339008817#100#126#2(7@95"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#24#0#24#0#0"0(13@114"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.h339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.h337901842#25#0#25#0#0"0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.h337901842#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#338#140#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#32#0#32#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#732#131#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#32#0#32#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#863#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#47#0#47#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#1002#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#47#0#47#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1141#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#48#0#48#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1282#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#49#0#49#0#43"'*' undeclared (first use in this function)0(4@55"'resElemCampid' undeclared (first use in this function)339008817#1421#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#50#0#50#0#43"'*' undeclared (first use in this function)0(4@53"'resElemFrom' undeclared (first use in this function)339008817#1562#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#51#0#51#0#43"'*' undeclared (first use in this function)0(4@51"'resElemTo' undeclared (first use in this function)339008817#1701#137#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#52#0#52#0#43"'*' undeclared (first use in this function)0(4@57"'resElemfromname' undeclared (first use in this function)339008817#1838#143#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#53#0#53#0#43"'*' undeclared (first use in this function)0(4@55"'resElemtoname' undeclared (first use in this function)339008817#1981#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#54#0#54#0#43"'*' undeclared (first use in this function)0(4@56"'resElemContent' undeclared (first use in this function)339008817#2122#142#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#55#0#55#0#43"'*' undeclared (first use in this function)0(4@53"'resElemStat' undeclared (first use in this function)339008817#2264#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#56#0#56#0#43"'*' undeclared (first use in this function)0(4@54"'resElemEvent' undeclared (first use in this function)339008817#2403#140#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#60#0#60#0#43"'*' undeclared (first use in this function)0(4@53"'resElemTime' undeclared (first use in this function)339008817#2543#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m337901835#61#0#61#0#43"'*' undeclared (first use in this function)0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m8604291552#1975"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Lookup.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Lookup.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.707156
+e339008817.847140
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments
+lSLF07#2@82"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m339008817#339008817#0(480"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m: In function '-[Mercury uncache:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m:137: warning: format not a string literal and no format arguments2(4@37"TouchXML.h: No such file or directory339008817#101#127#2(7@96"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m339008817#18446744073709551615#0#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m337902082#24#0#24#0#0"0(13@115"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h339008817#18446744073709551615#0#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h338145897#25#0#25#0#0"0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.h338145897#25#0#25#0#28"*: No such file or directory0(22@51"Format not a string literal and no format arguments339008817#339#141#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m337902082#137#0#137#0#51"format not a string literal and no format arguments0(0#0#74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m8606039264#1977"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Mercury.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Mercury.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.712626
+e339008817.820236
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m: In function '-[Ping initPing:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:38: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:38: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:39: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:40: error: 'resElemMess' undeclared (first use in this function)
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m339008817#339008817#0(1395"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m: In function '-[Ping initPing:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:32: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:38: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:38: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:39: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m:40: error: 'resElemMess' undeclared (first use in this function)7(4@37"TouchXML.h: No such file or directory339008817#98#124#2(7@93"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#24#0#24#0#0"0(13@112"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.h339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.h337901863#25#0#25#0#0"0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.h337901863#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#328#138#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#32#0#32#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#716#129#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#32#0#32#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#845#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#38#0#38#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#982#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#38#0#38#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1119#139#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#39#0#39#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1258#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m337901853#40#0#40#0#43"'*' undeclared (first use in this function)0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m8599343776#1971"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Ping.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Ping.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.375296
+e339008817.580656
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o
+x/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m339008817#339008817#0(0"0(0#0#70"/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m8606349408#1984"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryAppDelegate.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryAppDelegate.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.547713
+e339008817.634170
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o
+x/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m339008817#339008817#0(0"0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m8603939040#1990"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/Classes/SMSCuryViewController.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/SMSCuryViewController.o0#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.820332
+e339008817.879141
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m: In function '-[Send initSend:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:40: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:40: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:41: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:42: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:43: error: 'resElemMessid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:44: error: 'resElemHash' undeclared (first use in this function)
+lSLF07#2@79"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m339008817#339008817#0(1671"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m: In function '-[Send initSend:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:32: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:40: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:40: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:41: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:42: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:43: error: 'resElemMessid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m:44: error: 'resElemHash' undeclared (first use in this function)9(4@37"TouchXML.h: No such file or directory339008817#98#124#2(7@93"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#24#0#24#0#0"0(13@112"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h339008817#18446744073709551615#0#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h337901829#25#0#25#0#0"0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.h337901829#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#328#138#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#32#0#32#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#716#129#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#32#0#32#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#845#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#40#0#40#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#982#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#40#0#40#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1119#139#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#41#0#41#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1258#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#42#0#42#0#43"'*' undeclared (first use in this function)0(4@55"'resElemMessid' undeclared (first use in this function)339008817#1395#139#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#43#0#43#0#43"'*' undeclared (first use in this function)0(4@53"'resElemHash' undeclared (first use in this function)339008817#1534#137#0(6@71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m337901813#44#0#44#0#43"'*' undeclared (first use in this function)0(0#0#71"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m8386658438684291072#1971"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Send.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Send.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.847238
+e339008817.940286
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m: In function '-[Setopt initSetopt:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:42: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:42: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:43: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:44: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:45: error: 'resElemCampid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:46: error: 'resElemCampStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:47: error: 'resElemCampStatCode' undeclared (first use in this function)
+lSLF07#2@81"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m339008817#339008817#0(1854"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m: In function '-[Setopt initSetopt:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:33: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:42: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:42: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:43: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:44: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:45: error: 'resElemCampid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:46: error: 'resElemCampStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m:47: error: 'resElemCampStatCode' undeclared (first use in this function)10(4@37"TouchXML.h: No such file or directory339008817#100#126#2(7@95"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#24#0#24#0#0"0(13@114"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.h339008817#18446744073709551615#0#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.h337901996#25#0#25#0#0"0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.h337901996#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#338#140#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#33#0#33#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#732#131#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#33#0#33#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#863#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#42#0#42#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#1002#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#42#0#42#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1141#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#43#0#43#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1282#139#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#44#0#44#0#43"'*' undeclared (first use in this function)0(4@55"'resElemCampid' undeclared (first use in this function)339008817#1421#141#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#45#0#45#0#43"'*' undeclared (first use in this function)0(4@59"'resElemCampStatus' undeclared (first use in this function)339008817#1562#145#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#46#0#46#0#43"'*' undeclared (first use in this function)0(4@61"'resElemCampStatCode' undeclared (first use in this function)339008817#1707#147#0(6@73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m337901990#47#0#47#0#43"'*' undeclared (first use in this function)0(0#0#73"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m8605774080#1975"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Setopt.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Setopt.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.879237
+e339008817.956653
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m: In function '-[Transactions initTransactions:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:48: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:48: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:49: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:50: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:62: error: 'resElemCampid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:63: error: 'resElemCampName' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:64: error: 'resElemHash' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:65: error: 'resElemMessid' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:66: error: 'resElemFromNum' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:67: error: 'resElemFromName' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:68: error: 'resElemToName' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:69: error: 'resElemToNum' undeclared (first use in this function)
+lSLF07#2@87"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m339008817#339008817#0(2677"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m: In function '-[Transactions initTransactions:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:34: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:48: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:48: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:49: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:50: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:62: error: 'resElemCampid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:63: error: 'resElemCampName' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:64: error: 'resElemHash' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:65: error: 'resElemMessid' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:66: error: 'resElemFromNum' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:67: error: 'resElemFromName' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:68: error: 'resElemToName' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m:69: error: 'resElemToNum' undeclared (first use in this function)15(4@37"TouchXML.h: No such file or directory339008817#106#132#2(7@101"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m339008817#18446744073709551615#0#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#24#0#24#0#0"0(13@120"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.h339008817#18446744073709551615#0#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.h337901980#25#0#25#0#0"0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.h337901980#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#368#146#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#34#0#34#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#780#137#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#34#0#34#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#917#145#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#48#0#48#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#1062#145#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#48#0#48#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1207#147#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#49#0#49#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1354#145#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#50#0#50#0#43"'*' undeclared (first use in this function)0(4@55"'resElemCampid' undeclared (first use in this function)339008817#1499#147#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#62#0#62#0#43"'*' undeclared (first use in this function)0(4@57"'resElemCampName' undeclared (first use in this function)339008817#1646#149#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#63#0#63#0#43"'*' undeclared (first use in this function)0(4@53"'resElemHash' undeclared (first use in this function)339008817#1795#145#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#64#0#64#0#43"'*' undeclared (first use in this function)0(4@55"'resElemMessid' undeclared (first use in this function)339008817#1940#147#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#65#0#65#0#43"'*' undeclared (first use in this function)0(4@56"'resElemFromNum' undeclared (first use in this function)339008817#2087#148#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#66#0#66#0#43"'*' undeclared (first use in this function)0(4@57"'resElemFromName' undeclared (first use in this function)339008817#2235#149#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#67#0#67#0#43"'*' undeclared (first use in this function)0(4@55"'resElemToName' undeclared (first use in this function)339008817#2384#147#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#68#0#68#0#43"'*' undeclared (first use in this function)0(4@54"'resElemToNum' undeclared (first use in this function)339008817#2531#146#0(6@79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m337901884#69#0#69#0#43"'*' undeclared (first use in this function)0(0#0#79"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m8606244352#1987"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Transactions.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Transactions.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.940383
+e339008817.995503
+r0
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o
+x/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:24:
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.h:25:21: error: TouchXML.h: No such file or directory
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m: In function '-[Uncache initUncache:]':
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: 'CXMLDocument' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: (Each undeclared identifier is reported only once
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: for each function it appears in.)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: 'doc' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:39: error: 'CXMLElement' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:39: error: 'resElemCode' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:40: error: 'resElemStatus' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:41: error: 'resElemMess' undeclared (first use in this function)
+o/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:42: error: 'resElemNum' undeclared (first use in this function)
+lSLF07#2@82"Compile /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m339008817#339008817#0(1573"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:24:/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.h:25:21: error: TouchXML.h: No such file or directory/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m: In function '-[Uncache initUncache:]':/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: 'CXMLDocument' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: (Each undeclared identifier is reported only once/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: for each function it appears in.)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:32: error: 'doc' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:39: error: 'CXMLElement' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:39: error: 'resElemCode' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:40: error: 'resElemStatus' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:41: error: 'resElemMess' undeclared (first use in this function)/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m:42: error: 'resElemNum' undeclared (first use in this function)8(4@37"TouchXML.h: No such file or directory339008817#101#127#2(7@96"In file included from /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m339008817#18446744073709551615#0#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#24#0#24#0#0"0(13@115"TouchXML.h: No such file or directory in /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.h339008817#18446744073709551615#0#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.h337901877#25#0#25#0#0"0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.h337901877#25#0#25#0#28"*: No such file or directory0(4@54"'CXMLDocument' undeclared (first use in this function)339008817#343#141#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#32#0#32#0#43"'*' undeclared (first use in this function)0(4@45"'doc' undeclared (first use in this function)339008817#740#132#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#32#0#32#0#43"'*' undeclared (first use in this function)0(4@53"'CXMLElement' undeclared (first use in this function)339008817#872#140#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#39#0#39#0#43"'*' undeclared (first use in this function)0(4@53"'resElemCode' undeclared (first use in this function)339008817#1012#140#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#39#0#39#0#43"'*' undeclared (first use in this function)0(4@55"'resElemStatus' undeclared (first use in this function)339008817#1152#142#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#40#0#40#0#43"'*' undeclared (first use in this function)0(4@53"'resElemMess' undeclared (first use in this function)339008817#1294#140#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#41#0#41#0#43"'*' undeclared (first use in this function)0(4@52"'resElemNum' undeclared (first use in this function)339008817#1434#139#0(6@74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m337901870#42#0#42#0#43"'*' undeclared (first use in this function)0(0#0#74"/Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m8606255200#1977"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/../Mercury_iOS/Classes/Uncache.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/Uncache.o1#
+
+CCompileC build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o /Users/juliensalvi/IOSApplication/SMSCury/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008817.373976
+e339008817.547610
+r1
+xCompileC
+xbuild/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o
+x/Users/juliensalvi/IOSApplication/SMSCury/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/juliensalvi/IOSApplication/SMSCury/main.m339008817#339008817#0(0"0(0#0#48"/Users/juliensalvi/IOSApplication/SMSCury/main.m8606560320#1948"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -include /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch -c /Users/juliensalvi/IOSApplication/SMSCury/main.m -o /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+s339008815.362150
+e339008815.892508
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib339008815#339008815#0(0"0(0#0#56"/Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib8606192352#579"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/MainWindow.nib /Users/juliensalvi/IOSApplication/SMSCury/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+s339008815.384125
+e339008815.780401
+r1
+xCompileXIB
+x/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib
+lSLF07#2@36"CompileXIB SMSCuryViewController.xib339008815#339008815#0(0"0(0#0#67"/Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib8606067904#601"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCuryViewController.nib /Users/juliensalvi/IOSApplication/SMSCury/SMSCuryViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app.dSYM /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury
+r0
+
+CLd /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/SMSCury normal i386
+r0
+
+CProcessInfoPlistFile /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist SMSCury-Info.plist
+s339008815.335818
+e339008815.362064
+r1
+xProcessInfoPlistFile
+x/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist
+xSMSCury-Info.plist
+lSLF07#2@26"Process SMSCury-Info.plist339008815#339008815#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/SMSCury/SMSCury-Info.plist29555065834897524#488"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SMSCury-Info.plist -genpkginfo /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app/Info.plist0#
+
+CProcessPCH /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch SMSCury_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339008815.892702
+e339008817.373741
+r1
+xProcessPCH
+x/var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch
+xSMSCury_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SMSCury_Prefix.pch339008815#339008817#0(0"0(0#0#60"/Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch8605902912#1837"    cd /Users/juliensalvi/IOSApplication/SMSCury    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-generated-files.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-own-target-headers.hmap -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-all-target-headers.hmap -iquote /Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/SMSCury-project-headers.hmap -F/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator -I/Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/include -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources/i386 -I/Users/juliensalvi/IOSApplication/SMSCury/build/SMSCury.build/Debug-iphonesimulator/SMSCury.build/DerivedSources -c /Users/juliensalvi/IOSApplication/SMSCury/SMSCury_Prefix.pch -o /var/folders/ER/ERqQgAj+EMGRAJ9oTguU0k++-1c/-Caches-/com.apple.Xcode.1082/SharedPrecompiledHeaders/SMSCury_Prefix-gaeafrhtiemppqgpdgcfngiakpdz/SMSCury_Prefix.pch.gch0#
+
+CTouch /Users/juliensalvi/IOSApplication/SMSCury/build/Debug-iphonesimulator/SMSCury.app
+r0
+
