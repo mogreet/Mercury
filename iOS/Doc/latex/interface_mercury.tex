@@ -1,0 +1,348 @@
+\section{\-Mercury \-Class \-Reference}
+\label{interface_mercury}\index{\-Mercury@{\-Mercury}}
+
+
+{\ttfamily \#import $<$\-Mercury.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ {\bf init\-Mercury\-:with\-Token\-:}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf set\-Params\-:}
+\item 
+(\-B\-O\-O\-L) -\/ {\bf check\-Input\-Params\-:and\-Hash\-:}
+\item 
+({\bf \-Ping} $\ast$) -\/ {\bf ping}
+\item 
+({\bf \-Lookup} $\ast$) -\/ {\bf lookup\-:}
+\item 
+({\bf \-Send} $\ast$) -\/ {\bf send\-:}
+\item 
+({\bf \-Getopt} $\ast$) -\/ {\bf getopt\-:}
+\item 
+({\bf \-Info} $\ast$) -\/ {\bf info\-:}
+\item 
+({\bf \-Setopt} $\ast$) -\/ {\bf setopt\-:}
+\item 
+({\bf \-Transactions} $\ast$) -\/ {\bf transactions\-:}
+\item 
+({\bf \-Uncache} $\ast$) -\/ {\bf uncache\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\doxyref{\-Mercury.\-h}{p.}{_mercury_8h_source} \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. \-The \doxyref{\-Mercury}{p.}{interface_mercury} is an object that allows to execute three types of requests (system, user and transaction) to the \-Mo\-M\-S \-A\-P\-I.
+
+\-Mercury.\-m \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Mercury@{\-Mercury}!check\-Input\-Params\-:and\-Hash\-:@{check\-Input\-Params\-:and\-Hash\-:}}
+\index{check\-Input\-Params\-:and\-Hash\-:@{check\-Input\-Params\-:and\-Hash\-:}!Mercury@{\-Mercury}}
+\subsubsection[{check\-Input\-Params\-:and\-Hash\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-B\-O\-O\-L) check\-Input\-Params\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Array$\ast$)}]{params\-List}
+\item[{andHash:(\-N\-S\-Mutable\-Dictionary$\ast$)}]{hash}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a875b4d46b95862a26e0b0111d83c1cb8}
+\-Checks if the parameters in params\-List are the keys in hash. 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-List of parameters value-\/key pairs \\
+\hline
+{\em params\-List} & \-Array of parameters names \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-True if all parameters in the list are the keys in hash, else false 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!getopt\-:@{getopt\-:}}
+\index{getopt\-:@{getopt\-:}!Mercury@{\-Mercury}}
+\subsubsection[{getopt\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Getopt} $\ast$) getopt\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Get}
+\end{DoxyParamCaption}
+}\label{interface_mercury_abd07051d1ba1e0397be2f75683773e59}
+\-Returns the opt in status of any mobile number. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Getopt}{p.}{interface_getopt} *newGet = [[\doxyref{Getopt}{p.}{interface_getopt} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxxxx" forKey:@"number"];
+ [hash setObject:@"xxxxx" forKey:@"campaign\_id"];
+ newGet = [mercuryGet getopt:hash];
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following keys with their corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}number\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit mobile phone number.\/} 
+\end{DoxyItemize}\-The \-N\-S\-Mutable\-Dictionary can also contain the following optionnal key-\/value pairs\-: 
+\begin{DoxyItemize}
+\item \char`\"{}campaign\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A campaign id to search on, if excluded, returns all opt in statuses for the client's campaigns.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Getopt}{p.}{interface_getopt} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!info\-:@{info\-:}}
+\index{info\-:@{info\-:}!Mercury@{\-Mercury}}
+\subsubsection[{info\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Info} $\ast$) info\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Info}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a4a10db8efd78747ec74b78077419bc3f}
+\-Returns the user carrier and handset info if available. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Info}{p.}{interface_info} *newInfo = [[\doxyref{Info}{p.}{interface_info} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxxxx" forKey:@"number"];
+ newInfo = [mercuryInfo info:hash]; 
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following key with its corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}number\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit phone number.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Info}{p.}{interface_info} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!init\-Mercury\-:with\-Token\-:@{init\-Mercury\-:with\-Token\-:}}
+\index{init\-Mercury\-:with\-Token\-:@{init\-Mercury\-:with\-Token\-:}!Mercury@{\-Mercury}}
+\subsubsection[{init\-Mercury\-:with\-Token\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-Mercury\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(int)}]{client\-I\-D}
+\item[{withToken:(\-N\-S\-String$\ast$)}]{token\-M}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a57d3905e3cd2572fd261aed452c46997}
+\-Constructs a new \doxyref{\-Mercury}{p.}{interface_mercury} with two parameters. 
+\begin{DoxyParams}{\-Parameters}
+{\em client\-I\-D} & \-The \-Client \-I\-D \\
+\hline
+{\em token\-M} & \-The \-Token \\
+\hline
+\end{DoxyParams}
+\index{\-Mercury@{\-Mercury}!lookup\-:@{lookup\-:}}
+\index{lookup\-:@{lookup\-:}!Mercury@{\-Mercury}}
+\subsubsection[{lookup\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Lookup} $\ast$) lookup\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Look}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a178e68d521500992ea1b70fbec1ffdb6}
+\-Returns the info, status and history of the requested transaction. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxx" forKey:@"message\_id"];
+ [hash setObject:@"xxxxxxxx" forKey:@"hash"];
+ \doxyref{Lookup}{p.}{interface_lookup} *newLook = [[\doxyref{Lookup}{p.}{interface_lookup} alloc] init];
+ newLook = [mercuryLook lookup:hash];
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following keys with their corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}message\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-An \-I\-D returned from a \doxyref{send}{p.}{} or from \doxyref{transactions}{p.}{} method.\/} 
+\item \char`\"{}hash\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A hash returned from a \doxyref{send}{p.}{} or from a \doxyref{transactions}{p.}{} method.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Lookup}{p.}{interface_lookup} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!ping@{ping}}
+\index{ping@{ping}!Mercury@{\-Mercury}}
+\subsubsection[{ping}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Ping} $\ast$) ping 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a95a5462e23785b38d948f8e881ef42de}
+\-Tests connectivity to the \-Mo\-M\-S \-A\-P\-I servers.\par
+ 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Ping}{p.}{interface_ping} *newPing = [[\doxyref{Ping}{p.}{interface_ping} alloc] init];
+ newPing = [mercury ping];
+ \end{DoxyPre}
+ \begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Ping}{p.}{interface_ping} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!send\-:@{send\-:}}
+\index{send\-:@{send\-:}!Mercury@{\-Mercury}}
+\subsubsection[{send\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Send} $\ast$) send\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Send}
+\end{DoxyParamCaption}
+}\label{interface_mercury_aa9da81c844d222a9e9a0a51cc7bf91b2}
+\-Initiates a transaction and delivery of an \-S\-M\-S or \-M\-M\-S. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Send}{p.}{interface_send} *mySend = [[\doxyref{Send}{p.}{interface_send} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxx" forKey:@"campaign\_id"];
+ [hash setObject:@"xxxxxxxxxx" forKey:@"from"];
+ [hash setObject:@"xxxxxxxxxx" forKey:@"to"];
+ [hash setObject:@"Hello there!" forKey:@"message"];
+ [hash setObject:@"xxxx" forKey:@"content\_id"];
+ mySend = [mercury send:hash]; 
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contain the following keys with their corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}campaign\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-An \-I\-D connected to a specific campaign setup in the \-Campaign \-Manager or provided by your account representative.\/} 
+\item \char`\"{}to\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit mobile phone number.\/} 
+\item \char`\"{}from\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit mobile phone number.\/} 
+\item \char`\"{}message\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-Depending on your campaign set up, the message presented to the \char`\"{}to\char`\"{} user.\/} 
+\item \char`\"{}content\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-An \-I\-D associated to the content being sent (optional -\/ depending on your campaign set up, this parameter may be required).\/} 
+\item \-O\-R \char`\"{}content\-\_\-url\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-An \-U\-R\-L content for users who host their own content\/} 
+\end{DoxyItemize}\-The \-N\-S\-Mutable\-Dictionary can also contain the following optionnal key-\/value pairs\-: 
+\begin{DoxyItemize}
+\item \char`\"{}to\-\_\-name\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A name associated to the \char`\"{}to\char`\"{} mobile number (if not included will be set to \char`\"{}to\char`\"{} mobile number).\/} 
+\item \char`\"{}from\-\_\-name\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A name associated to the \char`\"{}from\char`\"{} mobile number (if not included will be set to \char`\"{}from\char`\"{} mobile number).\/} 
+\item \char`\"{}udp\-\_\-$\ast$\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-User \-Defined \-Parameter. \-Clients can pass in any number of udp\-\_\-$\ast$ parameters for message flow customization.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Send}{p.}{interface_send} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!setopt\-:@{setopt\-:}}
+\index{setopt\-:@{setopt\-:}!Mercury@{\-Mercury}}
+\subsubsection[{setopt\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Setopt} $\ast$) setopt\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Set}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a3d0b75b2f87aad50984f0d5e62e1ebef}
+\-Sets the opt in status of any mobile number. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Setopt}{p.}{interface_setopt} *newSet = [[\doxyref{Setopt}{p.}{interface_setopt} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxxxx" forKey:@"number"];
+ [hash setObject:@"xxxxx" forKey:@"campaign\_id"];
+ [hash setObject:@"xx" forKey:@"status\_code"];
+ newSet = [mercurySet setopt:hash]; 
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following keys with their corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}number\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit mobile phone number.\/} 
+\item \char`\"{}campaign\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-An \-I\-D connected to a specific campaign setup in the \-Campaign \-Manager or provided by your account representative.\/} 
+\item \char`\"{}status\-\_\-code\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-See the bellow table for available codes to use here.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{TabularC}{3}
+\hline
+\-Status &\-Status code &\-Description  \\\cline{1-3}
+\-O\-P\-T\-E\-D\-I\-N &1 &\-User is opted into the campaign  \\\cline{1-3}
+\-O\-P\-T\-E\-D\-O\-U\-T &-\/2 &\-User is opted out of the campaign  \\\cline{1-3}
+\end{TabularC}
+\par
+ \begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Setopt}{p.}{interface_setopt} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!set\-Params\-:@{set\-Params\-:}}
+\index{set\-Params\-:@{set\-Params\-:}!Mercury@{\-Mercury}}
+\subsubsection[{set\-Params\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) set\-Params\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{hash}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a41b18940c0cd0825938c2f472f36efbd}
+\-Returns a \-U\-R\-L format string created with \-N\-S\-Mutable\-Dictionary key-\/value pairs. 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-List of parameters value-\/key pairs. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-U\-R\-L format string\-: param1=value1\&param2=value2\&param3=value3\&... 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!transactions\-:@{transactions\-:}}
+\index{transactions\-:@{transactions\-:}!Mercury@{\-Mercury}}
+\subsubsection[{transactions\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Transactions} $\ast$) transactions\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Trans}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a67277aadddc0f553f1423f450acd7ac2}
+\-Returns the user's transactions (open and closed). 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Transactions}{p.}{interface_transactions} *newTrans = [[\doxyref{Transactions}{p.}{interface_transactions} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxxxx" forKey:@"number"];
+ newTrans = [mercuryTrans transactions:hash];
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following key with its corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}number\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit phone number.\/} 
+\end{DoxyItemize}\-The \-N\-S\-Mutable\-Dictionary can also contain the following optionnal key-\/value pairs\-: 
+\begin{DoxyItemize}
+\item \char`\"{}campaign\-\_\-id\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A campaign id to search on, if excluded, returns all transactions for the client's campaigns.\/} 
+\item \char`\"{}start\-\_\-date\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-Narrow search by adding a date to start searching on (\-Y\-Y\-Y\-Y-\/\-M\-M-\/\-D\-D).\/} 
+\item \char`\"{}end\-\_\-date\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-Narrow search by adding a date to stop searching on (\-Y\-Y\-Y\-Y-\/\-M\-M-\/\-D\-D).\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Transactions}{p.}{interface_transactions} response object 
+\end{DoxyReturn}
+\index{\-Mercury@{\-Mercury}!uncache\-:@{uncache\-:}}
+\index{uncache\-:@{uncache\-:}!Mercury@{\-Mercury}}
+\subsubsection[{uncache\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf \-Uncache} $\ast$) uncache\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Mutable\-Dictionary$\ast$)}]{param\-Un}
+\end{DoxyParamCaption}
+}\label{interface_mercury_a4660b9d5da900f67eb4581ad35166da3}
+\-Clears the user carrier and handset info from the \-Mogreet cache. 
+\begin{DoxyPre}
+ {\bfseries Code sample:}
+ \doxyref{Uncache}{p.}{interface_uncache} *newUncache = [[\doxyref{Uncache}{p.}{interface_uncache} alloc] init];
+ NSMutableDictionary *hash = [[NSMutableDictionary alloc] init];
+ [hash setObject:"xxxxxxxxxx" forKey:@"number"];
+ newUncache = [mercuryUn uncache:hash];
+ \end{DoxyPre}
+ 
+\begin{DoxyParams}{\-Parameters}
+{\em hash} & \-A \-N\-S\-Mutable\-Dictionary object that must contains the following key with its corresponding value\-: 
+\begin{DoxyItemize}
+\item \char`\"{}number\char`\"{}  \char`\"{}...\char`\"{}\-: {\itshape \-A 10-\/digit phone number.\/} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-A new \doxyref{\-Uncache}{p.}{interface_uncache} response object 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Mercury.\-h\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Mercury.\-m\end{DoxyCompactItemize}

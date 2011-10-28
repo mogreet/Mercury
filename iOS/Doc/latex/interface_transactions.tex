@@ -1,0 +1,269 @@
+\section{\-Transactions \-Class \-Reference}
+\label{interface_transactions}\index{\-Transactions@{\-Transactions}}
+
+
+{\ttfamily \#import $<$\-Transactions.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ {\bf init\-Transactions\-:}
+\item 
+(\-B\-O\-O\-L) -\/ {\bf response\-Is\-Valid}
+\item 
+(int) -\/ {\bf get\-Response\-Code}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-Response\-Status}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-Message}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Campaign\-Names}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Campaign\-I\-Ds}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Message\-I\-Ds}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Hashs}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-From\-Numbers}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-From\-Names}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-To\-Numbers}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-To\-Names}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-From\-Name\-:}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-From\-Number\-:}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-To\-Name\-:}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-To\-Number\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\doxyref{\-Transactions.\-h}{p.}{_transactions_8h_source} \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. \-The \doxyref{\-Transactions}{p.}{interface_transactions} object contains the response from a \doxyref{\-Mercury\#transactions}{p.}{} request to the \-Mo\-M\-S \-A\-P\-I.
+
+\-Transactions.\-m \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Transactions@{\-Transactions}!get\-Campaign\-I\-Ds@{get\-Campaign\-I\-Ds}}
+\index{get\-Campaign\-I\-Ds@{get\-Campaign\-I\-Ds}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Campaign\-I\-Ds}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Campaign\-I\-Ds 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a29f879cec2ee95054ec77d2fcd8b4b9a}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the campaign \-I\-Ds. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Campaign\-Names@{get\-Campaign\-Names}}
+\index{get\-Campaign\-Names@{get\-Campaign\-Names}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Campaign\-Names}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Campaign\-Names 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a2a948ff3f3aba66542ac1537f10b3882}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the campaign \-Names. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-From\-Name\-:@{get\-From\-Name\-:}}
+\index{get\-From\-Name\-:@{get\-From\-Name\-:}!Transactions@{\-Transactions}}
+\subsubsection[{get\-From\-Name\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-From\-Name\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{message\-I\-D}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a93f94ad01c7db9569f020d120a4a2e74}
+\-Gets a sender name. 
+\begin{DoxyParams}{\-Parameters}
+{\em message\-I\-D} & \-A message \-I\-D. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The sender name of the specified message \-I\-D. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-From\-Names@{get\-From\-Names}}
+\index{get\-From\-Names@{get\-From\-Names}!Transactions@{\-Transactions}}
+\subsubsection[{get\-From\-Names}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-From\-Names 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a65510be969f36e63900d1f05c3f1663d}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the sender names. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-From\-Number\-:@{get\-From\-Number\-:}}
+\index{get\-From\-Number\-:@{get\-From\-Number\-:}!Transactions@{\-Transactions}}
+\subsubsection[{get\-From\-Number\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-From\-Number\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{message\-I\-D}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a1afc4c0cc8caafae91d07e7b604021ce}
+\-Gets a sender number. 
+\begin{DoxyParams}{\-Parameters}
+{\em message\-I\-D} & \-A message \-I\-D. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The sender number of the specified message \-I\-D. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-From\-Numbers@{get\-From\-Numbers}}
+\index{get\-From\-Numbers@{get\-From\-Numbers}!Transactions@{\-Transactions}}
+\subsubsection[{get\-From\-Numbers}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-From\-Numbers 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a704dfbae2c59c1086bea761fcf22a9fe}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the sender numbers. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Hashs@{get\-Hashs}}
+\index{get\-Hashs@{get\-Hashs}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Hashs}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Hashs 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_aaed564f11fbec0de4be8a5056a415f44}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the hashes. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Message@{get\-Message}}
+\index{get\-Message@{get\-Message}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Message}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-Message 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a29c95fa35fb11077b5ef8bbcf9f627b7}
+\begin{DoxyReturn}{\-Returns}
+\-The message. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Message\-I\-Ds@{get\-Message\-I\-Ds}}
+\index{get\-Message\-I\-Ds@{get\-Message\-I\-Ds}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Message\-I\-Ds}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Message\-I\-Ds 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a1ad8c3f48ea832e10e9455d844aa0508}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the message \-I\-Ds. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Response\-Code@{get\-Response\-Code}}
+\index{get\-Response\-Code@{get\-Response\-Code}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Response\-Code}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (int) get\-Response\-Code 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_ab56da061abcf18890b495484c0f25958}
+\begin{DoxyReturn}{\-Returns}
+\-The response \-Code. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-Response\-Status@{get\-Response\-Status}}
+\index{get\-Response\-Status@{get\-Response\-Status}!Transactions@{\-Transactions}}
+\subsubsection[{get\-Response\-Status}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-Response\-Status 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a474d1917a3e8b22c6ab2909d9bc23ec2}
+\begin{DoxyReturn}{\-Returns}
+\-The response \-Status. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-To\-Name\-:@{get\-To\-Name\-:}}
+\index{get\-To\-Name\-:@{get\-To\-Name\-:}!Transactions@{\-Transactions}}
+\subsubsection[{get\-To\-Name\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-To\-Name\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{message\-I\-D}
+\end{DoxyParamCaption}
+}\label{interface_transactions_ae34ceaa2c76f9a01abc1be7396635fe1}
+\-Gets a receiver name. 
+\begin{DoxyParams}{\-Parameters}
+{\em message\-I\-D} & \-A message \-I\-D. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The receiver name of the specified message \-I\-D. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-To\-Names@{get\-To\-Names}}
+\index{get\-To\-Names@{get\-To\-Names}!Transactions@{\-Transactions}}
+\subsubsection[{get\-To\-Names}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-To\-Names 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_aa9778583d37dceb91aeeefca3a910787}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the receiver names. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-To\-Number\-:@{get\-To\-Number\-:}}
+\index{get\-To\-Number\-:@{get\-To\-Number\-:}!Transactions@{\-Transactions}}
+\subsubsection[{get\-To\-Number\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-To\-Number\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{message\-I\-D}
+\end{DoxyParamCaption}
+}\label{interface_transactions_ac810a6684ef6bfd4d9ceb4fda3ae2eb2}
+\-Gets a receiver number. 
+\begin{DoxyParams}{\-Parameters}
+{\em message\-I\-D} & \-A message \-I\-D. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The receiver number of the specified message \-I\-D. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!get\-To\-Numbers@{get\-To\-Numbers}}
+\index{get\-To\-Numbers@{get\-To\-Numbers}!Transactions@{\-Transactions}}
+\subsubsection[{get\-To\-Numbers}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-To\-Numbers 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a6c78c8d6a2b41c548664b8048d4ca0f2}
+\begin{DoxyReturn}{\-Returns}
+\-An \-N\-S\-Mutable\-Array of all the receiver numbers. 
+\end{DoxyReturn}
+\index{\-Transactions@{\-Transactions}!init\-Transactions\-:@{init\-Transactions\-:}}
+\index{init\-Transactions\-:@{init\-Transactions\-:}!Transactions@{\-Transactions}}
+\subsubsection[{init\-Transactions\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) init\-Transactions\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{url\-Trans}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a8e4a19c31673e8c38cdfe0e970a6b99a}
+initializes a new \doxyref{\-Transactions}{p.}{interface_transactions} response object. 
+\begin{DoxyParams}{\-Parameters}
+{\em url\-Trans} & \-U\-R\-L for calling requests from \-Mogreet \-A\-P\-I. \\
+\hline
+\end{DoxyParams}
+\index{\-Transactions@{\-Transactions}!response\-Is\-Valid@{response\-Is\-Valid}}
+\index{response\-Is\-Valid@{response\-Is\-Valid}!Transactions@{\-Transactions}}
+\subsubsection[{response\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-B\-O\-O\-L) response\-Is\-Valid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_transactions_a98d094a2efda885bbfa63abdd753695c}
+\-Checks if the response code is 1. \begin{DoxyReturn}{\-Returns}
+\-Y\-E\-S if the response code is 1, \-N\-O if it is not 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Transactions.\-h\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Transactions.\-m\end{DoxyCompactItemize}

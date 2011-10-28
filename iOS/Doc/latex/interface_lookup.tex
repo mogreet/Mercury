@@ -1,0 +1,259 @@
+\section{\-Lookup \-Class \-Reference}
+\label{interface_lookup}\index{\-Lookup@{\-Lookup}}
+
+
+{\ttfamily \#import $<$\-Lookup.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ {\bf init\-Lookup\-:}
+\item 
+(void) -\/ {\bf set\-History\-:with\-Value\-:}
+\item 
+(\-B\-O\-O\-L) -\/ {\bf response\-Is\-Valid}
+\item 
+(int) -\/ {\bf get\-Response\-Code}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-Response\-Status}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-Message}
+\item 
+(int) -\/ {\bf get\-Campaign\-Id}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-From\-Number}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-From\-Name}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-To\-Name}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-To\-Number}
+\item 
+(int) -\/ {\bf get\-Content\-Id}
+\item 
+(\-N\-S\-String $\ast$) -\/ {\bf get\-Status}
+\item 
+(\-N\-S\-Mutable\-Dictionary $\ast$) -\/ {\bf get\-History}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Timestamp\-List}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Events\-List}
+\item 
+(\-N\-S\-Mutable\-Array $\ast$) -\/ {\bf get\-Event\-List\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\doxyref{\-Lookup.\-h}{p.}{_lookup_8h_source} \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. \-The \doxyref{\-Lookup}{p.}{interface_lookup} object contains the response from a \doxyref{\-Mercury\#lookup}{p.}{} request to the \-Mo\-M\-S \-A\-P\-I.
+
+\-Lookup.\-m \-Mercury\-\_\-i\-O\-S
+
+\-Created by \-Julien \-Salvi on 9/12/11. \-Copyright 2011 \-Mogreet \-Inc. \-All rights reserved.
+
+\-This file is part of \doxyref{\-Mercury}{p.}{interface_mercury}.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is free software\-: you can redistribute it and/or modify it under the terms of the \-G\-N\-U \-General \-Public \-License as published by the \-Free \-Software \-Foundation, either version 3 of the \-License, or (at your option) any later version.
+
+\doxyref{\-Mercury}{p.}{interface_mercury} is distributed in the hope that it will be useful, but \-W\-I\-T\-H\-O\-U\-T \-A\-N\-Y \-W\-A\-R\-R\-A\-N\-T\-Y; without even the implied warranty of \-M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y or \-F\-I\-T\-N\-E\-S\-S \-F\-O\-R \-A \-P\-A\-R\-T\-I\-C\-U\-L\-A\-R \-P\-U\-R\-P\-O\-S\-E. \-See the \-G\-N\-U \-General \-Public \-License for more details.
+
+\-You should have received a copy of the \-G\-N\-U \-General \-Public \-License along with \doxyref{\-Mercury}{p.}{interface_mercury}. \-If not, see $<${\tt http\-://www.\-gnu.\-org/licenses/}$>$. 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Lookup@{\-Lookup}!get\-Campaign\-Id@{get\-Campaign\-Id}}
+\index{get\-Campaign\-Id@{get\-Campaign\-Id}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Campaign\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (int) get\-Campaign\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a05f1a4b1d7e1034d87281eee050f6b54}
+\begin{DoxyReturn}{\-Returns}
+\-The \-Campaign \-I\-D of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Content\-Id@{get\-Content\-Id}}
+\index{get\-Content\-Id@{get\-Content\-Id}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Content\-Id}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (int) get\-Content\-Id 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a752da3ab7b6be566bc13060481c06111}
+\begin{DoxyReturn}{\-Returns}
+\-The content \-I\-D of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Event\-List\-:@{get\-Event\-List\-:}}
+\index{get\-Event\-List\-:@{get\-Event\-List\-:}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Event\-List\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Array $\ast$) get\-Event\-List\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{timestamp}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a2b440206d71f7987bf3bbc2ac5945be7}
+
+\begin{DoxyParams}{\-Parameters}
+{\em timestamp} & \-Time of the event. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The list of the events that occured at the occurred at the specified timestamp pf the requested transaction. \-Nil if the the timestamp does not exist. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Events\-List@{get\-Events\-List}}
+\index{get\-Events\-List@{get\-Events\-List}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Events\-List}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Events\-List 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a61d1874181513cccabd2410b30ef9ad4}
+\begin{DoxyReturn}{\-Returns}
+\-The list of all the events of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-From\-Name@{get\-From\-Name}}
+\index{get\-From\-Name@{get\-From\-Name}!Lookup@{\-Lookup}}
+\subsubsection[{get\-From\-Name}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-From\-Name 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a6fe51e9a5b8383cb95231f5945b4815e}
+\begin{DoxyReturn}{\-Returns}
+\-The sender name of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-From\-Number@{get\-From\-Number}}
+\index{get\-From\-Number@{get\-From\-Number}!Lookup@{\-Lookup}}
+\subsubsection[{get\-From\-Number}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-From\-Number 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_aefa174639d450a086f11e99c0ef5a7c9}
+\begin{DoxyReturn}{\-Returns}
+\-The sender number of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-History@{get\-History}}
+\index{get\-History@{get\-History}!Lookup@{\-Lookup}}
+\subsubsection[{get\-History}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Dictionary $\ast$) get\-History 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a3d37e5b4a0422f0d3d653212ae54b9ca}
+\begin{DoxyReturn}{\-Returns}
+\-The history of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Message@{get\-Message}}
+\index{get\-Message@{get\-Message}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Message}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-Message 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a914014a0c6bb97b1f464ed20b2b18414}
+\begin{DoxyReturn}{\-Returns}
+\-The message. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Response\-Code@{get\-Response\-Code}}
+\index{get\-Response\-Code@{get\-Response\-Code}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Response\-Code}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (int) get\-Response\-Code 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a2fec05ef6aa0997900c52153c640dd7b}
+\begin{DoxyReturn}{\-Returns}
+\-The response \-Code. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Response\-Status@{get\-Response\-Status}}
+\index{get\-Response\-Status@{get\-Response\-Status}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Response\-Status}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-Response\-Status 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a5b41ec2fa80d5092d6a630547458ea69}
+\begin{DoxyReturn}{\-Returns}
+\-The response \-Status. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Status@{get\-Status}}
+\index{get\-Status@{get\-Status}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Status}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-Status 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a2d166eaaef8216e23af05c629b695b67}
+\begin{DoxyReturn}{\-Returns}
+\-The \-Status label of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-Timestamp\-List@{get\-Timestamp\-List}}
+\index{get\-Timestamp\-List@{get\-Timestamp\-List}!Lookup@{\-Lookup}}
+\subsubsection[{get\-Timestamp\-List}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-Mutable\-Array $\ast$) get\-Timestamp\-List 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a084c5785c330460fc28225a2a7060441}
+\begin{DoxyReturn}{\-Returns}
+\-The list of all the timestamps events of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-To\-Name@{get\-To\-Name}}
+\index{get\-To\-Name@{get\-To\-Name}!Lookup@{\-Lookup}}
+\subsubsection[{get\-To\-Name}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-To\-Name 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_af295e0f01dd390800aec8e54b0ea2a74}
+\begin{DoxyReturn}{\-Returns}
+\-The receiver number of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!get\-To\-Number@{get\-To\-Number}}
+\index{get\-To\-Number@{get\-To\-Number}!Lookup@{\-Lookup}}
+\subsubsection[{get\-To\-Number}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-N\-S\-String $\ast$) get\-To\-Number 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_ab4625bda62a3b51669d90e32b2461d83}
+\begin{DoxyReturn}{\-Returns}
+\-The receiver name of the requested transaction. 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!init\-Lookup\-:@{init\-Lookup\-:}}
+\index{init\-Lookup\-:@{init\-Lookup\-:}!Lookup@{\-Lookup}}
+\subsubsection[{init\-Lookup\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) init\-Lookup\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-String$\ast$)}]{url\-Lookup}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a5f0735c4bc740384c7f591140716691b}
+\-Initializes a new \doxyref{\-Lookup}{p.}{interface_lookup} response object. 
+\begin{DoxyParams}{\-Parameters}
+{\em url\-Lookup} & \-U\-R\-L for calling requests from \-Mogreet \-A\-P\-I. \\
+\hline
+\end{DoxyParams}
+\index{\-Lookup@{\-Lookup}!response\-Is\-Valid@{response\-Is\-Valid}}
+\index{response\-Is\-Valid@{response\-Is\-Valid}!Lookup@{\-Lookup}}
+\subsubsection[{response\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (\-B\-O\-O\-L) response\-Is\-Valid 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}\label{interface_lookup_aa3a2a3ee6c13ed105ff66c8697d471c7}
+\-Checks if the response code is 1. \begin{DoxyReturn}{\-Returns}
+\-Y\-E\-S if the response code is 1, \-N\-O if it is not 
+\end{DoxyReturn}
+\index{\-Lookup@{\-Lookup}!set\-History\-:with\-Value\-:@{set\-History\-:with\-Value\-:}}
+\index{set\-History\-:with\-Value\-:@{set\-History\-:with\-Value\-:}!Lookup@{\-Lookup}}
+\subsubsection[{set\-History\-:with\-Value\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) set\-History\-: 
+\begin{DoxyParamCaption}
+\item[{dummy(\-N\-S\-Array$\ast$)}]{key}
+\item[{withValue:(\-N\-S\-Array$\ast$)}]{value}
+\end{DoxyParamCaption}
+}\label{interface_lookup_a375688422a26694e21297826c4536e2a}
+\-Set the history \-N\-S\-Dictionary with a timestamp as a key and a list of events corresponding to the timestamp. 
+\begin{DoxyParams}{\-Parameters}
+{\em key} & \-A timestamp. \\
+\hline
+{\em value} & \-An event. \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Lookup.\-h\item 
+\-Mercury\-\_\-i\-O\-S/\-Classes/\-Lookup.\-m\end{DoxyCompactItemize}
