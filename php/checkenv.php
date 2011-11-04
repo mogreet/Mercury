@@ -33,7 +33,4 @@ if (in_array("mod_php5", apache_get_modules())) {
 }
 echo "</td></tr></table>";
 
-
-'Hello World!'
-
 ?>
