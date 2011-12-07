@@ -1,0 +1,3 @@
+
+FORMS += \
+    introMercuryUI.ui

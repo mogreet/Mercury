@@ -1,0 +1,144 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module transaction</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>transaction</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/transaction.py">/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/transaction.py</a></font></td></tr></table>
+    <p><tt>Copyright&nbsp;2011&nbsp;Julien&nbsp;Salvi&nbsp;for&nbsp;Mogreet<br>
+&nbsp;<br>
+This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;Mercury.<br>
+&nbsp;<br>
+Mercury&nbsp;is&nbsp;free&nbsp;software:&nbsp;you&nbsp;can&nbsp;redistribute&nbsp;it&nbsp;and/or&nbsp;modify<br>
+it&nbsp;under&nbsp;the&nbsp;terms&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;as&nbsp;published&nbsp;by<br>
+the&nbsp;Free&nbsp;Software&nbsp;Foundation,&nbsp;either&nbsp;version&nbsp;3&nbsp;of&nbsp;the&nbsp;License,&nbsp;or<br>
+(at&nbsp;your&nbsp;option)&nbsp;any&nbsp;later&nbsp;version.<br>
+&nbsp;<br>
+Mercury&nbsp;is&nbsp;distributed&nbsp;in&nbsp;the&nbsp;hope&nbsp;that&nbsp;it&nbsp;will&nbsp;be&nbsp;useful,<br>
+but&nbsp;WITHOUT&nbsp;ANY&nbsp;WARRANTY;&nbsp;without&nbsp;even&nbsp;the&nbsp;implied&nbsp;warranty&nbsp;of<br>
+MERCHANTABILITY&nbsp;or&nbsp;FITNESS&nbsp;FOR&nbsp;A&nbsp;PARTICULAR&nbsp;PURPOSE.&nbsp;See&nbsp;the<br>
+GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;for&nbsp;more&nbsp;details.<br>
+&nbsp;<br>
+You&nbsp;should&nbsp;have&nbsp;received&nbsp;a&nbsp;copy&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License<br>
+along&nbsp;with&nbsp;Mercury.&nbsp;If&nbsp;not,&nbsp;see&nbsp;&lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="xml.etree.ElementTree.html">xml.etree.ElementTree</a><br>
+</td><td width="25%" valign=top><a href="urllib.html">urllib</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="transaction.html#Lookup">Lookup</a>
+</font></dt><dt><font face="helvetica, arial"><a href="transaction.html#Send">Send</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Lookup">class <strong>Lookup</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Lookup">Lookup</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;a&nbsp;lookup&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Lookup-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Lookup-__init__"><strong>__init__</strong></a>(self, urlLookup)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Lookup">Lookup</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlLookup:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getCampaignID"><strong>getCampaignID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;campaign&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getContentID"><strong>getContentID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;content&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getEvent"><strong>getEvent</strong></a>(self, timestamp)</dt><dd><tt>Get&nbsp;an&nbsp;event&nbsp;regarding&nbsp;to&nbsp;its&nbsp;timestamp<br>
+@param&nbsp;timestamp:&nbsp;A&nbsp;timestamp<br>
+@return:&nbsp;An&nbsp;event</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getEventsList"><strong>getEventsList</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;history&nbsp;of&nbsp;the&nbsp;transaction</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getFromName"><strong>getFromName</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;sender</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getFromNumber"><strong>getFromNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;phone&nbsp;number&nbsp;of&nbsp;the&nbsp;sender</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getStatus"><strong>getStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;status</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getTimestampList"><strong>getTimestampList</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;timeStamps&nbsp;of&nbsp;the&nbsp;current&nbsp;transaction</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getToName"><strong>getToName</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;recipient</tt></dd></dl>
+
+<dl><dt><a name="Lookup-getToNumber"><strong>getToNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;phone&nbsp;number&nbsp;of&nbsp;the&nbsp;recipient</tt></dd></dl>
+
+<dl><dt><a name="Lookup-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Send">class <strong>Send</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Send">Send</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;a&nbsp;send&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Send-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Send-__init__"><strong>__init__</strong></a>(self, urlSend)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Send">Send</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlSend:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Send-getHash"><strong>getHash</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;hash</tt></dd></dl>
+
+<dl><dt><a name="Send-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Send-getMessageID"><strong>getMessageID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Send-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Send-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Send-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

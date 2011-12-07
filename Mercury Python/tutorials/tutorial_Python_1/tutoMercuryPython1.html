@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Mogreet SDKs - Tutorial 1: Mercury in Python</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style type="text/css">
+	#corpus
+	{
+	   margin-left: 155px;
+	   margin-bottom: 20px;
+		margin-rigth: 155px;
+	   padding: 10px;
+	   color: #000000;
+	   background-color: #dcdcdc;
+	   border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+
+<div id="title_tuto">
+<center><h1> Tutorial 1 : First steps with Mercury with Python language</h1></center>
+</br>
+</div>
+
+<div id="corpus">
+<p>This tutorial is for those who want to learn how to use the <b>Mogreet SDK</b> called Mercury in Python. I advise you to work with the version 2.7 of Python in order to make your first application. Then, to make the User Interface, I am going to use QtCreator and PyQt4. They are very powerfull and very easy to use.</p>
+<p>Below, we will see how to establish a connection with the Mogreet API servers and, for example, we will do a PING call the Mogreet API.</p>
+
+</br>
+<h2>1. Get started with QtCreator</h2>
+<h3>1.1. Create an Qt Project</h3>
+<p>After downloading and setting QtCreator up, you have to create a new Qt project. Clicl on the corresponding button and select <i>"Other project"</i> to create an <i>"Empty Qt project"</i>. Thereafter, enter the name of your project (intro_Mercury for example) and choose the directory where your work will be stored. Now, it is time to create the window for your project. Right click on your project name on your left, and select a <i>"Graphical Interface Qt Designer"</i>. Choose a QFrame for our application it is good enough.  
+<center><img src="img/qtCreator.png" width="550pix" height="480pix"/></center>
+</p>
+
+<h3>1.2. Build the User Interface</h3>
+<p>Now you are ready to build the graphical interface for your application using the Mogreet SDK. I will be very easy to build it thanks to QtCreator, as you can see on your left you can drag the items and drop them on your frame. Basically, you should put two Text Edits and 3 labels in order to collect the information from the API call. After this step, make sure to rename your objects on the top right hand corner in order to differentiate the objects. Your window may look like the picture below:
+<center><img src="img/qFrame.png"/></center>
+</p>
+
+<h3>1.3. Include the Mercury files</h3>
+<p>In order to be eardy to use the Mercury SDK. You have to download the source files from the <a href="https://github.com/mogreet/Mercury">Github</a> directory to your source folder where you will make your application. You can modifiy these files as you want. In your project files, to import the mercury files you have proceed like this:
+<pre>
+	import mercury
+	import system
+	import transaction
+	import user
+</pre>
+</p>
+
+<h2>2. First Application: Creation of a PING call</h2>
+<h3>2.1. Generate the PyQt4 module for the interface</h3>
+<p>It is time to create our application. Once you are done with graphical interface, you have to generate the python file which describes the user interface thanks to the PyQt4 library. Go to your terminal and <i>'cd'</i> to the folder where the <i>'.ui'</i> file made with QtCreator. Then enter this command : <i>pyuic4 mercuryUI.ui > mercuryUI.py</i> to generate the python module. If you don't have the pyuic4 library you can install it using apt-get if you are on Linux: 'sudo apt-get install pyuic4'.
+Open the python file generated and you will see the module for your graphical interface.
+</p>
+<center><img src="img/pythonCode.png" width="550pix" height="400pix"/></center>
+</p>
+
+<h3>2.2. Connect the code with the User Interface</h3>
+<p>Now you have generated the python file, you have to create a button listener to send the request to the Mogreet Server. In the Ui_Frame class located in the introMercuryUI module. Now connect the button to the code with this code:
+<pre>
+	self.validate.clicked.connect(self.validateCall)
+</pre>
+Here <b>validateCall</b> is the name of the name of the function which will do the API request. Now, you have to implement the function as you can see below:
+<pre>
+	def validateCall(self):
+		client_id = str(self.clientField.toPlainText())
+		token = str(self.tokenField.toPlainText())
+
+		#Creation of the Ping call
+		self.myMercury = mercury.Mercury(client_id, token)
+		myPing = self.myMercury.ping()
+
+		#Displaying the call's parameters
+		self.pingRepCode.setText("Response Code: "+myPing.getResponseCode())
+		self.pingRepStatus.setText("Response Status: "+myPing.getResponseStatus())
+		self.pingMess.setText("Message: "+myPing.getMessage())
+</pre>
+As you can see above, the client ID and the token are collected from the Text Edits in order to create a new Mercury object for the API requests. When the new Mercury is created, you have to the call the <i>'ping'</i> method to make the connection between your application and the Mogreet server. Then, to collect the information from the XML doc generated by the API request, you will use the getters from the module and you will display the information in the labels.
+</p>
+
+<h3>2.3. Create the launcher</h3>
+<p> Here, you are going to create the launcher for the application. You have to create a module as shown below to start your first program with Mercury:
+<pre>
+	class launcherIntro(QFrame):
+    def __init__(self, parent=None):
+        super (launcherIntro, self).__init__(parent)
+        self.createFrame()
+        
+    def createFrame(self):
+        self.ui = Ui_Frame()
+        self.ui.setupUi(self)
+
+
+#############################
+## Launch the application ###
+#############################
+app = QApplication(sys.argv)
+myapp = launcherIntro()
+myapp.show()
+sys.exit(app.exec_())
+</pre>
+The code above allows to launch the python application. To compile this module and show the application frame, go to your terminal and write <i>'python &lt;module_name&gt;'</i>.
+<center><img src="img/appPython1.png"/> <img src="img/appPython2.png"/> </center>
+</p>
+
+<h2>3. Conclusion</h2>
+<p> It is done, you are made your first program in Python usign the Mogreet SDK. Congrats! You can now use the different API calls to make an application useful like sending MMS or an analytic tool for the trafic on your phone. You can also use the INFO, SEND or LOOKUP call to create new applications like this one to train. I invite you to see the Pydoc about Mercury to be more comfortable with this SDK.
+</p>
+</div>
+<div id=footer_tuto>
+	<hr>
+	<center><p> Tutorial created by Julien SALVI for Mogreet Inc, 2011 --- <a href="mailto:oleur.utbm@gmail.com">Contact</a></p></center>
+</div>
+</body>
+</html>

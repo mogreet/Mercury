@@ -1,0 +1,217 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module mercury</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>mercury</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/mercury.py">/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/mercury.py</a></font></td></tr></table>
+    <p><tt>Copyright&nbsp;2011&nbsp;Julien&nbsp;Salvi&nbsp;for&nbsp;Mogreet<br>
+&nbsp;<br>
+This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;<a href="#Mercury">Mercury</a>.<br>
+&nbsp;<br>
+<a href="#Mercury">Mercury</a>&nbsp;is&nbsp;free&nbsp;software:&nbsp;you&nbsp;can&nbsp;redistribute&nbsp;it&nbsp;and/or&nbsp;modify<br>
+it&nbsp;under&nbsp;the&nbsp;terms&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;as&nbsp;published&nbsp;by<br>
+the&nbsp;Free&nbsp;Software&nbsp;Foundation,&nbsp;either&nbsp;version&nbsp;3&nbsp;of&nbsp;the&nbsp;License,&nbsp;or<br>
+(at&nbsp;your&nbsp;option)&nbsp;any&nbsp;later&nbsp;version.<br>
+&nbsp;<br>
+<a href="#Mercury">Mercury</a>&nbsp;is&nbsp;distributed&nbsp;in&nbsp;the&nbsp;hope&nbsp;that&nbsp;it&nbsp;will&nbsp;be&nbsp;useful,<br>
+but&nbsp;WITHOUT&nbsp;ANY&nbsp;WARRANTY;&nbsp;without&nbsp;even&nbsp;the&nbsp;implied&nbsp;warranty&nbsp;of<br>
+MERCHANTABILITY&nbsp;or&nbsp;FITNESS&nbsp;FOR&nbsp;A&nbsp;PARTICULAR&nbsp;PURPOSE.&nbsp;See&nbsp;the<br>
+GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;for&nbsp;more&nbsp;details.<br>
+&nbsp;<br>
+You&nbsp;should&nbsp;have&nbsp;received&nbsp;a&nbsp;copy&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License<br>
+along&nbsp;with&nbsp;<a href="#Mercury">Mercury</a>.&nbsp;If&nbsp;not,&nbsp;see&nbsp;&lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="urllib.html">urllib</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="mercury.html#Mercury">Mercury</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Mercury">class <strong>Mercury</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Mercury">Mercury</a>&nbsp;is&nbsp;an&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;allows&nbsp;to&nbsp;execute&nbsp;three&nbsp;types&nbsp;of&nbsp;requests&nbsp;(system,&nbsp;user&nbsp;and&nbsp;transaction)&nbsp;to&nbsp;the&nbsp;MoMS&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Mercury-__init__"><strong>__init__</strong></a>(self, clientID, token)</dt><dd><tt>Create&nbsp;a&nbsp;new&nbsp;<a href="#Mercury">Mercury</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+@param&nbsp;clientID:&nbsp;The&nbsp;client&nbsp;ID<br>
+@param&nbsp;token:&nbsp;The&nbsp;token&nbsp;of&nbsp;the&nbsp;client</tt></dd></dl>
+
+<dl><dt><a name="Mercury-checkInputParams"><strong>checkInputParams</strong></a>(self, paramsList, hashMap)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;parameters&nbsp;in&nbsp;paramsList&nbsp;are&nbsp;the&nbsp;keys&nbsp;in&nbsp;hash.<br>
+@param&nbsp;hashMap:&nbsp;List&nbsp;of&nbsp;parameters&nbsp;(param_name-param_value&nbsp;pairs)<br>
+@param&nbsp;paramsList:&nbsp;Array&nbsp;of&nbsp;parameters&nbsp;names<br>
+@return:&nbsp;True&nbsp;if&nbsp;all&nbsp;parameters&nbsp;in&nbsp;the&nbsp;list&nbsp;are&nbsp;the&nbsp;keys&nbsp;in&nbsp;hash,&nbsp;else&nbsp;false.</tt></dd></dl>
+
+<dl><dt><a name="Mercury-getopt"><strong>getopt</strong></a>(self, paramsGetopt)</dt><dd><tt>Returns&nbsp;the&nbsp;opt&nbsp;in&nbsp;status&nbsp;of&nbsp;any&nbsp;mobile&nbsp;number.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;<br>
+hash&nbsp;=&nbsp;{"number":"xxxxxxxxxx",&nbsp;"campaign_id":"xxxxx"}<br>
+myGetopt&nbsp;=&nbsp;myMercury.<a href="#Mercury-getopt">getopt</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsGetopt:&nbsp;&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;keys&nbsp;with&nbsp;their&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;&nbsp;"number"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;mobile&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+The&nbsp;Map&nbsp;can&nbsp;also&nbsp;contain&nbsp;the&nbsp;following&nbsp;optionnal&nbsp;key-value&nbsp;pairs:<br>
+&lt;ul&gt;<br>
+&nbsp;&lt;li&gt;&nbsp;"campaign_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;campaign&nbsp;id&nbsp;to&nbsp;search&nbsp;on,&nbsp;if&nbsp;excluded,&nbsp;returns&nbsp;all&nbsp;opt&nbsp;in&nbsp;statuses&nbsp;for&nbsp;the&nbsp;client's&nbsp;campaigns.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return:&nbsp;A&nbsp;new&nbsp;Getopt&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-info"><strong>info</strong></a>(self, paramsInfo)</dt><dd><tt>Returns&nbsp;the&nbsp;user&nbsp;carrier&nbsp;and&nbsp;handset&nbsp;info&nbsp;if&nbsp;available.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;&nbsp;<br>
+hash&nbsp;=&nbsp;{"number":"xxxxxxxxxx"}<br>
+myInfo&nbsp;=&nbsp;myMercury.<a href="#Mercury-info">info</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsInfo:&nbsp;&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;key&nbsp;with&nbsp;its&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"number"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return:&nbsp;A&nbsp;new&nbsp;Info&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-lookup"><strong>lookup</strong></a>(self, paramsLook)</dt><dd><tt>Returns&nbsp;the&nbsp;info,&nbsp;status&nbsp;and&nbsp;history&nbsp;of&nbsp;the&nbsp;requested&nbsp;transaction.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;<br>
+hash&nbsp;=&nbsp;{"message_id":"xxxxx",&nbsp;"hash":"xxxxx"}<br>
+myLookup&nbsp;=&nbsp;myMercury.<a href="#Mercury-lookup">lookup</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsLook:&nbsp;A&nbsp;map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;keys&nbsp;with&nbsp;their&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"message_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;An&nbsp;ID&nbsp;returned&nbsp;from&nbsp;a&nbsp;{@link&nbsp;#send}&nbsp;or&nbsp;from&nbsp;{@link&nbsp;#transactions}&nbsp;method.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"hash"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;hash&nbsp;returned&nbsp;from&nbsp;a&nbsp;{@link&nbsp;#send}&nbsp;or&nbsp;from&nbsp;a&nbsp;{@link&nbsp;#transactions}&nbsp;method.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return:&nbsp;A&nbsp;new&nbsp;Lookup&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-ping"><strong>ping</strong></a>(self)</dt><dd><tt>Tests&nbsp;connectivity&nbsp;to&nbsp;the&nbsp;MoMS&nbsp;API&nbsp;servers.&lt;br&nbsp;/&gt;<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;<br>
+myPing&nbsp;=&nbsp;myMercury.ping<br>
+&lt;/pre&gt;<br>
+@return:&nbsp;&nbsp;A&nbsp;new&nbsp;Ping&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-send"><strong>send</strong></a>(self, paramsSend)</dt><dd><tt>Initiates&nbsp;a&nbsp;transaction&nbsp;and&nbsp;delivery&nbsp;of&nbsp;an&nbsp;SMS&nbsp;or&nbsp;MMS.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;&nbsp;<br>
+hash&nbsp;=&nbsp;{"campaign_id":"xxxxx",&nbsp;"from":"xxxxxxxxxx",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"to":"xxxxxxxxxx",&nbsp;"message":"Hello,&nbsp;World!",&nbsp;"content_id":"xxxx"}<br>
+mySend&nbsp;=&nbsp;myMercury.<a href="#Mercury-send">send</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsSend:&nbsp;&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contain&nbsp;the&nbsp;following&nbsp;keys&nbsp;with&nbsp;their&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"campaign_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;An&nbsp;ID&nbsp;connected&nbsp;to&nbsp;a&nbsp;specific&nbsp;campaign&nbsp;setup&nbsp;in&nbsp;the&nbsp;Campaign&nbsp;Manager&nbsp;or&nbsp;provided&nbsp;by&nbsp;your&nbsp;account&nbsp;representative.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"to"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;mobile&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"from"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;mobile&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"message"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;Depending&nbsp;on&nbsp;your&nbsp;campaign&nbsp;set&nbsp;up,&nbsp;the&nbsp;message&nbsp;presented&nbsp;to&nbsp;the&nbsp;"to"&nbsp;user.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"content_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;An&nbsp;ID&nbsp;associated&nbsp;to&nbsp;the&nbsp;content&nbsp;being&nbsp;sent&nbsp;(optional&nbsp;-&nbsp;depending&nbsp;on&nbsp;your&nbsp;campaign&nbsp;set&nbsp;up,&nbsp;this&nbsp;parameter&nbsp;may&nbsp;be&nbsp;required).&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;OR&nbsp;"content_url"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;underdevelopment&nbsp;-&nbsp;for&nbsp;users&nbsp;who&nbsp;host&nbsp;their&nbsp;own&nbsp;content&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+The&nbsp;Map&nbsp;can&nbsp;also&nbsp;contain&nbsp;the&nbsp;following&nbsp;optionnal&nbsp;key-value&nbsp;pairs:&nbsp;<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;&nbsp;"to_name"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;name&nbsp;associated&nbsp;to&nbsp;the&nbsp;"to"&nbsp;mobile&nbsp;number&nbsp;(if&nbsp;not&nbsp;included&nbsp;will&nbsp;be&nbsp;set&nbsp;to&nbsp;"to"&nbsp;mobile&nbsp;number).&lt;/i&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;&nbsp;"from_name"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;name&nbsp;associated&nbsp;to&nbsp;the&nbsp;"from"&nbsp;mobile&nbsp;number&nbsp;(if&nbsp;not&nbsp;included&nbsp;will&nbsp;be&nbsp;set&nbsp;to&nbsp;"from"&nbsp;mobile&nbsp;number).&lt;/i&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;&nbsp;"udp_*"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;User&nbsp;Defined&nbsp;Parameter.&nbsp;Clients&nbsp;can&nbsp;pass&nbsp;in&nbsp;any&nbsp;number&nbsp;of&nbsp;udp_*&nbsp;parameters&nbsp;for&nbsp;message&nbsp;flow&nbsp;customization.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return&nbsp;A&nbsp;new&nbsp;Send&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-setParams"><strong>setParams</strong></a>(self, hashMap)</dt><dd><tt>Returns&nbsp;a&nbsp;URL&nbsp;format&nbsp;string&nbsp;created&nbsp;with&nbsp;HashMap&nbsp;key-value&nbsp;pairs.<br>
+@param&nbsp;hashMap:&nbsp;hash&nbsp;List&nbsp;of&nbsp;parameters&nbsp;(param_name-param_value&nbsp;pairs)</tt></dd></dl>
+
+<dl><dt><a name="Mercury-setopt"><strong>setopt</strong></a>(self, paramsSetopt)</dt><dd><tt>Sets&nbsp;the&nbsp;opt&nbsp;in&nbsp;status&nbsp;of&nbsp;any&nbsp;mobile&nbsp;number.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;&nbsp;<br>
+hash&nbsp;=&nbsp;{"number":"xxxxxxxxxx",&nbsp;"campaign_id":"xxxxx",&nbsp;"status_code":"xx"}<br>
+mySetopt&nbsp;=&nbsp;myMercury.<a href="#Mercury-setopt">setopt</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsSetopt:&nbsp;&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;keys&nbsp;with&nbsp;their&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"number"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;mobile&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"campaign_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;An&nbsp;ID&nbsp;connected&nbsp;to&nbsp;a&nbsp;specific&nbsp;campaign&nbsp;setup&nbsp;in&nbsp;the&nbsp;Campaign&nbsp;Manager&nbsp;or&nbsp;provided&nbsp;by&nbsp;your&nbsp;account&nbsp;representative.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"status_code"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;See&nbsp;the&nbsp;bellow&nbsp;table&nbsp;for&nbsp;available&nbsp;codes&nbsp;to&nbsp;use&nbsp;here.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+&nbsp;<br>
+&lt;table&nbsp;border="1"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Status&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Status&nbsp;code&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Description&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;OPTEDIN&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;User&nbsp;is&nbsp;opted&nbsp;into&nbsp;the&nbsp;campaign&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;OPTEDOUT&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;-2&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;User&nbsp;is&nbsp;opted&nbsp;out&nbsp;of&nbsp;the&nbsp;campaign&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;<br>
+&lt;br&nbsp;/&gt;<br>
+@return:&nbsp;A&nbsp;new&nbsp;Setopt&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-transactions"><strong>transactions</strong></a>(self, paramsTrans)</dt><dd><tt>Returns&nbsp;the&nbsp;user's&nbsp;transactions&nbsp;(open&nbsp;and&nbsp;closed).<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;&nbsp;<br>
+hash&nbsp;=&nbsp;{"number":"xxxxxxxxxx"}<br>
+myTransactions&nbsp;=&nbsp;myMercury.<a href="#Mercury-transactions">transactions</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;paramsTrans:&nbsp;&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;key&nbsp;with&nbsp;its&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"number"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+The&nbsp;Map&nbsp;can&nbsp;also&nbsp;contain&nbsp;the&nbsp;following&nbsp;optionnal&nbsp;key-value&nbsp;pairs:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"campaign_id"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;campaign&nbsp;id&nbsp;to&nbsp;search&nbsp;on,&nbsp;if&nbsp;excluded,&nbsp;returns&nbsp;all&nbsp;transactions&nbsp;for&nbsp;the&nbsp;client's&nbsp;campaigns.&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"start_date"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;Narrow&nbsp;search&nbsp;by&nbsp;adding&nbsp;a&nbsp;date&nbsp;to&nbsp;start&nbsp;searching&nbsp;on&nbsp;(YYYY-MM-DD).&lt;/i&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;"end_date"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;Narrow&nbsp;search&nbsp;by&nbsp;adding&nbsp;a&nbsp;date&nbsp;to&nbsp;stop&nbsp;searching&nbsp;on&nbsp;(YYYY-MM-DD).&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return:&nbsp;A&nbsp;new&nbsp;Transactions&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<dl><dt><a name="Mercury-uncache"><strong>uncache</strong></a>(self, paramsUncache)</dt><dd><tt>Clears&nbsp;the&nbsp;user&nbsp;carrier&nbsp;and&nbsp;handset&nbsp;info&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;cache.<br>
+&lt;pre&gt;<br>
+&lt;b&gt;Code&nbsp;sample:&lt;/b&gt;<br>
+hash&nbsp;=&nbsp;{"number":"xxxxxxxxxx"}<br>
+myUncache&nbsp;=&nbsp;myMercury.<a href="#Mercury-uncache">uncache</a>(hash)<br>
+&lt;/pre&gt;<br>
+@param&nbsp;hash&nbsp;A&nbsp;Map&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;that&nbsp;must&nbsp;contains&nbsp;the&nbsp;following&nbsp;key&nbsp;with&nbsp;its&nbsp;corresponding&nbsp;value:<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;&nbsp;"number"&nbsp;&amp;rarr;&nbsp;"...":&nbsp;&lt;i&gt;A&nbsp;10-digit&nbsp;phone&nbsp;number.&lt;/i&gt;<br>
+&lt;/ul&gt;<br>
+@return&nbsp;A&nbsp;new&nbsp;Uncache&nbsp;response&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

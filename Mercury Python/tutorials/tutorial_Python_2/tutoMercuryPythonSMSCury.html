@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Mogreet SDKs - Tutorial 2: Send SMS with Mercury</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<style type="text/css">
+	#corpus
+	{
+	   margin-left: 155px;
+	   margin-bottom: 20px;
+		margin-rigth: 155px;
+	   padding: 10px;
+	   color: #000000;
+	   background-color: #dcdcdc;
+	   border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+
+<div id="title_tuto">
+<center><h1> Tutorial 2 : SMSCury, Python Application which sends SMS</h1></center>
+</div>
+
+<div id="corpus">
+<br/>
+<p>For this second tutorial, you will see how to use the Mercury SDK to send SMS using Python language. As we saw before, you will use the SEND call to the Mogreet API servers to send SMS to a person of your choice.
+</p>
+<h2>1. Reminder about Python and QtCreator</h2>
+<p>In order to get ready, do not forget to import the Mercury library when you have generated the User Interface created with Qt Creator. For this kind of application, you may use only a QFrame from Qt Creator but you can custom your application as you wish. Also, beware of the indentation in python modules, sometimes it do not compile because of a bad indentation of the code.
+Alrigth, now we can start coding the Python application which will send a SMS to a phone number of your choice.
+</p>
+
+<h2>2. SMSCury application</h2>
+<h3>2.1. Build the Graphical interface</h3>
+<p>For this application, you have to put at least 3 edit texts into your graphical interface. These items allows us to collect your number, the recipient number and the message you want to send. They will be the parameters for the send call. Do not forget to connect the button with code as you did it in the previous tutorial.
+<center><img src="img/smsCury.png"/></center>
+</p>
+
+<h3>2.2. Activity: Send a SMS thanks to Mercury</h3>
+<p>You will learn now how to use the Mercury SDK to send a SMS. First of all, you have to create a new Mercury when the application is starting so put the new object in the <i>onCreate</i> function. As you can see above, when the menu item is clicked the function <i>sendMessage</i> is called with the <b>campaign ID</b> as parameter.<br/> 
+Let us have a look at this function. You have to create an Hash (a Key-Value object) to collect the data from the TextFields. Then this Hash will be the parameter for the SEND call (<i>i.e. Documentation</i>) with these following information: your campaign ID, your number, his/her number and the message. Finally, to send your message, click on the button send ; if the transaction has been succesful sent, a message will appear saying the request is done. See below for the entire code of the application:
+<pre>
+def sendSMS(self):
+        
+        myMercury = mercury.Mercury("xxx", "xxxxxxxxxxxxxxxxxxxxxxxxxx")
+        toNumber = str(self.toNum.toPlainText())
+        fromNumber = str(self.fromNum.toPlainText())
+        message = str(self.mess.toPlainText())
+
+        paramsSend = {"campaign_id":"xxxxx", "to":toNumber, "from":fromNumber, "message":message}
+        mySend = myMercury.send(paramsSend)
+        self.request.setText("..."+mySend.getMessage()+"...")
+</pre>
+Then, when you are clicking to send your message you should have a frame that looks like this:
+<center><img src="img/apppython.png"/></center>
+</p>
+
+<h2>3. Conclusion</h2>
+<p>Congratulation, you have just created an application which sends SMS ! Do not forget to put your client ID, token and campaign ID in the code before running SMSCury. You can now improve this app by adding a media content to send MMS or add a button to choose a person directly in your address book. You can also create other applications using the different Mercury methods. Now your turn ! 
+</p>
+</div>
+<div id=footer_tuto>
+<hr>
+<center><p> Tutorial created by Julien SALVI for Mogreet Inc, 2011 --- <a href="mailto:oleur.utbm@gmail.com">Contact</a></p></center>
+</body>
+
+</html>

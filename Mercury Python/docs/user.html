@@ -1,0 +1,291 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module user</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>user</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/user.py">/media/EE060C33060BFB7B/DATA_Julien/Programmes info/Mercury Python/src/mercury/user.py</a></font></td></tr></table>
+    <p><tt>Copyright&nbsp;2011&nbsp;Julien&nbsp;Salvi&nbsp;for&nbsp;Mogreet<br>
+&nbsp;<br>
+This&nbsp;file&nbsp;is&nbsp;part&nbsp;of&nbsp;Mercury.<br>
+&nbsp;<br>
+Mercury&nbsp;is&nbsp;free&nbsp;software:&nbsp;you&nbsp;can&nbsp;redistribute&nbsp;it&nbsp;and/or&nbsp;modify<br>
+it&nbsp;under&nbsp;the&nbsp;terms&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;as&nbsp;published&nbsp;by<br>
+the&nbsp;Free&nbsp;Software&nbsp;Foundation,&nbsp;either&nbsp;version&nbsp;3&nbsp;of&nbsp;the&nbsp;License,&nbsp;or<br>
+(at&nbsp;your&nbsp;option)&nbsp;any&nbsp;later&nbsp;version.<br>
+&nbsp;<br>
+Mercury&nbsp;is&nbsp;distributed&nbsp;in&nbsp;the&nbsp;hope&nbsp;that&nbsp;it&nbsp;will&nbsp;be&nbsp;useful,<br>
+but&nbsp;WITHOUT&nbsp;ANY&nbsp;WARRANTY;&nbsp;without&nbsp;even&nbsp;the&nbsp;implied&nbsp;warranty&nbsp;of<br>
+MERCHANTABILITY&nbsp;or&nbsp;FITNESS&nbsp;FOR&nbsp;A&nbsp;PARTICULAR&nbsp;PURPOSE.&nbsp;See&nbsp;the<br>
+GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;for&nbsp;more&nbsp;details.<br>
+&nbsp;<br>
+You&nbsp;should&nbsp;have&nbsp;received&nbsp;a&nbsp;copy&nbsp;of&nbsp;the&nbsp;GNU&nbsp;General&nbsp;Public&nbsp;License<br>
+along&nbsp;with&nbsp;Mercury.&nbsp;If&nbsp;not,&nbsp;see&nbsp;&lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="xml.etree.ElementTree.html">xml.etree.ElementTree</a><br>
+</td><td width="25%" valign=top><a href="urllib.html">urllib</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="user.html#Getopt">Getopt</a>
+</font></dt><dt><font face="helvetica, arial"><a href="user.html#Info">Info</a>
+</font></dt><dt><font face="helvetica, arial"><a href="user.html#Setopt">Setopt</a>
+</font></dt><dt><font face="helvetica, arial"><a href="user.html#Transactions">Transactions</a>
+</font></dt><dt><font face="helvetica, arial"><a href="user.html#Uncache">Uncache</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Getopt">class <strong>Getopt</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Getopt">Getopt</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;a&nbsp;getopt&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Getopt-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Getopt-__init__"><strong>__init__</strong></a>(self, urlGetopt)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Getopt">Getopt</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlGetopt:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getCampaignIDList"><strong>getCampaignIDList</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;campaign&nbsp;IDs</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getCampaignStatus"><strong>getCampaignStatus</strong></a>(self, campaignId)</dt><dd><tt>Get&nbsp;the&nbsp;campaign&nbsp;status&nbsp;regarding&nbsp;to&nbsp;its&nbsp;campaign&nbsp;ID<br>
+@param&nbsp;campaignId:&nbsp;The&nbsp;campaign&nbsp;ID<br>
+@return:&nbsp;The&nbsp;corresponding&nbsp;campaign&nbsp;status</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getCampaignStatusCode"><strong>getCampaignStatusCode</strong></a>(self, campaignId)</dt><dd><tt>Get&nbsp;the&nbsp;campaign&nbsp;status&nbsp;code&nbsp;regarding&nbsp;to&nbsp;the&nbsp;campaign&nbsp;ID<br>
+@param&nbsp;campaignId:&nbsp;The&nbsp;campaign&nbsp;ID<br>
+@return:&nbsp;the&nbsp;corresponding&nbsp;campaign&nbsp;status&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getCampaignStatusCodeList"><strong>getCampaignStatusCodeList</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;campaign&nbsp;status&nbsp;codes</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getCampaignStatusList"><strong>getCampaignStatusList</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;campaign&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getNumber"><strong>getNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Getopt-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Getopt-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Info">class <strong>Info</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Info">Info</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;an&nbsp;info&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Info-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Info-__init__"><strong>__init__</strong></a>(self, urlInfo)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Info">Info</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlInfo:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Info-getCarrier"><strong>getCarrier</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;phone&nbsp;carrier</tt></dd></dl>
+
+<dl><dt><a name="Info-getCarrierID"><strong>getCarrierID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;carrier&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Info-getHandset"><strong>getHandset</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;phone&nbsp;handset</tt></dd></dl>
+
+<dl><dt><a name="Info-getHandsetID"><strong>getHandsetID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;handset&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Info-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Info-getNumber"><strong>getNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Info-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Info-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Info-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Setopt">class <strong>Setopt</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Setopt">Setopt</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;a&nbsp;setopt&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Setopt-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Setopt-__init__"><strong>__init__</strong></a>(self, urlSetopt)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Setopt">Setopt</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlSetopt:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getCampaignID"><strong>getCampaignID</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;campaign&nbsp;ID</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getCampaignStatus"><strong>getCampaignStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;campaign&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getCampaignStatusCode"><strong>getCampaignStatusCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;campaign&nbsp;Status&nbsp;Code</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getNumber"><strong>getNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Setopt-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Setopt-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Transactions">class <strong>Transactions</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Transactions">Transactions</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;a&nbsp;transactions&nbsp;request&nbsp;to&nbsp;the&nbsp;Moms&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Transactions-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Transactions-__init__"><strong>__init__</strong></a>(self, urlTrans)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;Trans&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlTrans:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllCampaignIDs"><strong>getAllCampaignIDs</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;campaign&nbsp;IDs</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllCampaignNames"><strong>getAllCampaignNames</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;Campaign&nbsp;Names</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllDateStamps"><strong>getAllDateStamps</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;date&nbsp;stamps</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllFromNames"><strong>getAllFromNames</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;sender&nbsp;names</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllFromNumbers"><strong>getAllFromNumbers</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;sender&nbsp;numbers</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllHash"><strong>getAllHash</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;hashes</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllMessageIDs"><strong>getAllMessageIDs</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;message&nbsp;IDs</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllToNames"><strong>getAllToNames</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;recipient&nbsp;names</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getAllToNumbers"><strong>getAllToNumbers</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;list&nbsp;of&nbsp;all&nbsp;recipients&nbsp;numbers</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getDateStamp"><strong>getDateStamp</strong></a>(self, messageId)</dt><dd><tt>Get&nbsp;the&nbsp;date&nbsp;stamp&nbsp;of&nbsp;the&nbsp;message&nbsp;regarding&nbsp;to&nbsp;the&nbsp;message&nbsp;ID<br>
+@param&nbsp;messageId:&nbsp;The&nbsp;message&nbsp;ID<br>
+@return:&nbsp;The&nbsp;date&nbsp;stamp&nbsp;of&nbsp;the&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getFromName"><strong>getFromName</strong></a>(self, messageId)</dt><dd><tt>Get&nbsp;the&nbsp;sender&nbsp;name&nbsp;regarding&nbsp;to&nbsp;the&nbsp;message&nbsp;ID<br>
+@param&nbsp;messageId:&nbsp;the&nbsp;message&nbsp;ID<br>
+@return:&nbsp;The&nbsp;sender&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getFromNumber"><strong>getFromNumber</strong></a>(self, messageId)</dt><dd><tt>Get&nbsp;the&nbsp;sender&nbsp;number&nbsp;regarding&nbsp;to&nbsp;the&nbsp;message&nbsp;ID<br>
+@param&nbsp;messageId:&nbsp;The&nbsp;message&nbsp;ID<br>
+@return:&nbsp;The&nbsp;sender&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getToName"><strong>getToName</strong></a>(self, messageId)</dt><dd><tt>Get&nbsp;the&nbsp;recipient&nbsp;name&nbsp;regarding&nbsp;to&nbsp;the&nbsp;message&nbsp;ID<br>
+@param&nbsp;messageId:&nbsp;The&nbsp;message&nbsp;ID<br>
+@return:&nbsp;The&nbsp;recipient&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Transactions-getToNumber"><strong>getToNumber</strong></a>(self, messageId)</dt><dd><tt>Get&nbsp;the&nbsp;recipient&nbsp;number&nbsp;regarding&nbsp;to&nbsp;the&nbsp;message&nbsp;ID<br>
+@param&nbsp;messageId:&nbsp;the&nbsp;message&nbsp;ID<br>
+@return:&nbsp;The&nbsp;recipient&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Transactions-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Uncache">class <strong>Uncache</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Uncache">Uncache</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;contains&nbsp;the&nbsp;response&nbsp;from&nbsp;an&nbsp;uncache&nbsp;request&nbsp;to&nbsp;the&nbsp;MoMs&nbsp;API.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Uncache-__getattr__"><strong>__getattr__</strong></a>(self, attribut)</dt></dl>
+
+<dl><dt><a name="Uncache-__init__"><strong>__init__</strong></a>(self, urlUncache)</dt><dd><tt>Creation&nbsp;of&nbsp;a&nbsp;new&nbsp;<a href="#Uncache">Uncache</a>&nbsp;response&nbsp;to&nbsp;the&nbsp;MOMs&nbsp;API.<br>
+@param&nbsp;urlUncache:&nbsp;URL&nbsp;to&nbsp;make&nbsp;from&nbsp;the&nbsp;Mogreet&nbsp;API</tt></dd></dl>
+
+<dl><dt><a name="Uncache-getMessage"><strong>getMessage</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="Uncache-getNumber"><strong>getNumber</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="Uncache-getResponseCode"><strong>getResponseCode</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;code</tt></dd></dl>
+
+<dl><dt><a name="Uncache-getResponseStatus"><strong>getResponseStatus</strong></a>(self)</dt><dd><tt>@return:&nbsp;The&nbsp;response&nbsp;Status</tt></dd></dl>
+
+<dl><dt><a name="Uncache-responseIsValid"><strong>responseIsValid</strong></a>(self)</dt><dd><tt>Checks&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1.<br>
+@return:&nbsp;True&nbsp;if&nbsp;the&nbsp;response&nbsp;code&nbsp;is&nbsp;1,&nbsp;False&nbsp;if&nbsp;it&nbsp;is&nbsp;not</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
